@@ -21,32 +21,32 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_16ae32b9392d2a4b34cb70b0186c983fee889a7bb20c74e159bd5079a3e42ee8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_16ae32b9392d2a4b34cb70b0186c983fee889a7bb20c74e159bd5079a3e42ee8->enter($__internal_16ae32b9392d2a4b34cb70b0186c983fee889a7bb20c74e159bd5079a3e42ee8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:index.html.twig"));
+        $__internal_8a7d51d39b681c4363e511c6bc6dfd881eddd796e04dc52d932e263d53682c0a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_8a7d51d39b681c4363e511c6bc6dfd881eddd796e04dc52d932e263d53682c0a->enter($__internal_8a7d51d39b681c4363e511c6bc6dfd881eddd796e04dc52d932e263d53682c0a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:index.html.twig"));
 
-        $__internal_9c6e0cb0fbcbac0812d1d8b97d9285a0ede595e4cff1362f9fe3f6056df1d52e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9c6e0cb0fbcbac0812d1d8b97d9285a0ede595e4cff1362f9fe3f6056df1d52e->enter($__internal_9c6e0cb0fbcbac0812d1d8b97d9285a0ede595e4cff1362f9fe3f6056df1d52e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:index.html.twig"));
+        $__internal_9bf432d85b7a41ebcbb90aa026d8fd30bb78d822d5524a8a7e99db6a1310025c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9bf432d85b7a41ebcbb90aa026d8fd30bb78d822d5524a8a7e99db6a1310025c->enter($__internal_9bf432d85b7a41ebcbb90aa026d8fd30bb78d822d5524a8a7e99db6a1310025c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_16ae32b9392d2a4b34cb70b0186c983fee889a7bb20c74e159bd5079a3e42ee8->leave($__internal_16ae32b9392d2a4b34cb70b0186c983fee889a7bb20c74e159bd5079a3e42ee8_prof);
+        $__internal_8a7d51d39b681c4363e511c6bc6dfd881eddd796e04dc52d932e263d53682c0a->leave($__internal_8a7d51d39b681c4363e511c6bc6dfd881eddd796e04dc52d932e263d53682c0a_prof);
 
         
-        $__internal_9c6e0cb0fbcbac0812d1d8b97d9285a0ede595e4cff1362f9fe3f6056df1d52e->leave($__internal_9c6e0cb0fbcbac0812d1d8b97d9285a0ede595e4cff1362f9fe3f6056df1d52e_prof);
+        $__internal_9bf432d85b7a41ebcbb90aa026d8fd30bb78d822d5524a8a7e99db6a1310025c->leave($__internal_9bf432d85b7a41ebcbb90aa026d8fd30bb78d822d5524a8a7e99db6a1310025c_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_6c6c30be4056cee9c70787f8c5a3dc434dbb1805a5719a125d8b66f78893ee51 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6c6c30be4056cee9c70787f8c5a3dc434dbb1805a5719a125d8b66f78893ee51->enter($__internal_6c6c30be4056cee9c70787f8c5a3dc434dbb1805a5719a125d8b66f78893ee51_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_86afd71e93e2a656a9c4ee9dd2db4e2d7915589a8967201b260944ed91676ff3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_86afd71e93e2a656a9c4ee9dd2db4e2d7915589a8967201b260944ed91676ff3->enter($__internal_86afd71e93e2a656a9c4ee9dd2db4e2d7915589a8967201b260944ed91676ff3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_533002a2527796dcfbbc6a7204ecb062ba608f0843acea8327547f58d813b60e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_533002a2527796dcfbbc6a7204ecb062ba608f0843acea8327547f58d813b60e->enter($__internal_533002a2527796dcfbbc6a7204ecb062ba608f0843acea8327547f58d813b60e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_69c2a628b629b3395d372f6e94d7867bc93acd805750c6fc54e2733dcce81022 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_69c2a628b629b3395d372f6e94d7867bc93acd805750c6fc54e2733dcce81022->enter($__internal_69c2a628b629b3395d372f6e94d7867bc93acd805750c6fc54e2733dcce81022_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
-        echo "    <h3 class=\"light grey-text text-lighten-3\">Listado de Funciones:</h3>
+        echo "    <h3 class=\"light grey-text text-lighten-3\">Listado de Funciones::</h3>
     ";
         // line 5
         $context['_parent'] = $context;
@@ -91,9 +91,7 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
             echo " ";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["funcion"], "idPeliCopia", array()), "idioma", array()), "nombre", array()), "html", null, true);
             echo "</h5></div>
-                <div class=\"collapsible-body\">
-
-                </div>
+                <div class=\"collapsible-body\"></div>
             </li>
         </ul>
     ";
@@ -101,15 +99,15 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['funcion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 23
+        // line 21
         echo "
 
 ";
         
-        $__internal_533002a2527796dcfbbc6a7204ecb062ba608f0843acea8327547f58d813b60e->leave($__internal_533002a2527796dcfbbc6a7204ecb062ba608f0843acea8327547f58d813b60e_prof);
+        $__internal_69c2a628b629b3395d372f6e94d7867bc93acd805750c6fc54e2733dcce81022->leave($__internal_69c2a628b629b3395d372f6e94d7867bc93acd805750c6fc54e2733dcce81022_prof);
 
         
-        $__internal_6c6c30be4056cee9c70787f8c5a3dc434dbb1805a5719a125d8b66f78893ee51->leave($__internal_6c6c30be4056cee9c70787f8c5a3dc434dbb1805a5719a125d8b66f78893ee51_prof);
+        $__internal_86afd71e93e2a656a9c4ee9dd2db4e2d7915589a8967201b260944ed91676ff3->leave($__internal_86afd71e93e2a656a9c4ee9dd2db4e2d7915589a8967201b260944ed91676ff3_prof);
 
     }
 
@@ -125,7 +123,7 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
 
     public function getDebugInfo()
     {
-        return array (  105 => 23,  88 => 16,  84 => 14,  80 => 13,  77 => 12,  71 => 11,  65 => 9,  59 => 7,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  103 => 21,  88 => 16,  84 => 14,  80 => 13,  77 => 12,  71 => 11,  65 => 9,  59 => 7,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -141,7 +139,7 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
         return new Twig_Source("{% extends \"CineBundle::layout.html.twig\" %}
 
 {% block content %}
-    <h3 class=\"light grey-text text-lighten-3\">Listado de Funciones:</h3>
+    <h3 class=\"light grey-text text-lighten-3\">Listado de Funciones::</h3>
     {% for message in app.session.flashbag().get('status') %}
         {% if message== \"Pelicula agregada correctamente\" %}
             <div class=\"alert alert-success\">{{ message }}</div>
@@ -154,9 +152,7 @@ class __TwigTemplate_a9008f466dfea84129396b070c8c8c2ceb20236b82d1ca46505ad11ebcb
         <ul class=\"collapsible popout col s12 m10 lighten-3\" data-collapsible=\"expandable\">
             <li>
                 <div class=\"collapsible-header grey lighten-1\"><i class=\"material-icons\">theaters</i><h5> {{ funcion.idPeliCopia.idPeli.nombre }} {{ funcion.idPeliCopia.idFormato.nombre }} {{ funcion.idPeliCopia.idioma.nombre }}</h5></div>
-                <div class=\"collapsible-body\">
-
-                </div>
+                <div class=\"collapsible-body\"></div>
             </li>
         </ul>
     {% endfor %}

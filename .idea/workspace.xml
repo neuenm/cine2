@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cd6202e6-a6b5-4e5b-ac25-a77ec158f795" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f2/f266bd07c47c40a370ab13eefa6c23c9207297ec3ce07feddd481ab0cedadd6b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f2/f266bd07c47c40a370ab13eefa6c23c9207297ec3ce07feddd481ab0cedadd6b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
     </list>
     <ignored path="cine2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -129,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/User/registro.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/PeliculaCopiaController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/PeliCopiaController.php" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/edita.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/edita.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/nueva.html.twig" />
@@ -151,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/EntradaController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" />
       </list>
     </option>
   </component>
@@ -223,24 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cine2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cine2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -680,12 +675,12 @@
       <workItem from="1495846070570" duration="1017000" />
       <workItem from="1495996407993" duration="11038000" />
       <workItem from="1496178705763" duration="760000" />
-      <workItem from="1496190396691" duration="146000" />
+      <workItem from="1496190396691" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189651000" />
+    <option name="totallyTimeSpent" value="190497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -706,7 +701,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22096774" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22096774" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1101,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
@@ -1148,6 +1136,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
           <folding />
         </state>
       </provider>
