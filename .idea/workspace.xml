@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd6202e6-a6b5-4e5b-ac25-a77ec158f795" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f2/f266bd07c47c40a370ab13eefa6c23c9207297ec3ce07feddd481ab0cedadd6b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f2/f266bd07c47c40a370ab13eefa6c23c9207297ec3ce07feddd481ab0cedadd6b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-    </list>
+    <list default="true" id="cd6202e6-a6b5-4e5b-ac25-a77ec158f795" name="Default" comment="" />
     <ignored path="cine2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -84,7 +78,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
               <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
-              <folding />
+              <folding>
+                <element signature="e#12#40#0#Twig" expanded="true" />
+                <element signature="e#2135#2150#0#Twig" expanded="true" />
+                <element signature="e#2323#2340#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -577,7 +576,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -676,11 +674,12 @@
       <workItem from="1495996407993" duration="11038000" />
       <workItem from="1496178705763" duration="760000" />
       <workItem from="1496190396691" duration="992000" />
+      <workItem from="1496192256183" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190497000" />
+    <option name="totallyTimeSpent" value="190519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,9 +692,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27764705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28235295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24193548" sideWeight="0.5027451" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1144,7 +1143,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
-          <folding />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="e#2135#2150#0#Twig" expanded="true" />
+            <element signature="e#2323#2340#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
