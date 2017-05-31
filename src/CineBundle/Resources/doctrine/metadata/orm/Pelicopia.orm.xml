@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Pelicopia" table="peliCopia">
+    <indexes>
+      <index name="fk_peliCopia_pelicula" columns="id_peli"/>
+      <index name="fk_peliCopia_formato" columns="id_formato"/>
+      <index name="fk_peliCopia_idioma" columns="id_idioma"/>
+    </indexes>
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="estado" type="string" column="estado" length="45" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idPeli" target-entity="Pelicula" fetch="LAZY">
+      <join-columns>
+        <join-column name="id_peli" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="idioma" target-entity="Idioma" fetch="LAZY">
+      <join-columns>
+        <join-column name="id_idioma" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="idFormato" target-entity="Formato" fetch="LAZY">
+      <join-columns>
+        <join-column name="id_formato" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

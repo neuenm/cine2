@@ -1,0 +1,47 @@
+{% extends "CineBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+{% endblock %}
+{% block content %}
+    {% for message in app.session.flashbag().get('status') %}
+            <div class="alert alert-danger">{{ message }}</div>
+    {% endfor %}
+<div class="row">
+    <h3 class="light grey-text text-lighten-3">Listado de copias de peliculas:</h3>
+
+    {% for pelicula in pelicopias %}
+     <ul class="collapsible popout col s12 m10 lighten-3" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header grey lighten-1"><i class="material-icons">theaters</i><h5> {{ pelicula.idPeli.nombre }}</h5></div>
+                <div class="collapsible-body">
+                    <div class="card-panel grey grey lighten-3">
+                        <span class="text-darken-2 "><b>Sinopsis:</b> {{pelicula.idPeli.sinopsis }}</span>
+                    </div>
+
+                    <img class="img-rounded left " width="200"  height="250" src="{{ asset("uploads/"~pelicula.idPeli.imagen)}}"/>
+                    <div>
+                        <h5 class="light grey-text text-lighten-3">Fecha de estreno: {{ pelicula.idPeli.fechaEstreno|date('Y-m-d') }}</h5>
+                        <h5 class="light grey-text text-lighten-3">Duracion: {{ pelicula.idPeli.duracion}}</h5>
+                        <h5 class="light grey-text text-lighten-3">Genero: {{ pelicula.idPeli.idGenero.nombre }}</h5>
+                        <h5 class="light grey-text text-lighten-3">Formato: {{ pelicula.idFormato.nombre }}</h5>
+                        <h5 class="light grey-text text-lighten-3">Idioma: {{ pelicula.idioma.nombre }}</h5>
+                    </div>
+                    <div class="right">
+                        <a href="{{path("pelicopia_edita", {"id":pelicula.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
+                        <a href="{{path("pelicopia_elimina", {"id":pelicula.id})}}"  class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                    </div>
+                </div>
+            </li>
+    </ul>
+    {% endfor %}
+
+
+</div>
+
+
+<div class="clearfix">
+{% endblock %}

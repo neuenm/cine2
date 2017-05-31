@@ -1,0 +1,6 @@
+{% extends "CineBundle::layout.html.twig" %}
+{% block content %}
+    {% for message in app.session.flashbag().get('error') %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endfor %}
+{% endblock %}

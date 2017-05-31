@@ -1,0 +1,54 @@
+CineBundle\Entity\Sala:
+    type: entity
+    table: sala
+    indexes:
+        fk_sala_cine:
+            columns:
+                - cine_id
+        fk_sala_formato:
+            columns:
+                - formato_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        cantButacas:
+            type: integer
+            nullable: true
+            options:
+                unsigned: false
+            column: cant_butacas
+        estado:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+    manyToOne:
+        cine:
+            targetEntity: Cine
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                cine_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+        formato:
+            targetEntity: Formato
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                formato_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

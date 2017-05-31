@@ -1,0 +1,60 @@
+CineBundle\Entity\Pelicula:
+    type: entity
+    table: pelicula
+    indexes:
+        fk_pelicula_genero:
+            columns:
+                - id_genero
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        nombre:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        duracion:
+            type: time
+            nullable: true
+        fechaEstreno:
+            type: date
+            nullable: true
+            column: fecha_estreno
+        estado:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        imagen:
+            type: string
+            nullable: true
+            length: 250
+            options:
+                fixed: false
+        sinopsis:
+            type: text
+            nullable: true
+            length: 65535
+            options:
+                fixed: false
+    manyToOne:
+        idGenero:
+            targetEntity: Genero
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_genero:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

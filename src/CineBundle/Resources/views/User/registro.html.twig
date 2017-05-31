@@ -1,0 +1,22 @@
+{% extends "CineBundle::layout.html.twig" %}
+{% block content %}
+    {% for message in app.session.flashbag().get('status') %}
+        {% if message== "Ahora podes iniciar sesion. Ya podes disfrutar nuestro servicio.." %}
+            <div class="alert alert-success">{{ message }}</div>
+        {%else%}
+            <div class="alert alert-danger">{{ message }}</div>
+        {% endif %}
+    {% endfor %}
+
+
+    <h3 class="light grey-text text-lighten-3">A Registrarse...</h3>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+            {{form_start(form)}}
+                {{ form_label(form.fechaNac) }}
+                {{ form_widget(form.fechaNac, { 'attr': {'class': 'datepicker'}}) }}
+            {{form_end(form)}}
+        </div>
+    </div>
+    <div class="clearfix">
+{% endblock %}

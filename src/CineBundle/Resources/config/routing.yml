@@ -1,0 +1,102 @@
+login:
+  path: /login
+  defaults: { _controller: CineBundle:User:login}
+
+login_check:
+  path: /login_check
+
+logout:
+  path: /logout
+
+register:
+    path:     /register
+    defaults: { _controller: CineBundle:User:registro}
+
+index:
+    path:  /index
+    defaults: { _controller: CineBundle:Default:index}
+
+
+
+
+
+
+
+
+nueva_peli:
+  path: /pelicula/nueva
+  defaults: { _controller: CineBundle:Pelicula:nueva}
+
+index_peli:
+  path: /pelicula/index
+  defaults: { _controller: CineBundle:Pelicula:index}
+
+editar_peli:
+  path: /pelicula/editar/{id}
+  defaults: { _controller: CineBundle:Pelicula:edita}
+
+eliminar_peli:
+  path: /pelicula/eliminar/{id}
+  defaults: { _controller: CineBundle:Pelicula:elimina}
+
+
+
+
+nuevo_cine:
+  path: /cine/nuevo
+  defaults: { _controller: CineBundle:Cine:nuevo}
+
+
+index_cine:
+  path: /cine/index
+  defaults: { _controller: CineBundle:Cine:index}
+
+editar_cine:
+  path: cine/editar/{id}
+  defaults: { _controller: CineBundle:Cine:edita}
+
+
+eliminar_cine:
+  path: /cine/eliminar/{id}
+  defaults: { _controller: CineBundle:Cine:elimina}
+
+
+
+
+
+pelicopia_nueva:
+  path: pelicopia/nueva
+  defaults: { _controller: CineBundle:Pelicopia:nueva}
+
+
+pelicopia_index:
+  path: pelicopia/index
+  defaults: { _controller: CineBundle:Pelicopia:index}
+
+
+pelicopia_elimina:
+  path: /pelicopia/eliminar/{id}
+  defaults: { _controller: CineBundle:Pelicopia:elimina}
+
+
+
+pelicopia_edita:
+  path: /pelicopia/editar/{id}
+  defaults: { _controller: CineBundle:Pelicopia:edita}
+
+
+
+
+funcion_nueva:
+  path: /funcion/nueva
+  defaults: { _controller: CineBundle:Funcion:nuevo}
+
+funcion_index:
+  path: /funcion/index
+  defaults: { _controller: CineBundle:Funcion:index}
+
+
+
+entrada_nueva:
+  path: /entrada/nueva/{id}
+  defaults: { _controller: CineBundle:Entrada:nueva}

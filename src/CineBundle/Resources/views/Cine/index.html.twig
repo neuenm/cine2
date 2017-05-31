@@ -1,0 +1,198 @@
+{% extends "CineBundle::layout.html.twig" %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+{% endblock %}
+
+{% block content %}
+    {% for message in app.session.flashbag().get('status') %}
+            <div class="alert alert-danger">{{ message }}</div>
+    {% endfor %}
+    <div class="row ">
+        <div class="col s12 m6 l6">
+            <h3 class="light grey-text text-lighten-3">A que cine queres ir hoy?</h3>
+            {% for cine in cine %}
+                    <ul class="collapsible popout col s12 m10 lighten-3" data-collapsible="accordion" >
+                        <li>
+                            <div class="collapsible-header grey lighten-1"><i class="material-icons">local_movies</i><h5>{{ cine.nombre }}</h5></div>
+                            <div class="collapsible-body">
+                                <h6> <i class="material-icons">fullscreen</i><h7 class="light grey-text text-lighten-3"> Cantidad de salas: {{ cine.cantSalas }}</h7></h6>
+                                <h6> <i class="material-icons">location_on</i><h7 class="light grey-text text-lighten-3"> Ubicacion: {{ cine.ubicacion }}</h7></h6>
+                                <a class="verMap" data-ubicacion="{{cine.ubicacion}} " ><i class="material-icons">my_location</i><h7 class="light grey-text text-lighten-3">Ver ubicacion en el mapa</h7></a>
+                                <br>
+                                <a href="{{path("eliminar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                                <a href="{{path("editar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
+                                <a href="{{path("entrada_nueva", {"id":cine.id})}}" class="waves-effect waves-light btn left-align">Ir a este cine</a>
+                            </div>
+                        </li>
+                    </ul>
+            {% endfor %}
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col s12 m6 l6" id="map" >
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+    <script>
+        var latitud=0;
+        var longitud=0;
+        var miLat=0;
+        var miLong=0;
+
+        $(document ).ready(function() {
+            navigator.geolocation.getCurrentPosition(showPosition);
+            function showPosition(position) {
+                miLat =  (position.coords.latitude);
+                miLong = (position.coords.longitude);
+                initMap(miLat, miLong);
+            }
+        });
+
+
+        $(".verMap").click(function() {
+            $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address="+$(this).data("ubicacion") +"Rio Cuarto"+"&key=AIzaSyDOrsRsupsXpwHVPEqAKWHvZtBDSTCOEt4", function (coordenada) {
+                latitud = (coordenada.results[0].geometry.location.lat);
+                longitud = (coordenada.results[0].geometry.location.lng);
+
+                initMap(latitud, longitud);   //llamo a la funcion de google declarada abajo con los parametrod de la fip
+
+                navigator.geolocation.getCurrentPosition(showPosition);
+                function showPosition(position) {
+                    miLat =  (position.coords.latitude);
+                    miLong = (position.coords.longitude);
+                }
+            });
+        });
+
+    </script>
+    <script>
+        var map;
+        function initMap(lat,long) {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: lat, lng: long},
+                zoom: 15,
+                styles: [
+                    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                    {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{color: '#263c3f'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#6b9a76'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{color: '#38414e'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#212a37'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#9ca5b3'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{color: '#746855'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#1f2835'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#f3d19c'}]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{color: '#2f3948'}]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{color: '#17263c'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#515c6d'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{color: '#17263c'}]
+                    }
+                ]
+            });
+            var marker1 = new google.maps.Marker({     //para qe aparezca el iconito rojo
+                position:{lat: lat, lng: long},
+                map: map,
+                title: "Cine!!",
+                icon:'https://dgw4q244hguhe.cloudfront.net/~/media/Images/VIP/VIPClubTableImages/ticket.png?la=en&vs=1&d=20160411T163729&hash=7E3FC68D652563B312B1F020DA038C6C3C26B311',
+                animation: google.maps.Animation.BOUNCE,
+                MarkerLabel: "CINE!",
+            });
+
+            var marker = new google.maps.Marker({     //para qe aparezca el iconito rojo
+                position:{lat: miLat, lng: miLong},
+                map: map,
+                title: 'Usted esta aqui',
+                draggable: true,
+                icon:"https://maxcdn.icons8.com/office/PNG/40/Very_Basic/home-40.png"
+
+            });
+            marker1.setMap(map);   //llama a las dos var anteriores y las ejecuta
+            marker.setMap(map)
+
+        }
+
+
+
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOrsRsupsXpwHVPEqAKWHvZtBDSTCOEt4&callback=initMap">
+    </script>
+
+
+    </div>
+
+{% endblock %}

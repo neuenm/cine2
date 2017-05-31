@@ -1,0 +1,23 @@
+{% extends "CineBundle::layout.html.twig" %}
+
+{% block content %}
+    <h3 class="light grey-text text-lighten-3">Listado de Funciones::</h3>
+    {% for message in app.session.flashbag().get('status') %}
+        {% if message== "Pelicula agregada correctamente" %}
+            <div class="alert alert-success">{{ message }}</div>
+        {%else%}
+            <div class="alert alert-danger">{{ message }}</div>
+        {% endif %}
+    {% endfor %}
+
+    {% for funcion in funciones %}
+        <ul class="collapsible popout col s12 m10 lighten-3" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header grey lighten-1"><i class="material-icons">theaters</i><h5> {{ funcion.idPeliCopia.idPeli.nombre }} {{ funcion.idPeliCopia.idFormato.nombre }} {{ funcion.idPeliCopia.idioma.nombre }}</h5></div>
+                <div class="collapsible-body"></div>
+            </li>
+        </ul>
+    {% endfor %}
+
+
+{% endblock %}
