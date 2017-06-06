@@ -232,6 +232,16 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'entrada_nueva')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::nuevaAction',));
         }
 
+        // func_horarios
+        if (0 === strpos($pathinfo, '/horarios') && preg_match('#^/horarios/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'func_horarios')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::horariosAction',));
+        }
+
+        // entrada_confirmacion
+        if (0 === strpos($pathinfo, '/entrada/confirmacion') && preg_match('#^/entrada/confirmacion/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'entrada_confirmacion')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::confirmaAction',));
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

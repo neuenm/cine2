@@ -1,0 +1,33 @@
+{% extends "CineBundle::layout.html.twig" %}
+
+{% block content %}
+
+    {% for funcion in funciones %}
+        {{ funcion.precio }}
+        <div class="row">
+            <div class="col m3">
+                <h5>Desliza la barra para elegir cuantas butacas queres reservar:<h2>
+                <form action="#">
+                    <p class="range-field">
+                        <input id="cantidad" type="range" name="cantidad" min="0" max="10" step="1" value="1">
+                        <br>
+                        <h5>Cantidad de entradas</h5>
+                        <input type="text" name="valorcantidad" id="valorcantidad" value="">
+                        <br>
+                    </p>
+                </form>
+            </div>
+        </div>
+    {% endfor %}
+
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $('#cantidad').change(function() {
+                $('#valorcantidad').val($(this).val());
+
+            });
+        });
+    </script>
+
+{% endblock %}

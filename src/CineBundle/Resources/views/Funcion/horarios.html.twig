@@ -1,0 +1,27 @@
+{% block content %}
+
+    <div class="row">
+    <ul class="collection col l9">
+
+    <table>
+    <thead>
+    <tr>
+        <th>Dia</th>
+        <th>Hora</th>
+        <th>Precio</th>
+        <th></th>
+    </tr>
+    </thead>
+    {% for funcion in funciones %}
+        <tbody>
+        <tr>
+            <td>{{ funcion.fecha |date('d-m-y') }}</td>
+            <td>{{ funcion.hora|date('h:m') }}</td>
+            <td>${{ funcion.precio }}</td>
+            <td><a href="{{path("entrada_confirmacion", {"id":funcion.id})}}"><button>ir</button></a></td>
+        </tr>
+        </tbody>
+    {% endfor %}
+    </table>
+
+{% endblock %}

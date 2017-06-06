@@ -9,15 +9,45 @@
             <div class="alert alert-danger">{{ message }}</div>
         {% endif %}
     {% endfor %}
+    <div class="row">
+    <ul class="collection col l9">
 
     {% for funcion in funciones %}
-        <ul class="collapsible popout col s12 m10 lighten-3" data-collapsible="expandable">
-            <li>
-                <div class="collapsible-header grey lighten-1"><i class="material-icons">theaters</i><h5> {{ funcion.idPeliCopia.idPeli.nombre }} {{ funcion.idPeliCopia.idFormato.nombre }} {{ funcion.idPeliCopia.idioma.nombre }}</h5></div>
-                <div class="collapsible-body"></div>
-            </li>
-        </ul>
-    {% endfor %}
+                <li class="collection-item avatar">
+                    <img src="{{asset("uploads/"~funcion.idPeliCopia.idPeli.imagen)}}" alt="" class="circle">
+                    <span class="title"> {{ funcion.idPeliCopia.idPeli.nombre }}</span>
+                    <p>{{ funcion.idPeliCopia.idFormato.nombre }} <br>
+                        {{ funcion.idPeliCopia.idioma.nombre }}
+                    <button data-valo="{{funcion.idPeliCopia.id}}" onclick="ajaxget(this)"><a>horarios</a> </button>
+
+        </p>
+                </li>
+        {% endfor %}
+    </ul>
+
+    <div id="horarios" class="col l3 right-align ">
 
 
+
+    <div/>
+
+    <script type="text/javascript">
+        function ajaxget(identificador){
+
+            var conexion;
+            if(window.XMLHttpRequest) {
+                conexion=new XMLHttpRequest();
+            } else {
+                conexion=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            conexion.onreadystatechange = function() {
+                if(conexion.readyState==4 && conexion.status==200) {
+                    document.getElementById("horarios").innerHTML=conexion.responseText;
+                }
+            }
+            conexion.open("GET",'/horarios/'+$(identificador).data('valo'),true);
+            conexion.send();
+        }
+    </script>
 {% endblock %}

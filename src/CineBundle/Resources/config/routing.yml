@@ -100,3 +100,11 @@ funcion_index:
 entrada_nueva:
   path: /entrada/nueva/{id}
   defaults: { _controller: CineBundle:Entrada:nueva}
+
+func_horarios:
+  path: /horarios/{id}
+  defaults: { _controller: CineBundle:Entrada:horarios}
+
+entrada_confirmacion:
+  path: /entrada/confirmacion/{id}
+  defaults: { _controller: CineBundle:Entrada:confirma}
