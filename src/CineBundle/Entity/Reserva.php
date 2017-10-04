@@ -167,4 +167,33 @@ class Reserva
     {
         return $this->idUser;
     }
+    /**
+     * @var string
+     */
+    private $codigo;
+
+
+    /**
+     * Set codigo
+     *
+     * @param string $codigo
+     *
+     * @return Reserva
+     */
+    public function setCodigo($codigo)
+    {
+        $this->codigo = $codigo;
+
+        return $this;
+    }
+
+    /**
+     * Get codigo
+     *
+     * @return string
+     */
+    public function getCodigo()
+    {
+        return $this->codigo;
+    }
 }

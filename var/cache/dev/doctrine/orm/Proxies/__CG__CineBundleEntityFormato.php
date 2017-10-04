@@ -210,4 +210,15 @@ class Formato extends \CineBundle\Entity\Formato implements \Doctrine\ORM\Proxy\
         return parent::getNombre();
     }
 
+    /**
+     * {@inheritDoc}
+     */
+    public function __toString()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', []);
+
+        return parent::__toString();
+    }
+
 }

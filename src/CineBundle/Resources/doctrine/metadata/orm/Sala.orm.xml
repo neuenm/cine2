@@ -18,14 +18,19 @@
         <option name="fixed"/>
       </options>
     </field>
-    <many-to-one field="formato" target-entity="Formato" fetch="LAZY">
-      <join-columns>
-        <join-column name="formato_id" referenced-column-name="id"/>
-      </join-columns>
-    </many-to-one>
+    <field name="letra" type="string" column="letra" length="10" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
     <many-to-one field="cine" target-entity="Cine" fetch="LAZY">
       <join-columns>
         <join-column name="cine_id" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="formato" target-entity="Formato" fetch="LAZY">
+      <join-columns>
+        <join-column name="formato_id" referenced-column-name="id"/>
       </join-columns>
     </many-to-one>
   </entity>

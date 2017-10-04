@@ -1,0 +1,40 @@
+{% extends "CineBundle::layout.html.twig" %}
+{% block content %}
+
+    <h2 class="white-text">Ya tenes tus entradas!!</h2>
+    <h3 class="white-text" >Ahora solo te queda ir al cine y escanear este codigo en la boleteria rapida y obtener tus entradas (sacale una foto al codigo y cuando estes en el cine la boleteria rapida te va a pedir que le muestres tu codigo QR)</h3>
+    <button id="codigo" value="{{ codigo }}" onclick="mostrarqr()" class="waves-effect waves-light btn">Ver codigo QR</button>
+    <div class="center" id="divCodigo"></div>
+
+    <h5 class="white-text">Si no tenes bateria o preferis anotar el codigo podes:     <button id="texto" value="{{ codigo }}" onclick="mostrartexto()" class="waves-effect waves-light btn">Ver codigo texto</button>
+    </h5>
+
+    <div class="center-align white-text" id="divTexto"><h2>{{ codigo }}</h2></div>
+
+
+    <p><a href="{{path("index")}}">Volver</a></p>
+
+<script>
+    $( document ).ready(function() {
+        $("#divTexto").toggle();
+    });
+
+    function mostrarqr() {
+        var codigo =$('#codigo').val();
+        $("#divCodigo").empty();
+        $("#divCodigo").qrcode({
+            width:300,
+            height: 300,
+            text: codigo
+        });
+
+    }
+    function mostrartexto() {
+        $("#divTexto").toggle();
+        }
+
+
+
+</script>
+
+{% endblock %}

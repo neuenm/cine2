@@ -1,27 +1,48 @@
 {% extends "CineBundle::layout.html.twig" %}
 {% block content %}
+    <div  class="fuente"><h1 class="white-text center">Saca tu entrada en solo 4 pasos</h1></div>
      <div class="carousel carousel-slider center" data-indicators="true">
-          <div class="carousel-fixed-item center">
-               <a class="btn waves-effect white grey-text darken-text-2" href="{{ path('index_cine') }}">Empezar</a>
-          </div>
+         {%if app.user != null%}
+             <div class="carousel-fixed-item center">
+                 <a class="waves-effect waves-light btn-large" href="{{ path('index_cine') }}" ><i class="material-icons right">forward</i>Empezar</a>
+             </div>
+         {% else %}
+         <div class="carousel-fixed-item center">
+             <a class="waves-effect waves-light btn-large" href="#modal1" ><i class="material-icons right">forward</i>Para empezar tenes que iniciar sesion</a>
+         </div>
+         {% endif %}
+
+
+         <div class="carousel-item blue white-text" href="#four!">
+             <h1 class="fuente">4°</h1>
+             <h4 class="white-text fuente">Saca tus entradas y paga como quieras</h4>
+         </div>
           <div class="carousel-item red white-text" href="#one!">
-               <h2>Elegi el cine</h2>
-               <p class="white-text">This is your first panel</p>
+               <h1 class="fuente">1°</h1>
+               <h4 class="white-text fuente">Elegi el cine que te quede mas comodo</h4>
           </div>
           <div class="carousel-item amber white-text" href="#two!">
-               <h2>Elegi la peli</h2>
-               <p class="white-text">This is your second panel</p>
+               <h1 class="fuente">2°</h1>
+               <h4 class="white-text fuente">Elegi la peli que mas te guste</h4>
           </div>
           <div class="carousel-item green white-text" href="#three!">
-               <h2>Elegi la hora</h2>
-               <p class="white-text">This is your third panel</p>
-          </div>
-          <div class="carousel-item blue white-text" href="#four!">
-               <h2>Saca tus entradas</h2>
-               <p class="white-text">This is your fourth panel</p>
+               <h1 class="fuente">3°</h1>
+               <h4 class="white-text fuente">Busca el horario que prefieras</h4>
           </div>
      </div>
+    <h3 class=" white-text fuente">Algunos de los sines que podes elegir ...</h3>
+    <div class="container top" >
+        <div class="row">
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo1.png') }}" width="150px" height="150px"></div>
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo2.png') }}" width="300px" height="150px"></div>
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo5.png') }}" width="300px" height="150px"></div>
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo7.png') }}" width="300px" height="150px"></div>
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo6.png') }}" width="300px" height="150px"></div>
+            <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo8.png') }}" width="300px" height="250px"></div>
 
+
+        </div>
+    </div>
      <script>
           $(document).ready(function(){
                $('.slider').slider();

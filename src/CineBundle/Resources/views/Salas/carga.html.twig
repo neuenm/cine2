@@ -1,0 +1,11 @@
+{% extends "CineBundle::layout.html.twig" %}
+
+
+{% block content %}
+    {% for form in vistas %}
+        <h4>Sala:</h4>
+        {{form_start(form)}}
+        {{form_end(form)}}
+    {% endfor %}
+
+{% endblock %}

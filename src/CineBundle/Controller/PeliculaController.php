@@ -1,7 +1,5 @@
 <?php
-
 namespace CineBundle\Controller;
-
 
 use CineBundle\Entity\Pelicula;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -124,13 +122,34 @@ class PeliculaController extends Controller
         $pelicula_repo = $em->getRepository("CineBundle:Pelicula");
         $pelicula = $pelicula_repo->find($id);
         $pelicula->setEstado("Inactivo");
-
-
-        $em = $this->getDoctrine()->getEntityManager();
         $em->persist($pelicula);
         $flush = $em->flush();
+        
+        $funciones_repo= $em->getRepository("CineBundle:Funcion");
+        $peliCopia_repo= $em->getRepository("CineBundle:Pelicopia");
+        $pelicopias = $peliCopia_repo-> findBy(array('idPeli' => $id));
 
-        if ($flush == null) {
+
+        if (isset($pelicopias)){
+            for ($j = 0; $j <= count($pelicopias)-1; $j++) {
+                $pelicopias[$j]->setEstado("Inactivo");
+                $em->persist($pelicopias[$j]);
+                $flush = $em->flush();
+                $idPeliCopia=$pelicopias[$j]->getId();
+                $funciones=$funciones_repo->findBy(array('idPeliCopia' => $idPeliCopia));
+                if (isset($funciones)){
+                    for ($i = 0; $i <= count($funciones)-1; $i++) {
+                        $funciones[$i]->setEstado("Inactivo");
+                        $em->persist($funciones[$i]);
+                        $flush = $em->flush();
+                    }
+                }
+            }
+        }
+
+
+
+            if ($flush == null) {
             $status = "La pelicula se borro del listado";
         } else {
             $status = "Error no se pudo eliminar";

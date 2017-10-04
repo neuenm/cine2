@@ -10,24 +10,32 @@
         {% endif %}
     {% endfor %}
     <div class="row">
-    <ul class="collection col l9">
+    <ul class="collection col l6">
 
     {% for funcion in funciones %}
                 <li class="collection-item avatar">
                     <img src="{{asset("uploads/"~funcion.idPeliCopia.idPeli.imagen)}}" alt="" class="circle">
-                    <span class="title"> {{ funcion.idPeliCopia.idPeli.nombre }}</span>
+                    <span class="title"> {{ funcion.idPeliCopia.idPeli.nombre }}
+                    {% if funcion.disponibles == 0 %}
+                        <p>AGOTADO!</p>
+                    {% endif %}
+                    </span>
                     <p>{{ funcion.idPeliCopia.idFormato.nombre }} <br>
                         {{ funcion.idPeliCopia.idioma.nombre }}
-                    <button data-valo="{{funcion.idPeliCopia.id}}" onclick="ajaxget(this)"><a>horarios</a> </button>
+                    {% if cine is defined %}
+                        <button data-valo="{{funcion.idPeliCopia.id}}" data-cine="{{ cine }}" onclick="ajaxget(this)"><a>horarios</a> </button>
+                    {% endif %}
+                    {%if app.user.role=="ROLE_ADMIN" %}
+                        <a href="{{path("eliminar_funcion", {"id":funcion.id})}}" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                        <a href="{{path("editar_funcion", {"id":funcion.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
+                    {% endif %}
 
         </p>
                 </li>
         {% endfor %}
     </ul>
 
-    <div id="horarios" class="col l3 right-align ">
-
-
+    <div id="horarios" class="col l6 right-align ">
 
     <div/>
 
@@ -40,13 +48,12 @@
             } else {
                 conexion=new ActiveXObject("Microsoft.XMLHTTP");
             }
-
             conexion.onreadystatechange = function() {
                 if(conexion.readyState==4 && conexion.status==200) {
                     document.getElementById("horarios").innerHTML=conexion.responseText;
                 }
             }
-            conexion.open("GET",'/horarios/'+$(identificador).data('valo'),true);
+            conexion.open("GET",'/horarios/'+$(identificador).data('valo')+'/'+$(identificador).data('cine') ,true);
             conexion.send();
         }
     </script>

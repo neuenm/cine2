@@ -18,142 +18,164 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_167220727c06896cd7861e556b0301a6309ba62f289876f4989ad4a595013ca8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_167220727c06896cd7861e556b0301a6309ba62f289876f4989ad4a595013ca8->enter($__internal_167220727c06896cd7861e556b0301a6309ba62f289876f4989ad4a595013ca8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
+        $__internal_e107946dca26772efb5c7924283c1b3a783d7ab1ae6240f76fa2aaa03fa1ab60 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e107946dca26772efb5c7924283c1b3a783d7ab1ae6240f76fa2aaa03fa1ab60->enter($__internal_e107946dca26772efb5c7924283c1b3a783d7ab1ae6240f76fa2aaa03fa1ab60_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
 
-        $__internal_b8545b10a3779e684345314ca2b40ccf8d49f0bed6f20527fb0da1b395593faf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b8545b10a3779e684345314ca2b40ccf8d49f0bed6f20527fb0da1b395593faf->enter($__internal_b8545b10a3779e684345314ca2b40ccf8d49f0bed6f20527fb0da1b395593faf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
+        $__internal_6f18572f7d5bb51a601e36c69252fb512a990e47ba5f38ea07d9c0409e824e82 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6f18572f7d5bb51a601e36c69252fb512a990e47ba5f38ea07d9c0409e824e82->enter($__internal_6f18572f7d5bb51a601e36c69252fb512a990e47ba5f38ea07d9c0409e824e82_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
 
         // line 1
         echo "<html>
-    <head>
-        <title>";
+<head>
+    <title>";
         // line 3
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
 
-        ";
+    ";
         // line 5
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 15
+        // line 16
         echo "
 
-        <style>
-            #map {
-                height: 80%;
-                width: 50%;
-            }
-            body{
-                background-image: url(\"http://www.elfueguino.com.ar/wp-content/uploads/2016/11/cine-estudio-.jpg\");
-            }
+    <style>
+        #map {
+            height: 80%;
+            width: 50%;
+        }
+        body{
+            height: 80%;
+            /* Center and scale the image nicely */
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }/* Full height */
+        footer{
+            position: fixed;
+            bottom: 0;
+            width:100%;
 
-        </style>
+        }
 
-    </head>
-    
-    <body>
-    <ul id=\"dropdown1\" class=\"dropdown-content\">
-        <li class=\"dropdown\">
-            <b>Logueate</b> <span class=\"caret\">
-                <div class=\"col-md-12\">
-                    <form action=\"";
-        // line 35
+    </style>
+</head>
+
+<body>
+
+<div id=\"modal1\" class=\"modal\">
+    <div class=\"modal-content\">
+        <h4 class=\"fuente\">Login</h4>
+        <div class=\"container\">
+            <ul>
+                <li>
+                    <div class=\"col-md-12\">
+                        <form action=\"";
+        // line 49
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("login_check");
         echo "\" method=\"post\">
-                        <label>Email:</label>
-                        <input type=\"email\" id=\"username\" name=\"_username\"  class=\"form-control\" />
-                        <br/>
-                        <label>Contraseña:</label>
-                        <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" />
-                        <br/>
-                        <input type=\"submit\" value=\"Entrar\" class=\"btn -succes\"/>
+                            <label>Email:</label>
+                            <input type=\"email\" id=\"username\" name=\"_username\"  class=\"form-control\" />
+                            <br/>
+                            <label>Contraseña:</label>
+                            <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" />
+                            <br/>
+                            <input type=\"submit\" value=\"Entrar\" class=\"btn -succes\"/>
 
-                        <input type=\"hidden\" name=\"_target_path\" value=\"/index\" />
-                    </form>
-                </div>
-        </li>
-        <li>
-            <b>Registrate</b> <span class=\"caret\">
-            <a href=\"";
-        // line 50
+                            <input type=\"hidden\" name=\"_target_path\" value=\"/index\" />
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <b>Si aun no tenes una cuenta registrate:</b>
+                    <a href=\"";
+        // line 64
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("register");
         echo "\" class=\"right btn-floating btn-large waves-effect waves-light red\"><i class=\"material-icons\">add</i></a>
-        </li>
-    </ul>
-
-
-    <ul id=\"dropdown2\" class=\"dropdown-content\">
-        <li class=\"dropdown\">
-            <ul class=\"dropdown-menu\">
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Cines\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 61
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nuevo_cine");
-        echo "\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 62
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
-        echo "\">Listar Cines</a></li>
-                    </ul>
-                </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Funciones\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 70
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_nueva");
-        echo "\">Agregar</a></li>
-                    </ul>
-                </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Peliculas\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 78
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nueva_peli");
-        echo "\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 79
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_peli");
-        echo "\">Listar peliculas</a></li>
-                    </ul>
-                </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Peliculas (copias)\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 87
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_nueva");
-        echo "\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"";
-        // line 88
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
-        echo "\">Listar peliculas</a></li>
-                    </ul>
                 </li>
             </ul>
-        </li>
-    </ul>
+        </div>
+    </div>
+</div>
+<ul id=\"dropdown2\" class=\"dropdown-content\">
+    <li >
+        <ul class=\"dropdown-menu\">
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Cines\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 76
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nuevo_cine");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 77
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
+        echo "\">Listar </a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
 
-    <div class=\"navbar-fixed\">
-        <nav>
-            <div class=\"nav-wrapper black\">
-                <a href=\"#!\" class=\"brand-logo\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/>
-                </a>
-                <ul class=\"right hide-on-med-and-down\">
-                    ";
-        // line 101
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Funciones\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 85
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 86
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_index");
+        echo "\">Listar</a></li>
+
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 95
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nueva_peli");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 96
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_peli");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas (copias)\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 104
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 105
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<div class=\"navbar-fixed\">
+    <nav>
+        <div class=\"nav-wrapper red\">
+            <a href=\"";
+        // line 115
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
+        echo "\" class=\"brand-logo center\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/>
+            </a>
+            <ul class=\"right hide-on-med-and-down\">
+                ";
+        // line 118
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) != null)) {
-            // line 102
-            echo "                        <li>Bienvenido, ";
+            // line 119
+            echo "                    <li>Bienvenido, ";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "nombre", array()), "html", null, true);
             echo " ";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "apellido", array()), "html", null, true);
@@ -162,82 +184,81 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
                 echo " (Administrador) ";
             }
             echo "</li>
-                    ";
+                ";
         }
-        // line 104
+        // line 121
         echo "
-                    <!-- Dropdown Trigger -->
-                    ";
-        // line 106
+                <!-- Dropdown Trigger -->
+                ";
+        // line 123
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) == null)) {
-            // line 107
-            echo "                        <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown1\">Ya tenes una cuenta?<i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                    ";
+            // line 124
+            echo "                    <li class=\"fuente\"><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                ";
         } else {
-            // line 109
-            echo "                        ";
+            // line 126
+            echo "                    ";
             if (($this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "role", array()) == "ROLE_ADMIN")) {
-                // line 110
-                echo "                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                        ";
+                // line 127
+                echo "                        <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                    ";
             }
-            // line 112
-            echo "                        <li><a href=\"";
+            // line 129
+            echo "                    <li><a href=\"";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("logout");
             echo "\">Salir</a></li>
-                    ";
+                ";
         }
-        // line 114
-        echo "                </ul>
-            </div>
-        </nav>
-    </div>
+        // line 131
+        echo "            </ul>
+            <ul class=\"left hide-on-med-and-down\">
+                <li class=\"waves-effect waves-black fuente\"><a href=\"";
+        // line 133
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
+        echo "\">SACAR ENTRADAS!!</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"";
+        // line 134
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
+        echo "\">Cines</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"";
+        // line 135
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_index");
+        echo "\">Funciones</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"";
+        // line 136
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
+        echo "\">Peliculas</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 
 
 
-        <section id=\"content\">
-            ";
-        // line 123
+<section id=\"content\">
+    ";
+        // line 146
         $this->displayBlock('content', $context, $blocks);
-        // line 124
-        echo "        </section>
-        <footer>
-            <footer class=\"page-footer black\">
-                <div class=\"container\">
-                    <div class=\"row\">
-                        <div class=\"col l6 s12\">
-                            <h5 class=\"white-text\">Footer Content</h5>
-                            <p class=\"grey-text text-lighten-4\">You can use rows and columns here to organize your footer content.</p>
-                        </div>
-                        <div class=\"col l4 offset-l2 s12\">
-                            <h5 class=\"white-text\">Links</h5>
-                            <ul>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 1</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 2</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 3</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 4</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"footer-copyright\">
-                    <div class=\"container\">
-                        © 2014 Copyright Text
-                        <a class=\"grey-text text-lighten-4 right\" href=\"#!\">More Links</a>
-                    </div>
-                </div>
-            </footer>
-        </footer>
+        // line 147
+        echo "</section>
+
+<footer class=\"page-footer red footer\">
+        <div class=\"container\">
+            © 2017
+            <a class=\"grey-text text-lighten-4 right\" href=\"#!\">More Links</a>
+        </div>
+</footer>
 
 
 
 
-    </body>
+</body>
 </html>
 
 <script>
     \$(document).ready(function(){
+        \$('.modal').modal();
         \$('.dropdown-submenu a.test').on(\"click\", function(e){
             \$(this).next('ul').toggle();
             e.stopPropagation();
@@ -249,86 +270,80 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
             selectMonths: true, // Creates a dropdown to control month
             selectYears: 15 // Creates a dropdown of 15 years to control year
         });
-
     });
-
-</script>
-
-";
+</script>";
         
-        $__internal_167220727c06896cd7861e556b0301a6309ba62f289876f4989ad4a595013ca8->leave($__internal_167220727c06896cd7861e556b0301a6309ba62f289876f4989ad4a595013ca8_prof);
+        $__internal_e107946dca26772efb5c7924283c1b3a783d7ab1ae6240f76fa2aaa03fa1ab60->leave($__internal_e107946dca26772efb5c7924283c1b3a783d7ab1ae6240f76fa2aaa03fa1ab60_prof);
 
         
-        $__internal_b8545b10a3779e684345314ca2b40ccf8d49f0bed6f20527fb0da1b395593faf->leave($__internal_b8545b10a3779e684345314ca2b40ccf8d49f0bed6f20527fb0da1b395593faf_prof);
+        $__internal_6f18572f7d5bb51a601e36c69252fb512a990e47ba5f38ea07d9c0409e824e82->leave($__internal_6f18572f7d5bb51a601e36c69252fb512a990e47ba5f38ea07d9c0409e824e82_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_7fd37c8be77854dcdae376b62569e1617b3accc3796be7ac01f9a4f8167903d9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7fd37c8be77854dcdae376b62569e1617b3accc3796be7ac01f9a4f8167903d9->enter($__internal_7fd37c8be77854dcdae376b62569e1617b3accc3796be7ac01f9a4f8167903d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_bcb0ec00dc191fca312b46e6797129738e0221956f2793784ef45c0788397bca = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bcb0ec00dc191fca312b46e6797129738e0221956f2793784ef45c0788397bca->enter($__internal_bcb0ec00dc191fca312b46e6797129738e0221956f2793784ef45c0788397bca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_5fb250eb0f5581ad7a6a2d1ea1ab84a6c3696727a28e6a4928805f582151adb2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5fb250eb0f5581ad7a6a2d1ea1ab84a6c3696727a28e6a4928805f582151adb2->enter($__internal_5fb250eb0f5581ad7a6a2d1ea1ab84a6c3696727a28e6a4928805f582151adb2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_413d362f6f1579053f458fbf915d4795c971c82fe1d10c41813b4b67f6ecbd41 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_413d362f6f1579053f458fbf915d4795c971c82fe1d10c41813b4b67f6ecbd41->enter($__internal_413d362f6f1579053f458fbf915d4795c971c82fe1d10c41813b4b67f6ecbd41_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        echo "titulo por defecto ";
+        echo "Cines ";
         
-        $__internal_5fb250eb0f5581ad7a6a2d1ea1ab84a6c3696727a28e6a4928805f582151adb2->leave($__internal_5fb250eb0f5581ad7a6a2d1ea1ab84a6c3696727a28e6a4928805f582151adb2_prof);
+        $__internal_413d362f6f1579053f458fbf915d4795c971c82fe1d10c41813b4b67f6ecbd41->leave($__internal_413d362f6f1579053f458fbf915d4795c971c82fe1d10c41813b4b67f6ecbd41_prof);
 
         
-        $__internal_7fd37c8be77854dcdae376b62569e1617b3accc3796be7ac01f9a4f8167903d9->leave($__internal_7fd37c8be77854dcdae376b62569e1617b3accc3796be7ac01f9a4f8167903d9_prof);
+        $__internal_bcb0ec00dc191fca312b46e6797129738e0221956f2793784ef45c0788397bca->leave($__internal_bcb0ec00dc191fca312b46e6797129738e0221956f2793784ef45c0788397bca_prof);
 
     }
 
     // line 5
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_ab99cede9421bc302ede875b9127eb2c23145e828c301b3d8056e7ad3db90ed4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ab99cede9421bc302ede875b9127eb2c23145e828c301b3d8056e7ad3db90ed4->enter($__internal_ab99cede9421bc302ede875b9127eb2c23145e828c301b3d8056e7ad3db90ed4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_d2f5936cd9aeee0a08c3f4338d16ae756f3aacbb2a15ea54209b68fe402d4337 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d2f5936cd9aeee0a08c3f4338d16ae756f3aacbb2a15ea54209b68fe402d4337->enter($__internal_d2f5936cd9aeee0a08c3f4338d16ae756f3aacbb2a15ea54209b68fe402d4337_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_36d74ead5115710f364234f7adfb6dc20b71c0b26d69978ab9bc98955ad82c75 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_36d74ead5115710f364234f7adfb6dc20b71c0b26d69978ab9bc98955ad82c75->enter($__internal_36d74ead5115710f364234f7adfb6dc20b71c0b26d69978ab9bc98955ad82c75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_3bc10171506333e43163ef3391fa1ebe16455562e88b956d9cc65b54f2b46f7d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3bc10171506333e43163ef3391fa1ebe16455562e88b956d9cc65b54f2b46f7d->enter($__internal_3bc10171506333e43163ef3391fa1ebe16455562e88b956d9cc65b54f2b46f7d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 6
-        echo "            <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-2.1.1.min.js\"></script>
-            <script type=\"text/javascript\" src=\"";
-        // line 7
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("materialize/js/materialize.min.js"), "html", null, true);
-        echo "\"></script>
-            <link href=\"http://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
-            <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css\">
-            <!-- Compiled and minified JavaScript -->
-            <script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js\"></script>
-            <script src=\"";
-        // line 12
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("pickadate/verssion-commit.js"), "html", null, true);
-        echo "\" type=\"text/javascript\"></script>
+        echo "        <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-2.1.1.min.js\"></script>
+        <link href=\"http://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
+        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css\">
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js\"></script>
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js\"></script>
+        <link href=\"https://fonts.googleapis.com/css?family=Anton\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Raleway\" rel=\"stylesheet\">
+        <link href=\"";
+        // line 13
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/cine/styles.css"), "html", null, true);
+        echo "\" type=\"text/css\" rel=\"stylesheet\" />
 
-        ";
+    ";
         
-        $__internal_36d74ead5115710f364234f7adfb6dc20b71c0b26d69978ab9bc98955ad82c75->leave($__internal_36d74ead5115710f364234f7adfb6dc20b71c0b26d69978ab9bc98955ad82c75_prof);
+        $__internal_3bc10171506333e43163ef3391fa1ebe16455562e88b956d9cc65b54f2b46f7d->leave($__internal_3bc10171506333e43163ef3391fa1ebe16455562e88b956d9cc65b54f2b46f7d_prof);
 
         
-        $__internal_ab99cede9421bc302ede875b9127eb2c23145e828c301b3d8056e7ad3db90ed4->leave($__internal_ab99cede9421bc302ede875b9127eb2c23145e828c301b3d8056e7ad3db90ed4_prof);
+        $__internal_d2f5936cd9aeee0a08c3f4338d16ae756f3aacbb2a15ea54209b68fe402d4337->leave($__internal_d2f5936cd9aeee0a08c3f4338d16ae756f3aacbb2a15ea54209b68fe402d4337_prof);
 
     }
 
-    // line 123
+    // line 146
     public function block_content($context, array $blocks = array())
     {
-        $__internal_e04a8cdc3cb0633547641652452cff2bed3288ae331956b184d2992a65f1f597 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e04a8cdc3cb0633547641652452cff2bed3288ae331956b184d2992a65f1f597->enter($__internal_e04a8cdc3cb0633547641652452cff2bed3288ae331956b184d2992a65f1f597_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_3fba668d4ce404553eb400acb85b682fcce48b7d9e36d22ec18cd15b8457de07 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3fba668d4ce404553eb400acb85b682fcce48b7d9e36d22ec18cd15b8457de07->enter($__internal_3fba668d4ce404553eb400acb85b682fcce48b7d9e36d22ec18cd15b8457de07_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_839373b0c844a44b0e59882704cd7c6331c019238ceaeb1c1e154ebf9ff93218 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_839373b0c844a44b0e59882704cd7c6331c019238ceaeb1c1e154ebf9ff93218->enter($__internal_839373b0c844a44b0e59882704cd7c6331c019238ceaeb1c1e154ebf9ff93218_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_73e2a4aa592aecd899ca1d802bd6af02996fac296578846919f5656d4426c99a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_73e2a4aa592aecd899ca1d802bd6af02996fac296578846919f5656d4426c99a->enter($__internal_73e2a4aa592aecd899ca1d802bd6af02996fac296578846919f5656d4426c99a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         echo " cotenido por defcto ";
         
-        $__internal_839373b0c844a44b0e59882704cd7c6331c019238ceaeb1c1e154ebf9ff93218->leave($__internal_839373b0c844a44b0e59882704cd7c6331c019238ceaeb1c1e154ebf9ff93218_prof);
+        $__internal_73e2a4aa592aecd899ca1d802bd6af02996fac296578846919f5656d4426c99a->leave($__internal_73e2a4aa592aecd899ca1d802bd6af02996fac296578846919f5656d4426c99a_prof);
 
         
-        $__internal_e04a8cdc3cb0633547641652452cff2bed3288ae331956b184d2992a65f1f597->leave($__internal_e04a8cdc3cb0633547641652452cff2bed3288ae331956b184d2992a65f1f597_prof);
+        $__internal_3fba668d4ce404553eb400acb85b682fcce48b7d9e36d22ec18cd15b8457de07->leave($__internal_3fba668d4ce404553eb400acb85b682fcce48b7d9e36d22ec18cd15b8457de07_prof);
 
     }
 
@@ -344,7 +359,7 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
     public function getDebugInfo()
     {
-        return array (  318 => 123,  305 => 12,  297 => 7,  294 => 6,  285 => 5,  267 => 3,  204 => 124,  202 => 123,  191 => 114,  185 => 112,  181 => 110,  178 => 109,  174 => 107,  172 => 106,  168 => 104,  156 => 102,  154 => 101,  138 => 88,  134 => 87,  123 => 79,  119 => 78,  108 => 70,  97 => 62,  93 => 61,  79 => 50,  61 => 35,  39 => 15,  37 => 5,  32 => 3,  28 => 1,);
+        return array (  333 => 146,  320 => 13,  311 => 6,  302 => 5,  284 => 3,  244 => 147,  242 => 146,  229 => 136,  225 => 135,  221 => 134,  217 => 133,  213 => 131,  207 => 129,  203 => 127,  200 => 126,  196 => 124,  194 => 123,  190 => 121,  178 => 119,  176 => 118,  170 => 115,  157 => 105,  153 => 104,  142 => 96,  138 => 95,  126 => 86,  122 => 85,  111 => 77,  107 => 76,  92 => 64,  74 => 49,  39 => 16,  37 => 5,  32 => 3,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -358,165 +373,169 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
     public function getSourceContext()
     {
         return new Twig_Source("<html>
-    <head>
-        <title>{%block title %}titulo por defecto {% endblock %}</title>
+<head>
+    <title>{%block title %}Cines {% endblock %}</title>
 
-        {% block stylesheets %}
-            <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-2.1.1.min.js\"></script>
-            <script type=\"text/javascript\" src=\"{{ asset('materialize/js/materialize.min.js') }}\"></script>
-            <link href=\"http://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
-            <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css\">
-            <!-- Compiled and minified JavaScript -->
-            <script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js\"></script>
-            <script src=\"{{ asset('pickadate/verssion-commit.js') }}\" type=\"text/javascript\"></script>
+    {% block stylesheets %}
+        <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-2.1.1.min.js\"></script>
+        <link href=\"http://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
+        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css\">
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js\"></script>
+        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js\"></script>
+        <link href=\"https://fonts.googleapis.com/css?family=Anton\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Raleway\" rel=\"stylesheet\">
+        <link href=\"{{ asset('bundles/cine/styles.css') }}\" type=\"text/css\" rel=\"stylesheet\" />
 
-        {% endblock %}
-
-
-        <style>
-            #map {
-                height: 80%;
-                width: 50%;
-            }
-            body{
-                background-image: url(\"http://www.elfueguino.com.ar/wp-content/uploads/2016/11/cine-estudio-.jpg\");
-            }
-
-        </style>
-
-    </head>
-    
-    <body>
-    <ul id=\"dropdown1\" class=\"dropdown-content\">
-        <li class=\"dropdown\">
-            <b>Logueate</b> <span class=\"caret\">
-                <div class=\"col-md-12\">
-                    <form action=\"{{path(\"login_check\")}}\" method=\"post\">
-                        <label>Email:</label>
-                        <input type=\"email\" id=\"username\" name=\"_username\"  class=\"form-control\" />
-                        <br/>
-                        <label>Contraseña:</label>
-                        <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" />
-                        <br/>
-                        <input type=\"submit\" value=\"Entrar\" class=\"btn -succes\"/>
-
-                        <input type=\"hidden\" name=\"_target_path\" value=\"/index\" />
-                    </form>
-                </div>
-        </li>
-        <li>
-            <b>Registrate</b> <span class=\"caret\">
-            <a href=\"{{path(\"register\")}}\" class=\"right btn-floating btn-large waves-effect waves-light red\"><i class=\"material-icons\">add</i></a>
-        </li>
-    </ul>
+    {% endblock %}
 
 
-    <ul id=\"dropdown2\" class=\"dropdown-content\">
-        <li class=\"dropdown\">
-            <ul class=\"dropdown-menu\">
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Cines\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"{{path(\"nuevo_cine\")}}\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"{{path(\"index_cine\")}}\">Listar Cines</a></li>
-                    </ul>
+    <style>
+        #map {
+            height: 80%;
+            width: 50%;
+        }
+        body{
+            height: 80%;
+            /* Center and scale the image nicely */
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }/* Full height */
+        footer{
+            position: fixed;
+            bottom: 0;
+            width:100%;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div id=\"modal1\" class=\"modal\">
+    <div class=\"modal-content\">
+        <h4 class=\"fuente\">Login</h4>
+        <div class=\"container\">
+            <ul>
+                <li>
+                    <div class=\"col-md-12\">
+                        <form action=\"{{path(\"login_check\")}}\" method=\"post\">
+                            <label>Email:</label>
+                            <input type=\"email\" id=\"username\" name=\"_username\"  class=\"form-control\" />
+                            <br/>
+                            <label>Contraseña:</label>
+                            <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" />
+                            <br/>
+                            <input type=\"submit\" value=\"Entrar\" class=\"btn -succes\"/>
+
+                            <input type=\"hidden\" name=\"_target_path\" value=\"/index\" />
+                        </form>
+                    </div>
                 </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Funciones\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"{{path(\"funcion_nueva\")}}\">Agregar</a></li>
-                    </ul>
-                </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Peliculas\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"{{path(\"nueva_peli\")}}\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"{{path(\"index_peli\")}}\">Listar peliculas</a></li>
-                    </ul>
-                </li>
-                <li class=\"divider\"></li>
-
-                <li class=\"dropdown-submenu\">
-                    <ul><optgroup label=\"Peliculas (copias)\"></ul>
-                    <ul class=\"dropdown-menu\">
-                        <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_nueva\")}}\">Agregar</a></li>
-                        <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_index\")}}\">Listar peliculas</a></li>
-                    </ul>
+                <li>
+                    <b>Si aun no tenes una cuenta registrate:</b>
+                    <a href=\"{{path(\"register\")}}\" class=\"right btn-floating btn-large waves-effect waves-light red\"><i class=\"material-icons\">add</i></a>
                 </li>
             </ul>
-        </li>
-    </ul>
-
-    <div class=\"navbar-fixed\">
-        <nav>
-            <div class=\"nav-wrapper black\">
-                <a href=\"#!\" class=\"brand-logo\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/>
-                </a>
-                <ul class=\"right hide-on-med-and-down\">
-                    {%if app.user != null%}
-                        <li>Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
-                    {% endif %}
-
-                    <!-- Dropdown Trigger -->
-                    {%if app.user == null%}
-                        <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown1\">Ya tenes una cuenta?<i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                    {% else %}
-                        {%if app.user.role == \"ROLE_ADMIN\" %}
-                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                        {% endif %}
-                        <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
-                    {% endif %}
-                </ul>
-            </div>
-        </nav>
+        </div>
     </div>
+</div>
+<ul id=\"dropdown2\" class=\"dropdown-content\">
+    <li >
+        <ul class=\"dropdown-menu\">
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Cines\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"nuevo_cine\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"index_cine\")}}\">Listar </a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Funciones\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"funcion_nueva\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"funcion_index\")}}\">Listar</a></li>
+
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"nueva_peli\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"index_peli\")}}\">Listar</a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas (copias)\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_nueva\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_index\")}}\">Listar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<div class=\"navbar-fixed\">
+    <nav>
+        <div class=\"nav-wrapper red\">
+            <a href=\"{{ path(\"index\") }}\" class=\"brand-logo center\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/>
+            </a>
+            <ul class=\"right hide-on-med-and-down\">
+                {%if app.user != null%}
+                    <li>Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
+                {% endif %}
+
+                <!-- Dropdown Trigger -->
+                {%if app.user == null%}
+                    <li class=\"fuente\"><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                {% else %}
+                    {%if app.user.role == \"ROLE_ADMIN\" %}
+                        <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                    {% endif %}
+                    <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
+                {% endif %}
+            </ul>
+            <ul class=\"left hide-on-med-and-down\">
+                <li class=\"waves-effect waves-black fuente\"><a href=\"{{path(\"index_cine\")}}\">SACAR ENTRADAS!!</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"{{path(\"index_cine\")}}\">Cines</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"{{path(\"funcion_index\")}}\">Funciones</a></li>
+                <li class=\"waves-effect waves-black fuente\"><a href=\"{{path(\"pelicopia_index\")}}\">Peliculas</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 
 
 
-        <section id=\"content\">
-            {% block content %} cotenido por defcto {% endblock %}
-        </section>
-        <footer>
-            <footer class=\"page-footer black\">
-                <div class=\"container\">
-                    <div class=\"row\">
-                        <div class=\"col l6 s12\">
-                            <h5 class=\"white-text\">Footer Content</h5>
-                            <p class=\"grey-text text-lighten-4\">You can use rows and columns here to organize your footer content.</p>
-                        </div>
-                        <div class=\"col l4 offset-l2 s12\">
-                            <h5 class=\"white-text\">Links</h5>
-                            <ul>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 1</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 2</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 3</a></li>
-                                <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 4</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"footer-copyright\">
-                    <div class=\"container\">
-                        © 2014 Copyright Text
-                        <a class=\"grey-text text-lighten-4 right\" href=\"#!\">More Links</a>
-                    </div>
-                </div>
-            </footer>
-        </footer>
+<section id=\"content\">
+    {% block content %} cotenido por defcto {% endblock %}
+</section>
+
+<footer class=\"page-footer red footer\">
+        <div class=\"container\">
+            © 2017
+            <a class=\"grey-text text-lighten-4 right\" href=\"#!\">More Links</a>
+        </div>
+</footer>
 
 
 
 
-    </body>
+</body>
 </html>
 
 <script>
     \$(document).ready(function(){
+        \$('.modal').modal();
         \$('.dropdown-submenu a.test').on(\"click\", function(e){
             \$(this).next('ul').toggle();
             e.stopPropagation();
@@ -528,11 +547,7 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
             selectMonths: true, // Creates a dropdown to control month
             selectYears: 15 // Creates a dropdown of 15 years to control year
         });
-
     });
-
-</script>
-
-", "CineBundle::layout.html.twig", "/home/neuen/php2016/cine2/src/CineBundle/Resources/views/layout.html.twig");
+</script>", "CineBundle::layout.html.twig", "/home/neuen/php2016/cine2/src/CineBundle/Resources/views/layout.html.twig");
     }
 }

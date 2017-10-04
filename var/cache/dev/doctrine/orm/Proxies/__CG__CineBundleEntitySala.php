@@ -64,10 +64,10 @@ class Sala extends \CineBundle\Entity\Sala implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'id', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cantButacas', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'estado', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cine', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'formato'];
+            return ['__isInitialized__', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'id', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cantButacas', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'estado', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cine', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'formato', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'letra'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'id', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cantButacas', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'estado', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cine', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'formato'];
+        return ['__isInitialized__', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'id', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cantButacas', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'estado', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'cine', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'formato', '' . "\0" . 'CineBundle\\Entity\\Sala' . "\0" . 'letra'];
     }
 
     /**
@@ -274,6 +274,28 @@ class Sala extends \CineBundle\Entity\Sala implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFormato', []);
 
         return parent::getFormato();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setLetra($letra)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setLetra', [$letra]);
+
+        return parent::setLetra($letra);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getLetra()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getLetra', []);
+
+        return parent::getLetra();
     }
 
 }

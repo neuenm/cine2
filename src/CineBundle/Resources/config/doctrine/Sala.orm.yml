@@ -30,6 +30,12 @@ CineBundle\Entity\Sala:
             length: 255
             options:
                 fixed: false
+        letra:
+            type: string
+            nullable: true
+            length: 10
+            options:
+                fixed: false
     manyToOne:
         cine:
             targetEntity: Cine

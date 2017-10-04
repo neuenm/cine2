@@ -1,0 +1,15 @@
+{% extends "CineBundle::layout.html.twig" %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQThm6x307tj5SzRnhw2bAOWAhfpXOwJVQZYIx3_iPdYSOAsVll">
+    </div>
+
+    <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Entradas agotadas !! solo nos quedan {{ disponibles }}<i class="material-icons right">more_vert</i></span>
+        <p><a href="{{path("index")}}">Volver</a></p>
+    </div>
+</div>
+{% endblock %}

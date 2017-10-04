@@ -225,6 +225,19 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return array (  '_controller' => 'CineBundle\\Controller\\FuncionController::indexAction',  '_route' => 'funcion_index',);
             }
 
+            if (0 === strpos($pathinfo, '/funcion/e')) {
+                // eliminar_funcion
+                if (0 === strpos($pathinfo, '/funcion/elimina') && preg_match('#^/funcion/elimina/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'eliminar_funcion')), array (  '_controller' => 'CineBundle\\Controller\\FuncionController::eliminaAction',));
+                }
+
+                // editar_funcion
+                if (0 === strpos($pathinfo, '/funcion/edita') && preg_match('#^/funcion/edita/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'editar_funcion')), array (  '_controller' => 'CineBundle\\Controller\\FuncionController::editaAction',));
+                }
+
+            }
+
         }
 
         // entrada_nueva
@@ -233,22 +246,36 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // func_horarios
-        if (0 === strpos($pathinfo, '/horarios') && preg_match('#^/horarios/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+        if (0 === strpos($pathinfo, '/horarios') && preg_match('#^/horarios/(?P<id>[^/]++)/(?P<cine>[^/]++)$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'func_horarios')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::horariosAction',));
         }
 
-        // entrada_confirmacion
-        if (0 === strpos($pathinfo, '/entrada/confirmacion') && preg_match('#^/entrada/confirmacion/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'entrada_confirmacion')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::confirmaAction',));
-        }
-
-        // homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'homepage');
+        if (0 === strpos($pathinfo, '/entrada')) {
+            // entrada_confirmacion
+            if (0 === strpos($pathinfo, '/entrada/confirmacion') && preg_match('#^/entrada/confirmacion/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'entrada_confirmacion')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::confirmaAction',));
             }
 
-            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
+            // mercadopago
+            if (0 === strpos($pathinfo, '/entrada/pago') && preg_match('#^/entrada/pago/(?P<precio>[^/]++)/(?P<cantidad>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'mercadopago')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::mercadopagoAction',));
+            }
+
+        }
+
+        // ipn
+        if ($pathinfo === '/ipn') {
+            return array (  '_controller' => 'CineBundle\\Controller\\EntradaController::ipnAction',  '_route' => 'ipn',);
+        }
+
+        // carga_reserva
+        if (0 === strpos($pathinfo, '/reserva') && preg_match('#^/reserva/(?P<cantidad>[^/]++)/(?P<funcion>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'carga_reserva')), array (  '_controller' => 'CineBundle\\Controller\\ReservaController::cargaAction',));
+        }
+
+        // carga
+        if (0 === strpos($pathinfo, '/cine/nuevo/salas') && preg_match('#^/cine/nuevo/salas/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'carga')), array (  '_controller' => 'CineBundle\\Controller\\SalasController::cargaAction',));
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

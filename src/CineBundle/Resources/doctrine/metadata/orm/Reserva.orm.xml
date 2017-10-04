@@ -19,9 +19,14 @@
         <option name="fixed"/>
       </options>
     </field>
-    <many-to-one field="idUser" target-entity="User" fetch="LAZY">
+    <field name="codigo" type="string" column="codigo" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <many-to-one field="idFuncion" target-entity="Funcion" fetch="LAZY">
       <join-columns>
-        <join-column name="id_user" referenced-column-name="id"/>
+        <join-column name="id_funcion" referenced-column-name="id"/>
       </join-columns>
     </many-to-one>
     <many-to-one field="idPago" target-entity="Pago" fetch="LAZY">
@@ -29,9 +34,9 @@
         <join-column name="id_pago" referenced-column-name="id"/>
       </join-columns>
     </many-to-one>
-    <many-to-one field="idFuncion" target-entity="Funcion" fetch="LAZY">
+    <many-to-one field="idUser" target-entity="User" fetch="LAZY">
       <join-columns>
-        <join-column name="id_funcion" referenced-column-name="id"/>
+        <join-column name="id_user" referenced-column-name="id"/>
       </join-columns>
     </many-to-one>
   </entity>

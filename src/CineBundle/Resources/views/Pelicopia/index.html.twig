@@ -24,21 +24,22 @@
 
                     <img class="img-rounded left " width="200"  height="250" src="{{ asset("uploads/"~pelicula.idPeli.imagen)}}"/>
                     <div>
-                        <h5 class="light grey-text text-lighten-3">Fecha de estreno: {{ pelicula.idPeli.fechaEstreno|date('Y-m-d') }}</h5>
+                        <h5 class="light grey-text text-lighten-3">Fecha de estreno: {{ pelicula.idPeli.fechaEstreno|date('d-m-y') }}</h5>
                         <h5 class="light grey-text text-lighten-3">Duracion: {{ pelicula.idPeli.duracion |date('m-s')}}</h5>
                         <h5 class="light grey-text text-lighten-3">Genero: {{ pelicula.idPeli.idGenero.nombre }}</h5>
                         <h5 class="light grey-text text-lighten-3">Formato: {{ pelicula.idFormato.nombre }}</h5>
                         <h5 class="light grey-text text-lighten-3">Idioma: {{ pelicula.idioma.nombre }}</h5>
                     </div>
-                    <div class="right">
-                        <a href="{{path("pelicopia_edita", {"id":pelicula.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
-                        <a href="{{path("pelicopia_elimina", {"id":pelicula.id})}}"  class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
-                    </div>
+                    {%if app.user.role=="ROLE_ADMIN" %}
+                        <div class="right">
+                            <a href="{{path("pelicopia_edita", {"id":pelicula.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
+                            <a href="{{path("pelicopia_elimina", {"id":pelicula.id})}}"  class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                        </div>
+                    {% endif %}
                 </div>
             </li>
     </ul>
     {% endfor %}
-
 
 </div>
 

@@ -1,5 +1,4 @@
 <?php
-
 namespace CineBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

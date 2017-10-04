@@ -167,4 +167,62 @@ class Funcion
     {
         return $this->fecha;
     }
+    /**
+     * @var string
+     */
+    private $estado;
+
+
+    /**
+     * Set estado
+     *
+     * @param string $estado
+     *
+     * @return Funcion
+     */
+    public function setEstado($estado)
+    {
+        $this->estado = $estado;
+
+        return $this;
+    }
+
+    /**
+     * Get estado
+     *
+     * @return string
+     */
+    public function getEstado()
+    {
+        return $this->estado;
+    }
+    /**
+     * @var integer
+     */
+    private $disponibles;
+
+
+    /**
+     * Set disponibles
+     *
+     * @param integer $disponibles
+     *
+     * @return Funcion
+     */
+    public function setDisponibles($disponibles)
+    {
+        $this->disponibles = $disponibles;
+
+        return $this;
+    }
+
+    /**
+     * Get disponibles
+     *
+     * @return integer
+     */
+    public function getDisponibles()
+    {
+        return $this->disponibles;
+    }
 }

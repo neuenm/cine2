@@ -138,4 +138,34 @@ class Sala
     {
         return $this->formato;
     }
+
+    /**
+     * @var string
+     */
+    private $letra;
+
+
+    /**
+     * Set letra
+     *
+     * @param string $letra
+     *
+     * @return Sala
+     */
+    public function setLetra($letra)
+    {
+        $this->letra = $letra;
+
+        return $this;
+    }
+
+    /**
+     * Get letra
+     *
+     * @return string
+     */
+    public function getLetra()
+    {
+        return $this->letra;
+    }
 }

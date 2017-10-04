@@ -1,5 +1,4 @@
 <?php
-
 namespace CineBundle\Controller;
 
 
@@ -100,13 +99,20 @@ class PelicopiaController extends Controller
     public function eliminaAction(Request $request,$id){
         $em = $this->getDoctrine()->getEntityManager();
         $pelicula_repo = $em->getRepository("CineBundle:Pelicopia");
+        $funciones_repo= $em->getRepository("CineBundle:Funcion");
+
         $pelicula = $pelicula_repo->find($id);
         $pelicula->setEstado("Inactivo");
-
-
-        $em = $this->getDoctrine()->getEntityManager();
         $em->persist($pelicula);
         $flush = $em->flush();
+        $funciones= $funciones_repo->findBy(array("idPeliCopia"=>$id));
+        if (isset($funciones)){
+            for ($j = 0; $j <= count($funciones)-1; $j++) {
+                $funciones[$j]->setEstado("Inactivo");
+                $em->persist($funciones[$j]);
+                $flush = $em->flush();
+            }
+        }
 
         if ($flush == null) {
             $status = "La pelicula se borro del listado";

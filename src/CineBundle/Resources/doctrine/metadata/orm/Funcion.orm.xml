@@ -13,16 +13,30 @@
         <option name="unsigned"/>
       </options>
     </field>
-    <field name="hora" type="time" column="hora" nullable="true"/>
+    <field name="hora" type="string" column="hora" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
     <field name="fecha" type="date" column="fecha" nullable="true"/>
-    <many-to-one field="idSala" target-entity="Sala" fetch="LAZY">
-      <join-columns>
-        <join-column name="id_sala" referenced-column-name="id"/>
-      </join-columns>
-    </many-to-one>
+    <field name="estado" type="string" column="estado" length="45" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="disponibles" type="integer" column="disponibles" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
     <many-to-one field="idPeliCopia" target-entity="Pelicopia" fetch="LAZY">
       <join-columns>
         <join-column name="id_peli_copia" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="idSala" target-entity="Sala" fetch="LAZY">
+      <join-columns>
+        <join-column name="id_sala" referenced-column-name="id"/>
       </join-columns>
     </many-to-one>
   </entity>

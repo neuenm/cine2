@@ -21,29 +21,29 @@ class __TwigTemplate_23d9546afc239cee5fd422017524a27f9b040e54ef93814edba9481e427
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_60d4a977d53dd3f0b77ab775df7b005e86767ab258bcbbfe30401e73727d6338 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_60d4a977d53dd3f0b77ab775df7b005e86767ab258bcbbfe30401e73727d6338->enter($__internal_60d4a977d53dd3f0b77ab775df7b005e86767ab258bcbbfe30401e73727d6338_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:nueva.html.twig"));
+        $__internal_83422fb4011b1252a7eb0aadeffc281d9558f65417505443740b52792088bb27 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_83422fb4011b1252a7eb0aadeffc281d9558f65417505443740b52792088bb27->enter($__internal_83422fb4011b1252a7eb0aadeffc281d9558f65417505443740b52792088bb27_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:nueva.html.twig"));
 
-        $__internal_a494e1acd520747fcd853fb6fa9f036a0b9673b3541525e618e07bc59bd89b95 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a494e1acd520747fcd853fb6fa9f036a0b9673b3541525e618e07bc59bd89b95->enter($__internal_a494e1acd520747fcd853fb6fa9f036a0b9673b3541525e618e07bc59bd89b95_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:nueva.html.twig"));
+        $__internal_ebd84cd8a578df0615fb576f731c34e14656207d606800e652e2eff186fdf3ac = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ebd84cd8a578df0615fb576f731c34e14656207d606800e652e2eff186fdf3ac->enter($__internal_ebd84cd8a578df0615fb576f731c34e14656207d606800e652e2eff186fdf3ac_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Funcion:nueva.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_60d4a977d53dd3f0b77ab775df7b005e86767ab258bcbbfe30401e73727d6338->leave($__internal_60d4a977d53dd3f0b77ab775df7b005e86767ab258bcbbfe30401e73727d6338_prof);
+        $__internal_83422fb4011b1252a7eb0aadeffc281d9558f65417505443740b52792088bb27->leave($__internal_83422fb4011b1252a7eb0aadeffc281d9558f65417505443740b52792088bb27_prof);
 
         
-        $__internal_a494e1acd520747fcd853fb6fa9f036a0b9673b3541525e618e07bc59bd89b95->leave($__internal_a494e1acd520747fcd853fb6fa9f036a0b9673b3541525e618e07bc59bd89b95_prof);
+        $__internal_ebd84cd8a578df0615fb576f731c34e14656207d606800e652e2eff186fdf3ac->leave($__internal_ebd84cd8a578df0615fb576f731c34e14656207d606800e652e2eff186fdf3ac_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_475b3e963f45e067b3c126a0c502b991ade0642af6cebdec49a879dbf58df729 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_475b3e963f45e067b3c126a0c502b991ade0642af6cebdec49a879dbf58df729->enter($__internal_475b3e963f45e067b3c126a0c502b991ade0642af6cebdec49a879dbf58df729_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_94421abb57f4fa5163b015fc006d1fea051779e4e4830223ef752a0478b01b6f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_94421abb57f4fa5163b015fc006d1fea051779e4e4830223ef752a0478b01b6f->enter($__internal_94421abb57f4fa5163b015fc006d1fea051779e4e4830223ef752a0478b01b6f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_7ba619ceb94f553e9346ef221500ed9da6f8bbd470a22034d57a76eb572f76d5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7ba619ceb94f553e9346ef221500ed9da6f8bbd470a22034d57a76eb572f76d5->enter($__internal_7ba619ceb94f553e9346ef221500ed9da6f8bbd470a22034d57a76eb572f76d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_7f2ce2ea5fe4d98bd365a106043abdf988846b5fd54514047a80f12bc5c08ef7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7f2ce2ea5fe4d98bd365a106043abdf988846b5fd54514047a80f12bc5c08ef7->enter($__internal_7f2ce2ea5fe4d98bd365a106043abdf988846b5fd54514047a80f12bc5c08ef7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "    <h3 class=\"light grey-text text-lighten-3\">Nueva Funcion:</h3>
@@ -84,16 +84,15 @@ class __TwigTemplate_23d9546afc239cee5fd422017524a27f9b040e54ef93814edba9481e427
         // line 15
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
         echo "
-
         </div>
     </div>
     <div class=\"clearfix\">
 ";
         
-        $__internal_7ba619ceb94f553e9346ef221500ed9da6f8bbd470a22034d57a76eb572f76d5->leave($__internal_7ba619ceb94f553e9346ef221500ed9da6f8bbd470a22034d57a76eb572f76d5_prof);
+        $__internal_7f2ce2ea5fe4d98bd365a106043abdf988846b5fd54514047a80f12bc5c08ef7->leave($__internal_7f2ce2ea5fe4d98bd365a106043abdf988846b5fd54514047a80f12bc5c08ef7_prof);
 
         
-        $__internal_475b3e963f45e067b3c126a0c502b991ade0642af6cebdec49a879dbf58df729->leave($__internal_475b3e963f45e067b3c126a0c502b991ade0642af6cebdec49a879dbf58df729_prof);
+        $__internal_94421abb57f4fa5163b015fc006d1fea051779e4e4830223ef752a0478b01b6f->leave($__internal_94421abb57f4fa5163b015fc006d1fea051779e4e4830223ef752a0478b01b6f_prof);
 
     }
 
@@ -137,7 +136,6 @@ class __TwigTemplate_23d9546afc239cee5fd422017524a27f9b040e54ef93814edba9481e427
         <div class=\"col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4\">
             {{form_start(form)}}
             {{form_end(form)}}
-
         </div>
     </div>
     <div class=\"clearfix\">

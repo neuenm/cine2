@@ -6,19 +6,19 @@
     <table>
     <thead>
     <tr>
-        <th>Dia</th>
-        <th>Hora</th>
-        <th>Precio</th>
+        <th class="white-text" >Dia</th>
+        <th class="white-text" >Hora</th>
+        <th class="white-text" >Precio</th>
         <th></th>
     </tr>
     </thead>
     {% for funcion in funciones %}
         <tbody>
         <tr>
-            <td>{{ funcion.fecha |date('d-m-y') }}</td>
-            <td>{{ funcion.hora|date('h:m') }}</td>
-            <td>${{ funcion.precio }}</td>
-            <td><a href="{{path("entrada_confirmacion", {"id":funcion.id})}}"><button>ir</button></a></td>
+            <td class="white-text" >{{ funcion.fecha |date('d-m-y') }}</td>
+            <td class="white-text" >{{ funcion.hora }}</td>
+            <td class="white-text" >${{ funcion.precio }}</td>
+            <td class="white-text" ><a href="{{path("entrada_confirmacion", {"id":funcion.id})}}" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">forward</i></a></td>
         </tr>
         </tbody>
     {% endfor %}

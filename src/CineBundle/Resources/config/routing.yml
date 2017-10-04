@@ -63,7 +63,6 @@ eliminar_cine:
 
 
 
-
 pelicopia_nueva:
   path: pelicopia/nueva
   defaults: { _controller: CineBundle:Pelicopia:nueva}
@@ -95,6 +94,14 @@ funcion_index:
   path: /funcion/index
   defaults: { _controller: CineBundle:Funcion:index}
 
+eliminar_funcion:
+  path: /funcion/elimina/{id}
+  defaults: { _controller: CineBundle:Funcion:elimina}
+
+editar_funcion:
+  path: funcion/edita/{id}
+  defaults: { _controller: CineBundle:Funcion:edita}
+
 
 
 entrada_nueva:
@@ -102,9 +109,30 @@ entrada_nueva:
   defaults: { _controller: CineBundle:Entrada:nueva}
 
 func_horarios:
-  path: /horarios/{id}
+  path: /horarios/{id}/{cine}
   defaults: { _controller: CineBundle:Entrada:horarios}
 
 entrada_confirmacion:
   path: /entrada/confirmacion/{id}
   defaults: { _controller: CineBundle:Entrada:confirma}
+
+mercadopago:
+  path: /entrada/pago/{precio}/{cantidad}
+  defaults: { _controller: CineBundle:Entrada:mercadopago}
+
+ipn:
+  path: /ipn
+  defaults: { _controller: CineBundle:Entrada:ipn}
+
+carga_reserva:
+    path: /reserva/{cantidad}/{funcion}
+    defaults: { _controller: CineBundle:Reserva:carga }
+
+
+
+carga:
+    path:     /cine/nuevo/salas/{id}
+    defaults: { _controller: CineBundle:Salas:carga }
+
+
+

@@ -39,7 +39,6 @@ class CineType extends AbstractType
                         'inactivo' => "Inactivo",
 
                     )))
-                
                 ->add('Guardar', SubmitType::class, array("attr" =>array(
                     "class" => "form-submit btn btn-success",
                 )))
@@ -63,6 +62,5 @@ class CineType extends AbstractType
     {
         return 'cinebundle_cine';
     }
-
-
+    
 }

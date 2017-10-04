@@ -1,0 +1,1 @@
+[2017-08-28 13:11:43] php.WARNING: Warning: fwrite(): supplied resource is not a valid stream resource {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\ContextErrorException(code: 0): Warning: fwrite(): supplied resource is not a valid stream resource at /home/neuen/php2016/cine2/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:130)"} []

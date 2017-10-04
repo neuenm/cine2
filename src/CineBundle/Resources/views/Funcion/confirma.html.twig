@@ -3,31 +3,77 @@
 {% block content %}
 
     {% for funcion in funciones %}
-        {{ funcion.precio }}
-        <div class="row">
+    <button id="funcionId" value="{{ funcion.id }}" style="display:none;"></button>
+    <h3 class="light grey-text text-lighten-3">Ya casi.. Cuantas entradas vas a querer?:</h3>
+    <div  class="row">
             <div class="col m3">
-                <h5>Desliza la barra para elegir cuantas butacas queres reservar:<h2>
+                <h5 class="light grey-text text-lighten-3"> Desliza la barra...</h5>
                 <form action="#">
                     <p class="range-field">
-                        <input id="cantidad" type="range" name="cantidad" min="0" max="10" step="1" value="1">
-                        <br>
-                        <h5>Cantidad de entradas</h5>
-                        <input type="text" name="valorcantidad" id="valorcantidad" value="">
-                        <br>
+                        <input id="cantidad" type="range" name="cantidad" min="1" max="10" step="1" value="1">
                     </p>
                 </form>
+                <h5 class="light grey-text text-lighten-3">Cantidad de entradas:</h5>
+                <div class="light lime-text" id="cantida">1</div>
+
+
+                <h5 class="light grey-text text-lighten-3">Precio total $$$:</h5>
+                <div class="light lime-text" id="total" >{{ funcion.precio }}</div>
             </div>
-        </div>
+            <div class="col m9">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img  width="220"  height="360"  src="{{asset("uploads/"~funcion.idPeliCopia.idPeli.imagen)}}" alt="" class="circle">
+                    </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h4><b> Peli:</b> {{ funcion.idPeliCopia.idPeli.nombre }}</h4>
+                                <h5><b>Formato:</b> {{ funcion.idPeliCopia.idFormato.nombre }}</h5>
+                                <h5><b>Idioma:</b> {{ funcion.idPeliCopia.idIoma.nombre }}</h5>
+                                <h5><b>Fecha:</b> {{ funcion.fecha |date('d-m-y')  }}</h5>
+                                <h5><b>Hora:</b>{{ funcion.hora  }}</h5>
+                            </div>
+                            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+
+                        </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                        <br>
+                        <h5><b> Sinopsis:</b> {{ funcion.idPeliCopia.idPeli.sinopsis }}</h5>
+                        <h5><b> Estreno:</b> {{ funcion.idPeliCopia.idPeli.fechaEstreno | date("d-m-y")}}</h5>
+                        <h5><b> Duracion:</b> {{ funcion.idPeliCopia.idPeli.duracion |date("h-m") }}</h5>
+                        <h5><b> Genero:</b> {{ funcion.idPeliCopia.idPeli.idGenero.nombre }}</h5>
+                    </div>
+                    </div>
+            </div>
+    </div>
+{%if app.user != null%}
+    <button id="calcular" value=" {{ funcion.precio }}"  onclick="redirigir()" class="waves-effect waves-light btn"><i class="material-icons right">fast_forward</i> Siguiente Paso</button>
+
+{% else %}
+    <button id="calcular" value=" {{ funcion.precio }}"  onclick="redirigir()" class="waves-effect waves-light btn disabled"><i class="material-icons right">fast_forward</i> Siguiente Paso</button>
+    <h4 class=" white-text">Tenes que iniciar sesion para sacar tu entrada</h4>
+{% endif %}
+
     {% endfor %}
 
-    <script type="text/javascript">
-        $(document).ready(function()
-        {
-            $('#cantidad').change(function() {
-                $('#valorcantidad').val($(this).val());
+    <script>
+        $('#cantidad').on('change',function() {
+            var precio = $('#calcular').val();
+            var cantidad = $('#cantidad').val();
+            var total= precio*cantidad;
+            $("#cantida").text(cantidad);
+            $("#total").text(total);
 
-            });
         });
+        function redirigir() {
+            var precio = $('#calcular').val();
+            var cantidad = $('#cantidad').val();
+            var funcionId= $('#funcionId').val();
+            window.location="/entrada/pago/"+precio+"/"+cantidad;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
+            window.open("/reserva/"+cantidad+"/"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
+        }
     </script>
 
 {% endblock %}
+

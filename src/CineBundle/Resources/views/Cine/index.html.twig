@@ -23,9 +23,14 @@
                                 <h6> <i class="material-icons">location_on</i><h7 class="light grey-text text-lighten-3"> Ubicacion: {{ cine.ubicacion }}</h7></h6>
                                 <a class="verMap" data-ubicacion="{{cine.ubicacion}} " ><i class="material-icons">my_location</i><h7 class="light grey-text text-lighten-3">Ver ubicacion en el mapa</h7></a>
                                 <br>
-                                <a href="{{path("eliminar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
-                                <a href="{{path("editar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
-                                <a href="{{path("entrada_nueva", {"id":cine.id})}}" class="waves-effect waves-light btn left-align">Ir a este cine</a>
+                                {% if app.user!= null %}
+                                    {%if app.user.role=="ROLE_ADMIN" %}
+                                        <a href="{{path("eliminar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                                        <a href="{{path("editar_cine", {"id":cine.id})}}" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">mode_edit</i></a>
+                                   {% else %}
+                                       <a href="{{path("entrada_nueva", {"id":cine.id})}}" class="waves-effect waves-light btn left-align">Ir a este cine</a>
+                                    {% endif %}
+                                {% endif %}
                             </div>
                         </li>
                     </ul>
@@ -193,6 +198,5 @@
     </script>
 
 
-    </div>
 
 {% endblock %}
