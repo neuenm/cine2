@@ -46,9 +46,11 @@ class UserType extends AbstractType
                     "class"=>"light grey-text text-lighten-3",
 
                 )))
-                ->add('fechaNac',DateType::class, array("label"=>"Fecha de nacimiento","required"=>"required", "attr" =>array(
-                )))
-                ->add('Guardar', SubmitType::class, array("attr" =>array(
+                ->add('fechaNac', DateType::class,array(
+                    "label"=>"Fecha de nacimiento",
+                    'widget' => 'single_text',
+                ))
+                    ->add('Guardar', SubmitType::class, array("attr" =>array(
                     "class" => "form-submit btn btn-success",
                 )))
                    ;

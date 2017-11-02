@@ -1,12 +1,8 @@
 {% extends "CineBundle::layout.html.twig" %}
 {% block content %}
-    <h1 class="text-center"">Edicion de Cine:</h1>
+    <h1 class="text-center">Edicion de Cine:</h1>
     {% for message in app.session.flashbag().get('status') %}
-        {% if message== "Se guardaron sus cambios correctamente" %}
-            <div class="alert alert-success">{{ message }}</div>
-        {%else%}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endif %}
+        <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
     {% endfor %}
 
     <div class="row">

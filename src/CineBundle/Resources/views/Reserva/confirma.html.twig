@@ -58,14 +58,13 @@
             var total= precio*cantidad;
             $("#cantida").text(cantidad);
             $("#total").text(total);
-
         });
         function redirigir() {
             var precio = $('#calcular').val();
             var cantidad = $('#cantidad').val();
             var funcionId= $('#funcionId').val();
-            window.location="/entrada/pago/"+precio+"/"+cantidad;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
-            window.open("/reserva/"+cantidad+"/"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
+            window.location="/entrada/pago/"+precio+"/"+cantidad+"/"+funcionId;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
+           // window.open("/reserva/"+cantidad+"/"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
         }
     </script>
 

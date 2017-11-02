@@ -173,5 +173,15 @@
             selectMonths: true, // Creates a dropdown to control month
             selectYears: 15 // Creates a dropdown of 15 years to control year
         });
+        $('.carousel').carousel({
+            padding: 200
+        });
+        autoplay()
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 3000);
+        }
     });
+
+
 </script>

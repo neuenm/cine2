@@ -42,9 +42,6 @@ class ReservaController extends Controller
             $em->flush();
 
             $codigo=$reserva->getCodigo();
-
-
-
             return $this->render('CineBundle:Reserva:exito.html.twig', array(
                 "codigo" => $codigo,
             ));

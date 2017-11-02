@@ -9,7 +9,7 @@
 
 {% block content %}
     {% for message in app.session.flashbag().get('status') %}
-            <div class="alert alert-danger">{{ message }}</div>
+        <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
     {% endfor %}
     <div class="row ">
         <div class="col s12 m6 l6">

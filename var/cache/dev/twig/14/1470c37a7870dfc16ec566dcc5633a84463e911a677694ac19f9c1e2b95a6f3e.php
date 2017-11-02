@@ -21,29 +21,29 @@ class __TwigTemplate_59c81cb0bc0b81713923f6a33cf5466d3bc0a71d63ffc6017bc9392c43d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_75a0d2715b559bb36c345d31ab7624596c3213c16462b882a8f8fb8d4dee0dc7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_75a0d2715b559bb36c345d31ab7624596c3213c16462b882a8f8fb8d4dee0dc7->enter($__internal_75a0d2715b559bb36c345d31ab7624596c3213c16462b882a8f8fb8d4dee0dc7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:confirma.html.twig"));
+        $__internal_653397a3945cc51eb89adb284a1193ceea3638fc52589cc102fcccdc65ac99c7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_653397a3945cc51eb89adb284a1193ceea3638fc52589cc102fcccdc65ac99c7->enter($__internal_653397a3945cc51eb89adb284a1193ceea3638fc52589cc102fcccdc65ac99c7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:confirma.html.twig"));
 
-        $__internal_4c433229271a4ecd1c3856198e292a4cb1b5094d8e9ce69dc5a99078878d4965 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4c433229271a4ecd1c3856198e292a4cb1b5094d8e9ce69dc5a99078878d4965->enter($__internal_4c433229271a4ecd1c3856198e292a4cb1b5094d8e9ce69dc5a99078878d4965_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:confirma.html.twig"));
+        $__internal_2675195d3302612088173bea73de3f7a6f86b9fa1f13740d75119433d07866e4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2675195d3302612088173bea73de3f7a6f86b9fa1f13740d75119433d07866e4->enter($__internal_2675195d3302612088173bea73de3f7a6f86b9fa1f13740d75119433d07866e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:confirma.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_75a0d2715b559bb36c345d31ab7624596c3213c16462b882a8f8fb8d4dee0dc7->leave($__internal_75a0d2715b559bb36c345d31ab7624596c3213c16462b882a8f8fb8d4dee0dc7_prof);
+        $__internal_653397a3945cc51eb89adb284a1193ceea3638fc52589cc102fcccdc65ac99c7->leave($__internal_653397a3945cc51eb89adb284a1193ceea3638fc52589cc102fcccdc65ac99c7_prof);
 
         
-        $__internal_4c433229271a4ecd1c3856198e292a4cb1b5094d8e9ce69dc5a99078878d4965->leave($__internal_4c433229271a4ecd1c3856198e292a4cb1b5094d8e9ce69dc5a99078878d4965_prof);
+        $__internal_2675195d3302612088173bea73de3f7a6f86b9fa1f13740d75119433d07866e4->leave($__internal_2675195d3302612088173bea73de3f7a6f86b9fa1f13740d75119433d07866e4_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_5cb359ba95f2d7c18c6daaf7f2a8c6afc68aa9a074e11a4c70586c8d3abbf85c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5cb359ba95f2d7c18c6daaf7f2a8c6afc68aa9a074e11a4c70586c8d3abbf85c->enter($__internal_5cb359ba95f2d7c18c6daaf7f2a8c6afc68aa9a074e11a4c70586c8d3abbf85c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_ee0f6e6eb3fad27d89f7592e87df3946210d01c159c5a99c7b8e87de30a1ebbc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ee0f6e6eb3fad27d89f7592e87df3946210d01c159c5a99c7b8e87de30a1ebbc->enter($__internal_ee0f6e6eb3fad27d89f7592e87df3946210d01c159c5a99c7b8e87de30a1ebbc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_5806e7542560d82a379c6efe5c800d4c3cbf93c0427e0cbd83acee3e72a571bd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5806e7542560d82a379c6efe5c800d4c3cbf93c0427e0cbd83acee3e72a571bd->enter($__internal_5806e7542560d82a379c6efe5c800d4c3cbf93c0427e0cbd83acee3e72a571bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_3ab3cfb0c78df6ad0367df41dea8ad79daa88fdc7f388fffa7e4d8a7dbb7368a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3ab3cfb0c78df6ad0367df41dea8ad79daa88fdc7f388fffa7e4d8a7dbb7368a->enter($__internal_3ab3cfb0c78df6ad0367df41dea8ad79daa88fdc7f388fffa7e4d8a7dbb7368a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "
@@ -151,23 +151,22 @@ class __TwigTemplate_59c81cb0bc0b81713923f6a33cf5466d3bc0a71d63ffc6017bc9392c43d
             var total= precio*cantidad;
             \$(\"#cantida\").text(cantidad);
             \$(\"#total\").text(total);
-
         });
         function redirigir() {
             var precio = \$('#calcular').val();
             var cantidad = \$('#cantidad').val();
             var funcionId= \$('#funcionId').val();
-            window.location=\"/entrada/pago/\"+precio+\"/\"+cantidad;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
-            window.open(\"/reserva/\"+cantidad+\"/\"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
+            window.location=\"/entrada/pago/\"+precio+\"/\"+cantidad+\"/\"+funcionId;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
+           // window.open(\"/reserva/\"+cantidad+\"/\"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
         }
     </script>
 
 ";
         
-        $__internal_5806e7542560d82a379c6efe5c800d4c3cbf93c0427e0cbd83acee3e72a571bd->leave($__internal_5806e7542560d82a379c6efe5c800d4c3cbf93c0427e0cbd83acee3e72a571bd_prof);
+        $__internal_3ab3cfb0c78df6ad0367df41dea8ad79daa88fdc7f388fffa7e4d8a7dbb7368a->leave($__internal_3ab3cfb0c78df6ad0367df41dea8ad79daa88fdc7f388fffa7e4d8a7dbb7368a_prof);
 
         
-        $__internal_5cb359ba95f2d7c18c6daaf7f2a8c6afc68aa9a074e11a4c70586c8d3abbf85c->leave($__internal_5cb359ba95f2d7c18c6daaf7f2a8c6afc68aa9a074e11a4c70586c8d3abbf85c_prof);
+        $__internal_ee0f6e6eb3fad27d89f7592e87df3946210d01c159c5a99c7b8e87de30a1ebbc->leave($__internal_ee0f6e6eb3fad27d89f7592e87df3946210d01c159c5a99c7b8e87de30a1ebbc_prof);
 
     }
 
@@ -256,14 +255,13 @@ class __TwigTemplate_59c81cb0bc0b81713923f6a33cf5466d3bc0a71d63ffc6017bc9392c43d
             var total= precio*cantidad;
             \$(\"#cantida\").text(cantidad);
             \$(\"#total\").text(total);
-
         });
         function redirigir() {
             var precio = \$('#calcular').val();
             var cantidad = \$('#cantidad').val();
             var funcionId= \$('#funcionId').val();
-            window.location=\"/entrada/pago/\"+precio+\"/\"+cantidad;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
-            window.open(\"/reserva/\"+cantidad+\"/\"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
+            window.location=\"/entrada/pago/\"+precio+\"/\"+cantidad+\"/\"+funcionId;   //VA A LA PESTAÑA DE MERCADOPAGO CON LOS DATOS EN EL LINK PARA ABRIR LA VENTANA DE MERCADOPAGO
+           // window.open(\"/reserva/\"+cantidad+\"/\"+funcionId);      //GUARDA LOS DATOS DE L TRANSACCION
         }
     </script>
 

@@ -117,7 +117,7 @@ entrada_confirmacion:
   defaults: { _controller: CineBundle:Entrada:confirma}
 
 mercadopago:
-  path: /entrada/pago/{precio}/{cantidad}
+  path: /entrada/pago/{precio}/{cantidad}/{funcionId}
   defaults: { _controller: CineBundle:Entrada:mercadopago}
 
 ipn:

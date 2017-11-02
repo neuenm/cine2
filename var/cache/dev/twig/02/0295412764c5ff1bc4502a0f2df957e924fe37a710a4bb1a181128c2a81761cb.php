@@ -21,29 +21,29 @@ class __TwigTemplate_41917864c59d8c55e70301ba591f560eb3aa24ecd3fd95b92a639e143ca
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_9155d2be7d4d2c5cc465c5581441a361e10229557742dd165abd9b02e05ac8eb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9155d2be7d4d2c5cc465c5581441a361e10229557742dd165abd9b02e05ac8eb->enter($__internal_9155d2be7d4d2c5cc465c5581441a361e10229557742dd165abd9b02e05ac8eb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Pelicopia:nueva.html.twig"));
+        $__internal_d3c623e59222a2c2dea7cd7061eaf50fc8f64f8c48d4e76a8ea30f9461a2e834 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d3c623e59222a2c2dea7cd7061eaf50fc8f64f8c48d4e76a8ea30f9461a2e834->enter($__internal_d3c623e59222a2c2dea7cd7061eaf50fc8f64f8c48d4e76a8ea30f9461a2e834_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Pelicopia:nueva.html.twig"));
 
-        $__internal_7efaea89852303e9510daf852630b72eca86fefefa6db28159925de215016c0e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7efaea89852303e9510daf852630b72eca86fefefa6db28159925de215016c0e->enter($__internal_7efaea89852303e9510daf852630b72eca86fefefa6db28159925de215016c0e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Pelicopia:nueva.html.twig"));
+        $__internal_83e36857192cf79905bf95e3019415e31b688161eec04d91c677d552762c77da = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_83e36857192cf79905bf95e3019415e31b688161eec04d91c677d552762c77da->enter($__internal_83e36857192cf79905bf95e3019415e31b688161eec04d91c677d552762c77da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Pelicopia:nueva.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_9155d2be7d4d2c5cc465c5581441a361e10229557742dd165abd9b02e05ac8eb->leave($__internal_9155d2be7d4d2c5cc465c5581441a361e10229557742dd165abd9b02e05ac8eb_prof);
+        $__internal_d3c623e59222a2c2dea7cd7061eaf50fc8f64f8c48d4e76a8ea30f9461a2e834->leave($__internal_d3c623e59222a2c2dea7cd7061eaf50fc8f64f8c48d4e76a8ea30f9461a2e834_prof);
 
         
-        $__internal_7efaea89852303e9510daf852630b72eca86fefefa6db28159925de215016c0e->leave($__internal_7efaea89852303e9510daf852630b72eca86fefefa6db28159925de215016c0e_prof);
+        $__internal_83e36857192cf79905bf95e3019415e31b688161eec04d91c677d552762c77da->leave($__internal_83e36857192cf79905bf95e3019415e31b688161eec04d91c677d552762c77da_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_e91f15d3b76bcc69d7d610d5aeae849361c6d073fcb8e2d4ad2071c8fe449a8d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e91f15d3b76bcc69d7d610d5aeae849361c6d073fcb8e2d4ad2071c8fe449a8d->enter($__internal_e91f15d3b76bcc69d7d610d5aeae849361c6d073fcb8e2d4ad2071c8fe449a8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_f66589bc1b9745e3dd788817ff0518c8c7c6530168b5fd95f93ac416193b0cbe = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f66589bc1b9745e3dd788817ff0518c8c7c6530168b5fd95f93ac416193b0cbe->enter($__internal_f66589bc1b9745e3dd788817ff0518c8c7c6530168b5fd95f93ac416193b0cbe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_15ff932963eda7cdd8636b950e4753c38997a620f84689c19f4538b877f55058 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_15ff932963eda7cdd8636b950e4753c38997a620f84689c19f4538b877f55058->enter($__internal_15ff932963eda7cdd8636b950e4753c38997a620f84689c19f4538b877f55058_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_5b783a76b23c6741394ac8936d0e00fdd0e6db887d610b061a6da6a469b7ec92 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5b783a76b23c6741394ac8936d0e00fdd0e6db887d610b061a6da6a469b7ec92->enter($__internal_5b783a76b23c6741394ac8936d0e00fdd0e6db887d610b061a6da6a469b7ec92_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "    <h3 class=\"light grey-text text-lighten-3\">Nueva Copia de Pelicula:</h3>
@@ -53,67 +53,55 @@ class __TwigTemplate_41917864c59d8c55e70301ba591f560eb3aa24ecd3fd95b92a639e143ca
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "session", array()), "flashbag", array(), "method"), "get", array(0 => "status"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["message"]) {
             // line 6
-            echo "        ";
-            if (($context["message"] == "Pelicula agregada correctamente")) {
-                // line 7
-                echo "            <div class=\"alert alert-success\">";
-                echo twig_escape_filter($this->env, $context["message"], "html", null, true);
-                echo "</div>
-        ";
-            } else {
-                // line 9
-                echo "            <div class=\"alert alert-danger\">";
-                echo twig_escape_filter($this->env, $context["message"], "html", null, true);
-                echo "</div>
-        ";
-            }
-            // line 11
-            echo "    ";
+            echo "        <script>Materialize.toast(\"";
+            echo twig_escape_filter($this->env, $context["message"], "html", null, true);
+            echo "\", 6000, 'rounded')</script>
+    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['message'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 12
+        // line 8
         echo "    <div class=\"row\">
         <div class=\"col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4\">
             ";
-        // line 14
+        // line 10
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_start');
         echo "
             ";
-        // line 15
+        // line 11
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idPeli", array()), 'label');
         echo "
             ";
-        // line 16
+        // line 12
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idPeli", array()), 'widget', array("attr" => array("class" => "browser-default")));
         echo "
             ";
-        // line 17
+        // line 13
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idFormato", array()), 'label');
         echo "
             ";
-        // line 18
+        // line 14
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idFormato", array()), 'widget', array("attr" => array("class" => "browser-default")));
         echo "
             ";
-        // line 19
+        // line 15
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idioma", array()), 'label');
         echo "
             ";
-        // line 20
+        // line 16
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "idioma", array()), 'widget', array("attr" => array("class" => "browser-default")));
         echo "
             ";
-        // line 21
+        // line 17
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "estado", array()), 'label');
         echo "
             ";
-        // line 22
+        // line 18
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute(($context["form"] ?? $this->getContext($context, "form")), "estado", array()), 'widget', array("attr" => array("class" => "browser-default")));
         echo "
             ";
-        // line 23
+        // line 19
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
         echo "
 
@@ -122,10 +110,10 @@ class __TwigTemplate_41917864c59d8c55e70301ba591f560eb3aa24ecd3fd95b92a639e143ca
     <div class=\"clearfix\">
 ";
         
-        $__internal_15ff932963eda7cdd8636b950e4753c38997a620f84689c19f4538b877f55058->leave($__internal_15ff932963eda7cdd8636b950e4753c38997a620f84689c19f4538b877f55058_prof);
+        $__internal_5b783a76b23c6741394ac8936d0e00fdd0e6db887d610b061a6da6a469b7ec92->leave($__internal_5b783a76b23c6741394ac8936d0e00fdd0e6db887d610b061a6da6a469b7ec92_prof);
 
         
-        $__internal_e91f15d3b76bcc69d7d610d5aeae849361c6d073fcb8e2d4ad2071c8fe449a8d->leave($__internal_e91f15d3b76bcc69d7d610d5aeae849361c6d073fcb8e2d4ad2071c8fe449a8d_prof);
+        $__internal_f66589bc1b9745e3dd788817ff0518c8c7c6530168b5fd95f93ac416193b0cbe->leave($__internal_f66589bc1b9745e3dd788817ff0518c8c7c6530168b5fd95f93ac416193b0cbe_prof);
 
     }
 
@@ -141,7 +129,7 @@ class __TwigTemplate_41917864c59d8c55e70301ba591f560eb3aa24ecd3fd95b92a639e143ca
 
     public function getDebugInfo()
     {
-        return array (  117 => 23,  113 => 22,  109 => 21,  105 => 20,  101 => 19,  97 => 18,  93 => 17,  89 => 16,  85 => 15,  81 => 14,  77 => 12,  71 => 11,  65 => 9,  59 => 7,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  105 => 19,  101 => 18,  97 => 17,  93 => 16,  89 => 15,  85 => 14,  81 => 13,  77 => 12,  73 => 11,  69 => 10,  65 => 8,  56 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -159,11 +147,7 @@ class __TwigTemplate_41917864c59d8c55e70301ba591f560eb3aa24ecd3fd95b92a639e143ca
 {% block content %}
     <h3 class=\"light grey-text text-lighten-3\">Nueva Copia de Pelicula:</h3>
     {% for message in app.session.flashbag().get('status') %}
-        {% if message== \"Pelicula agregada correctamente\" %}
-            <div class=\"alert alert-success\">{{ message }}</div>
-        {%else%}
-            <div class=\"alert alert-danger\">{{ message }}</div>
-        {% endif %}
+        <script>Materialize.toast(\"{{ message }}\", 6000, 'rounded')</script>
     {% endfor %}
     <div class=\"row\">
         <div class=\"col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4\">

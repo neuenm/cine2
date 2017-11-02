@@ -10,7 +10,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Doctrine\ORM\EntityRepository;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
-use Symfony\Component\Form\Extension\Core\Type\TimeType;
+use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 
 
 
@@ -63,6 +63,8 @@ class FuncionType extends AbstractType
             ))
             ->add('fecha', DateType::class,array(
                 'widget' => 'single_text',
+                "attr" =>array("class" =>'light grey-text text-lighten-3')
+
             ))
             ->add('hora',ChoiceType::class,array(
                 'choices'  => array(
@@ -75,7 +77,10 @@ class FuncionType extends AbstractType
                 ),
                 "attr" =>array("class" =>'browser-default')
                 ))
-            ->add('precio')
+            ->add('precio',IntegerType::class, array( "attr" =>array(
+                "class" => "form-name form-control light grey-text text-lighten-3",
+
+            )))
 
             ->add('Guardar', SubmitType::class, array("attr" =>array(
                 "class" => "form-submit btn btn-success",

@@ -19,7 +19,7 @@ class CineType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('nombre',TextType::class, array("label"=>"Nombre","required"=>"required", "attr" =>array(
-            "class" => "form-name form-control",
+            "class" => "form-name form-control light grey-text text-lighten-3",
             "class"=>"light grey-text text-lighten-3",
         )))
                 ->add('ubicacion',TextType::class, array("label"=>"Ubicacion","required"=>"required", "attr" =>array(
@@ -28,8 +28,7 @@ class CineType extends AbstractType
 
                 )))
                 ->add('cantSalas',IntegerType::class, array("label"=>"Salas","required"=>"required", "attr" =>array(
-                    "class" => "form-name form-control",
-                    "class"=>"light grey-text text-lighten-3",
+                    "class" => "form-name form-control light grey-text text-lighten-3",
 
                 )))
                 ->add('estado',ChoiceType::class, array(

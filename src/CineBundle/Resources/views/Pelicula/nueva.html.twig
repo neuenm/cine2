@@ -1,13 +1,9 @@
 {% extends "CineBundle::layout.html.twig" %}
 
 {% block content %}
-    <h1 class="text-center"">Nueva Pelicula:</h1>
+    <h1 class="text-center light grey-text text-lighten-3">Nueva Pelicula:</h1>
     {% for message in app.session.flashbag().get('status') %}
-        {% if message== "Pelicula agregada correctamente" %}
-            <div class="alert alert-success">{{ message }}</div>
-        {%else%}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endif %}
+        <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
     {% endfor %}
     <div class="row">
         <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">

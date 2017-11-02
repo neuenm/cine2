@@ -257,7 +257,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             // mercadopago
-            if (0 === strpos($pathinfo, '/entrada/pago') && preg_match('#^/entrada/pago/(?P<precio>[^/]++)/(?P<cantidad>[^/]++)$#s', $pathinfo, $matches)) {
+            if (0 === strpos($pathinfo, '/entrada/pago') && preg_match('#^/entrada/pago/(?P<precio>[^/]++)/(?P<cantidad>[^/]++)/(?P<funcionId>[^/]++)$#s', $pathinfo, $matches)) {
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'mercadopago')), array (  '_controller' => 'CineBundle\\Controller\\EntradaController::mercadopagoAction',));
             }
 

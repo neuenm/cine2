@@ -21,46 +21,46 @@ class __TwigTemplate_69994bd051e749e4a1325e1cf59a85caba44d7b63149ed05a99581bb378
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_23a38d52488c05583fc476964320fe1fd241b5c7c180e4dd2e508748322be4bf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_23a38d52488c05583fc476964320fe1fd241b5c7c180e4dd2e508748322be4bf->enter($__internal_23a38d52488c05583fc476964320fe1fd241b5c7c180e4dd2e508748322be4bf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:prueba.html.twig"));
+        $__internal_bf9f4b76c682bb29e29c9049006654816e13ddc6970c7f3139cb15a7cf9d9c31 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bf9f4b76c682bb29e29c9049006654816e13ddc6970c7f3139cb15a7cf9d9c31->enter($__internal_bf9f4b76c682bb29e29c9049006654816e13ddc6970c7f3139cb15a7cf9d9c31_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:prueba.html.twig"));
 
-        $__internal_ac3d0c55b3207c98f4bb6a62d7c65d1a9f50866769c1358ca368f077924f63eb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ac3d0c55b3207c98f4bb6a62d7c65d1a9f50866769c1358ca368f077924f63eb->enter($__internal_ac3d0c55b3207c98f4bb6a62d7c65d1a9f50866769c1358ca368f077924f63eb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:prueba.html.twig"));
+        $__internal_3b9998b44b8dfea53278bed3cc35fa35502e1c1d230b18b4964b626a2eba308d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3b9998b44b8dfea53278bed3cc35fa35502e1c1d230b18b4964b626a2eba308d->enter($__internal_3b9998b44b8dfea53278bed3cc35fa35502e1c1d230b18b4964b626a2eba308d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Reserva:prueba.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_23a38d52488c05583fc476964320fe1fd241b5c7c180e4dd2e508748322be4bf->leave($__internal_23a38d52488c05583fc476964320fe1fd241b5c7c180e4dd2e508748322be4bf_prof);
+        $__internal_bf9f4b76c682bb29e29c9049006654816e13ddc6970c7f3139cb15a7cf9d9c31->leave($__internal_bf9f4b76c682bb29e29c9049006654816e13ddc6970c7f3139cb15a7cf9d9c31_prof);
 
         
-        $__internal_ac3d0c55b3207c98f4bb6a62d7c65d1a9f50866769c1358ca368f077924f63eb->leave($__internal_ac3d0c55b3207c98f4bb6a62d7c65d1a9f50866769c1358ca368f077924f63eb_prof);
+        $__internal_3b9998b44b8dfea53278bed3cc35fa35502e1c1d230b18b4964b626a2eba308d->leave($__internal_3b9998b44b8dfea53278bed3cc35fa35502e1c1d230b18b4964b626a2eba308d_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_03362128128eccdc8df16282b00aec419276108edd0e57392ec1129fc4719e19 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_03362128128eccdc8df16282b00aec419276108edd0e57392ec1129fc4719e19->enter($__internal_03362128128eccdc8df16282b00aec419276108edd0e57392ec1129fc4719e19_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_3c37eab22b7a3a5d37912481e2b5b0e0fb4e9fc7b866ff4cd98d7409b9c4edfa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3c37eab22b7a3a5d37912481e2b5b0e0fb4e9fc7b866ff4cd98d7409b9c4edfa->enter($__internal_3c37eab22b7a3a5d37912481e2b5b0e0fb4e9fc7b866ff4cd98d7409b9c4edfa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_1d07c93ccddbde41eb9ef706bf2d8c346a3d7e29f15a61fdcd49ec22ec374334 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1d07c93ccddbde41eb9ef706bf2d8c346a3d7e29f15a61fdcd49ec22ec374334->enter($__internal_1d07c93ccddbde41eb9ef706bf2d8c346a3d7e29f15a61fdcd49ec22ec374334_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_44cb4b0e0138ca4b77ff26a543756491b46b090fe8a333ff0343de8172ebfe1f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_44cb4b0e0138ca4b77ff26a543756491b46b090fe8a333ff0343de8172ebfe1f->enter($__internal_44cb4b0e0138ca4b77ff26a543756491b46b090fe8a333ff0343de8172ebfe1f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "    <h3 class=\"light grey-text text-lighten-3\">Confirmacion... Pago</h3>
     <p class=\"light grey-text text-lighten-3\">En Sacatuentrada.com usamos Mercado Pago para que sea mas facil para todos, si uan no tenes una cuenta create una <h4>
 
     <img class=\"\" src=\"http://makeoverlab.com.ar/wp-content/uploads/2016/10/mercadopago.png\">
-         <button class=\"waves-effect waves-light btn\"><i class=\"material-icons left\">payment</i><a name=\"MP-Checkout\" href=\"";
+    <button class=\"waves-effect waves-light btn\"><i class=\"material-icons left\">payment</i><a name=\"MP-Checkout\" href=\"";
         // line 8
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["preference"] ?? $this->getContext($context, "preference")), "response", array()), "init_point", array()), "html", null, true);
-        echo "\" >Pagar</a></button>
+        echo "\">Pagar</a></button>
     <script type=\"text/javascript\" src=\"//resources.mlstatic.com/mptools/render.js\"></script>
 ";
         
-        $__internal_1d07c93ccddbde41eb9ef706bf2d8c346a3d7e29f15a61fdcd49ec22ec374334->leave($__internal_1d07c93ccddbde41eb9ef706bf2d8c346a3d7e29f15a61fdcd49ec22ec374334_prof);
+        $__internal_44cb4b0e0138ca4b77ff26a543756491b46b090fe8a333ff0343de8172ebfe1f->leave($__internal_44cb4b0e0138ca4b77ff26a543756491b46b090fe8a333ff0343de8172ebfe1f_prof);
 
         
-        $__internal_03362128128eccdc8df16282b00aec419276108edd0e57392ec1129fc4719e19->leave($__internal_03362128128eccdc8df16282b00aec419276108edd0e57392ec1129fc4719e19_prof);
+        $__internal_3c37eab22b7a3a5d37912481e2b5b0e0fb4e9fc7b866ff4cd98d7409b9c4edfa->leave($__internal_3c37eab22b7a3a5d37912481e2b5b0e0fb4e9fc7b866ff4cd98d7409b9c4edfa_prof);
 
     }
 
@@ -96,7 +96,7 @@ class __TwigTemplate_69994bd051e749e4a1325e1cf59a85caba44d7b63149ed05a99581bb378
     <p class=\"light grey-text text-lighten-3\">En Sacatuentrada.com usamos Mercado Pago para que sea mas facil para todos, si uan no tenes una cuenta create una <h4>
 
     <img class=\"\" src=\"http://makeoverlab.com.ar/wp-content/uploads/2016/10/mercadopago.png\">
-         <button class=\"waves-effect waves-light btn\"><i class=\"material-icons left\">payment</i><a name=\"MP-Checkout\" href=\"{{ preference.response.init_point }}\" >Pagar</a></button>
+    <button class=\"waves-effect waves-light btn\"><i class=\"material-icons left\">payment</i><a name=\"MP-Checkout\" href=\"{{ preference.response.init_point }}\">Pagar</a></button>
     <script type=\"text/javascript\" src=\"//resources.mlstatic.com/mptools/render.js\"></script>
 {% endblock %}", "CineBundle:Reserva:prueba.html.twig", "/home/neuen/php2016/cine2/src/CineBundle/Resources/views/Reserva/prueba.html.twig");
     }

@@ -22,14 +22,18 @@ class PeliculaType extends AbstractType
     {
         $builder
             ->add('nombre',TextType::class, array("label"=>"Nombre","required"=>"required", "attr" =>array(
-                "class" => "form-name form-control",
+                "class" => "form-name form-control light grey-text text-lighten-3",
+
             )))
             ->add('duracion',  TimeType::class,array(
                 'input'  => 'datetime',
                 'widget' => 'single_text',
+                "attr"=>array("class"=>"light grey-text text-lighten-3",
+                )
             ))
             ->add('fechaEstreno',DateType::class,array(
                 'widget' => 'single_text',
+                "attr"=>array("class"=>"light grey-text text-lighten-3")
             ))
             ->add('estado',ChoiceType::class, array(
                 "attr" =>array("class" => 'browser-default'),
@@ -44,6 +48,8 @@ class PeliculaType extends AbstractType
                     "attr" =>array("class" => "browser-default")
             ))
             ->add('sinopsis',TextareaType::class, array("label"=>"Sinopsis","required"=>"required",
+                "attr"=>array("class"=>"light grey-text text-lighten-3",
+                )
             ))
 
             ->add('imagen', FileType::class,array(

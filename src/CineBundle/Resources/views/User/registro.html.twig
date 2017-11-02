@@ -1,11 +1,7 @@
 {% extends "CineBundle::layout.html.twig" %}
 {% block content %}
     {% for message in app.session.flashbag().get('status') %}
-        {% if message== "Ahora podes iniciar sesion. Ya podes disfrutar nuestro servicio.." %}
-            <div class="alert alert-success">{{ message }}</div>
-        {%else%}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endif %}
+            <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
     {% endfor %}
 
 
@@ -14,7 +10,7 @@
         <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
             {{form_start(form)}}
                 {{ form_label(form.fechaNac) }}
-                {{ form_widget(form.fechaNac, { 'attr': {'class': 'datepicker'}}) }}
+                {{ form_widget(form.fechaNac) }}
             {{form_end(form)}}
         </div>
     </div>
