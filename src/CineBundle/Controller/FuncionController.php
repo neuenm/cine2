@@ -119,7 +119,7 @@ class FuncionController extends Controller
         $flush = $em->flush();
 
         if ($flush == null) {
-            $status = "La Cine se borro del listado";
+            $status = "La funcion se borro del listado";
         } else {
             $status = "Error no se pudo eliminar";
         }

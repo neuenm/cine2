@@ -62,9 +62,6 @@ class CineController extends Controller
     }
 
 
-
-
-
     public function editaAction(Request $request, $id)
     {
         $em = $this->getDoctrine()->getEntityManager();
@@ -130,7 +127,7 @@ class CineController extends Controller
 
 
         if ($flush == null) {
-            $status = "La Cine se borro del listado";
+            $status = "El Cine se borro del listado";
         } else {
             $status = "Error no se pudo eliminar";
         }

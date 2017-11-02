@@ -2,388 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6202e6-a6b5-4e5b-ac25-a77ec158f795" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/annotations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/3/dKGfDJeKrY7WRMoV0hMk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/S/Y+PdIJX61H42YI2ZL4ZA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/7/wQN+XkchYgv4ZKMMtS8o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/1/H/wiGOL0OVil+CtyF3AQbc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/C/W/1EIL24u53trQXQgZ1Lbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/G/K/hPj2YH2+NFNGn9bSsVZU" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/G/Q/vC5xwy6LZgxfhoX28+Kj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/O/T/bd9WwJ2vVNxN82LmWkco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EY0ijoR6fE/X/Y/Lfdw5GL2SLl60g1iTCzO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/03/1a/611a03" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/05/76/c57605" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/13/62/df6213" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/1e/5d/3d5d1e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/23/34/163423" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/47/4e/d84e47" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/47/f2/f3f247" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/49/6c/a16c49" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/52/47/d14752" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/52/7e/0f7e52" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/56/19/011956" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/57/11/ca1157" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/5e/5c/295c5e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/6c/bc/4bbc6c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/78/13/181378" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/7d/42/73427d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/7d/b2/4cb27d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/8c/a6/22a68c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/92/93/d69392" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/99/5c/765c99" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/9d/af/2faf9d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/a3/84/dc84a3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/aa/7a/437aaa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/af/45/cd45af" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/b7/14/1c14b7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/c1/10/d410c1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/c6/ba/5bbac6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/c8/76/4a76c8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/cc/63/2763cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/d0/f3/7ff3d0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/d5/4f/494fd5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/d7/7a/ac7ad7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/db/e9/3ce9db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/e4/0d/df0de4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/f4/bc/43bcf4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/templates.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/07/07ff61ca8a406eb7fe23bd8a1bd3577267518987fa307dc10cd16cca6a9bdb02.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/0e/0ee57a151fcfc16c92045c9b8c295a672df98e1537d08592d24b4fd37e5da902.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/14/1432898d5a18b5929fc6835c7212b891e88b4ce1392168a057929cb89739a10a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/16bb6ee8417819f79776f95d25d3173b9182da3c423c27386878562d7ac99264.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/18/189d8ff27e8d2331a5940dc94c9936fd6785b81e2f80ce1f72049e4eca7e5af9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/18/18d68fef82b9c6fe6eee14e90b144c678a23e711d316545e0bdca74e79ce8c7a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/19/19533763a3fd6bf53e83d8d277b616ded115ad52cf9ef514adb1006df74cbfb9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1b/1b68ee41c23a6f0685fe403468ecf160eddb287a8169c1886245f246ac2d4e87.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/21/216f821fee11441ceb9bb0f27628bed72fec6f8b7787f2c8d9b4b78a9c7d09e7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/26/266aaa8d224789d34cd5bd892de24cdf8d5ff7261b7c5f11a737497ea88b664f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/27/2756cebde2cf18c2a2b8b24430bbbf06defe4012ecc19c14f181c81bf39294b9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/28/28a574b954aaa971efd9b6a15809103e9d142a70c02eb3338f55d2d9ae684ce0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/2d/2d99fb1d5c395b121125685526049160081b9234f61476e0cee2b58a9a68b726.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/31/311d335ddaae51fa9d4afd884d7eb9f8d2ba8420019527652564c4ae8008441d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/33/33ecbc6878021ef94240e470b4f743c868fcb0ae557d9558030253dac397759f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/38/3849034b2691e11941893ff49f808188e9d5da4712632f35f5e14ca888ab00f4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/39/396ee7018b3ba88a059dc83692850c2e7f3473b1981dde04a9d5d8eb9ea1ccd6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/39/39ad6aaf1d880799d0f8d0c856e0939072605f25ca176c7aae325771d762d193.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3c/3c80353a6474210d3b0c08932f8ccdf8405c24946f7c45aee03edfeebe7f5948.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3d/3df69e82b71d30924b4025b144f80d4d1b6538434fea319edac7f7562d4f6a57.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3f/3f13fa4d44feded3e29ff968c773b3d7a657b6fd1255a6bb95e3f8ecfa0db69f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/416d9b1ac011e732a29ceaaf8588815bdf366c066886e3e9553778aa07e389db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/45/4520f6400c5bcbbb9c94aee9cfe57250b31e2e9c1d37d1d0aac9ffd8a607c90c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/47/472720879d69e066a54f20210d6193af8ffe1cb9542006b41b56a85b7da8c156.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/48/4838e38208ee80823255cf911a38c5f852eb645c1628aef72e76c7a2cb4a92d9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/4a/4a362a76bbb12489aa5218b2498014117bf63a37cffe90efe40df7acf763b135.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/4a/4ada3157887e1773fe7820ccc0443649afdefa692760abe970976b0f41d79e38.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/4b/4b9536646350c47b9b0bbd41e8b8088764f978183af4e925d06119bd719c9246.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c071efa45772b08bbed42a4e8499d327986150089c45f386012904961a8f169.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/4d/4d7c8ff1f2bff950df0f94124920324dd88a62bdcebc9a4ac7bc0c4da3b3c96f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/50/503e1fca2b84d01a9c4c4d37ec05ca6d52125d40ae34bc4b43238198bfda689f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/55/55da578deacf8beaca1df17edf597210e54ffbb41ae33aa6284d9ffb4a6d752f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5abef9a8f99930a64e2d711c9a52d4aa7ab1d417df929a2cb8b12594edafd122.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5b/5bd78e502739cc7c4a8fddf838b1d7416cfd0b56d6ae89e05e019ee7bc52c85a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5d290d2d64c613bb3d98694da97e72698b6b406bbb9d134ae220c48f2403fa0b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5f/5febe791674d8ea445a3d144e3573f21257d3f955edb7fd84d7e024688985ae1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/63/6327c5c55becbdc60bb1237e9445e0ebb07c7d0e19319a6c8ddaf126944f6ae5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/63/63ceb3dfae1cc7ff972721976203cbc604ef6c29d493c085605dc221f8989c55.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/65/659cf9bbece4ce845a1510a2b5e1ebbe66d8a0d4a9e2be0f5f166f8746a932f0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/78/78816b9ce4fb2b6f0c0710dd84166e410eb47cfe4abfba7d839c6c3b806f980e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b840b79d29ae663fa9fddc747f05d30ad0dc7d58ac96730a888ca9d1337ea74.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7bacd6f5ebd657d7fe9afb9d3c0c531fc8287e983801c1a84e783bba3afbc0d4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7bb2b03da185b31dd5c686e30d035060ff29072745e0754ae74d48ae3eec035b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7f/7f936935114f4dde9cb4e7fc9720c16e10df989448bf47512953769032b31b37.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/80/80d9104b455ba81d3ac2c1780afecd3207fb9dfc8409348c5cb7466bd9acded8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/81/8100b303970baa73ba4deda0590a48cafbfeabca1d4042ea7060654259a654f0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/84/8456da6bdf85833b4ea636daca1c6812da96f51b726879618b199548128f25cf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/84/847ac080002c25eb69adf7fe2bca8abf37ef7a5904963e99302529e5c1e81eba.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/85/85201fa774e6f2da702b262917d6a90daa2ca2f6df33b216a47a124d737c0864.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8a/8a1de11d50db86d6130d643e0fdb4a070253ee2413dd7cd92124bc867f601725.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8b/8bf49c105cebd3a22822e240a1f1cdf9e8d060966378fabdf944667c91acbe2b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8c/8c3660545d6c0f8cd477d07449f8461632de1e9a336d484b8b183adf233412ba.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8c/8ca08cd3511d17385760a3e4c368b23619da975e24fac2ed3608d681d9e18f6b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8c/8cbc76edb33fdf6e8ddbf65649996dd34f2ae1e36e9b0c55675fafd8dfec17ca.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d9d291efc6bccd375885da56a233b758fb6dd4d57d8d2b33dc7b8a19a588e27.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/9b/9b911ed89297f580636985830a73b072dc945dca4fb477996d07b5713004f676.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/9d/9d5f66ad1175312aab264048d063e29e1c493c4c5dc43692e229dcd43d22e5f7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/9d/9ddf8a0dc50a51335efb9c1e90419483978f2ca6c9181e1810283dea081be616.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/9f/9f86742f4c09742bf1b44cc38932c82f21f93f7ceb93d75c71acccb9475ab001.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a1/a1d007adfef4f69a035c3560ad0f853d705a63e531a999bfae52eeb47cc3abdc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a4/a4833de2828c9d7af2be4af0c7a2bb485f721af7d2e3fb285e20f2533769a57d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a5/a592c4f473d8f0e99d03974db9cc3d54106d48953d774b35ba466af083dd1690.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ad/ad6a0e46f500dfcedef7b73d94ced96ab3ad74cbbb628d31f6999ec5446c6cf0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2833c6648a5b72f410a9feb5e1da6b8d5c7d7d5c267f602b31e62dba13764ea.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b4/b4bf9e055a7820bb4efefdf23417057c0bf7cdd58e86bb2189b44d777898a447.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b6/b61601ed85d644842b379e77ba4381847586ab05d99182e3bbe20297940685c4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b7/b77ef42a12840d58699e3673069784d6dc6ad515961b0a4da68ee2f88b62bb20.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf66b8f873549e8cbec33b26c4d5d5b06bf35083c9bcfeac70fa1321251c8af5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c0/c01600d3a630ac76d1c1f3e84c0884bf2a4008c33e7408a829811c8d32c46768.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c3/c335e17edada5582f35848405f5e83a4ca244cc019b64ae5fbc724536a507cd7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c7/c747bfe4e37b063e316de2c98ada7958ac3dd70f2479e447f8d14d942c3aa83b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c9/c9c585f3ee8810c9a6467f91b734ba878a6a15a8a80f5cfdbe3e9b068c826381.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cf/cff237506fea0da4dbb7e2bfb4e5c6853c2a5c6d2ddfec432aedd9c557fe2302.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d9/d9c84e886ce5bf1050b61d16ecb84f18ebc6981bf5d8636bab5ea3ed09cd0d20.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/dd/dd6906aeae96e359bf5754bad45181c764b49e2a2d9f11a47f6f444fb447a888.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e2/e22386cb528c3cc35c7ffb3cfe23a6d72eddbcedcfc48868e545133eb44743ef.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e2/e2a57bd103b87798fca99056cd41c554b896f2dade55878fe48d7d05ca91eaf4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e3/e36b2e741d77e6e52fb37a61ac51b468dd1fef2bfe5fde0c18cb6e01c71c07c1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e5/e51709bf9c4bf5eaeff5dc523a451ab73251976cb8e17055a99d9c8d4c7e952a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e7/e761e852a20bcf68ab322605b0e74b3249966f2f03e895a8a0e5f6e6cb953ca2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e9/e95caf908eb9a5bd97fda9f3bbfe444260972697c6c77f4f63dfd84255082560.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ea/eaf0a3e1584b0e0b76782563cf0e2a1994e653ae1b8bd445ae87b6ddd631eef0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb0e75ae489aa4b5e1491b05a7beff08111cc33affe02343b2e884ba0dce65f5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ed/ed407dbb9fc36be6c4b651584485613a72313dad67f00ecbb44f4bbbb5500802.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f2/f262ab122cc7e05d2ef89066995b57931c4893c50ef7aa3e28e2b25c26db8bca.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f4/f411a5ad24e9db7eed9be4a5a6f26066bff3adbdefca326d011d60cb0a6a613a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f5/f5ecb9ab990d22c4d8c7d0314709fc61cc33dd2e09af1ac7b374552c108b318f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe5adcc5dd196d6e5c53f00471a542b95c09d2cf5746323c951eab7951f6aa86.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ff/ff27deabcf76c1dfe0090652cef455fddffaac01534e803a789c7b2e3eb56304.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ff/fff64effbf949834ce539a4b95676b246f8601d0b0353cf16466fd27002ec7e9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/validation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_pun9uskonjg66ns5t0nro1geo0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_9mb6uea4dpksalrime8m7lqaq7" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Controller/EntradaController.php" afterPath="$PROJECT_DIR$/src/CineBundle/Controller/EntradaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Controller/ReservaController.php" afterPath="$PROJECT_DIR$/src/CineBundle/Controller/ReservaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Form/CineType.php" afterPath="$PROJECT_DIR$/src/CineBundle/Form/CineType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Form/FuncionType.php" afterPath="$PROJECT_DIR$/src/CineBundle/Form/FuncionType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Form/PeliculaType.php" afterPath="$PROJECT_DIR$/src/CineBundle/Form/PeliculaType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Form/UserType.php" afterPath="$PROJECT_DIR$/src/CineBundle/Form/UserType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/edita.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/edita.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/nuevo.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/nuevo.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/edita.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/edita.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/nueva.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/nueva.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/nueva.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/nueva.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/edita.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/edita.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/index.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/nueva.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/nueva.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/confirma.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/confirma.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/User/registro.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/User/registro.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/A/7zO9am1b-vvvz2bxX5Uv" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/A/7zO9am1b-vvvz2bxX5Uv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/H/W7Y0MhZZyRvj2TpeXXwL" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/H/W7Y0MhZZyRvj2TpeXXwL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/X/GkdKr69TumjsXeyTr6g-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/+/X/GkdKr69TumjsXeyTr6g-" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/-/H/Qt2yLxAMptMF9uPBbix7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/-/H/Qt2yLxAMptMF9uPBbix7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/0/3/nwhYCT1KU43GxWggWviA" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/0/3/nwhYCT1KU43GxWggWviA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/6/CRI7S1AjyPr9MstQbuuI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/6/CRI7S1AjyPr9MstQbuuI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/B/J53dMjutRSbiLeTtrtVF" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/B/J53dMjutRSbiLeTtrtVF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/B/MHqPmv6tvZXrekXRE5K7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/B/MHqPmv6tvZXrekXRE5K7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/F/iRNv94wVWYuiX53daJjl" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/2/F/iRNv94wVWYuiX53daJjl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/3/1/M2m-0cV9jZG61T-4qO65" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/3/1/M2m-0cV9jZG61T-4qO65" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/3/R/ElaY6n5Qf36XIwrb5WH-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/3/R/ElaY6n5Qf36XIwrb5WH-" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/4/J/B-GxBXhWWWqUlAyes8W-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/4/J/B-GxBXhWWWqUlAyes8W-" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/5/A/HX34qYy2H32VWHfelElS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/5/A/HX34qYy2H32VWHfelElS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/5/L/GSeDUylAkDdwvsJCbI4j" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/5/L/GSeDUylAkDdwvsJCbI4j" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/3/XCeEp9ltKLuCz6bLd49q" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/3/XCeEp9ltKLuCz6bLd49q" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/E/g9TWRptAiFeQNfNKZPRo" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/E/g9TWRptAiFeQNfNKZPRo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/V/Q-1c+4kZgkweyekcTIKR" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/7/V/Q-1c+4kZgkweyekcTIKR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/8/M/H46F3W9OsA7+jjKygCDW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/8/M/H46F3W9OsA7+jjKygCDW" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/9/T/i+6vI0TfjX4tqHWv7eqR" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/9/T/i+6vI0TfjX4tqHWv7eqR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/9/Z/+ZxPV1JwjMTLDZ62MQwM" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/9/Z/+ZxPV1JwjMTLDZ62MQwM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/+/X4oduRxomNPCrMKPhjzk" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/+/X4oduRxomNPCrMKPhjzk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/7/2lmcrnYASNJP4oGKzCVz" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/7/2lmcrnYASNJP4oGKzCVz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/M/deEs48NXg0rcdVotOYyq" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/M/deEs48NXg0rcdVotOYyq" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/Y/JXQ3mBl9LQbv+j9UPB6A" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/A/Y/JXQ3mBl9LQbv+j9UPB6A" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/+/DTjt6S0keIlNWmYpHj3U" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/+/DTjt6S0keIlNWmYpHj3U" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/E/Xti+IgWX0-YlsRCHi2QO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/E/Xti+IgWX0-YlsRCHi2QO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/F/XzgPcb26VMmvmAWEPzPg" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/F/XzgPcb26VMmvmAWEPzPg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/G/ZvPV5yF+sIt5zCy19gDm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/G/ZvPV5yF+sIt5zCy19gDm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/X/ffycKRCHafaeNYvtg0wI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/X/ffycKRCHafaeNYvtg0wI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/7/sbO1Ip5eWxTap1hGVDQk" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/7/sbO1Ip5eWxTap1hGVDQk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/I/uFa-68JdwcbujZieP-LC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/I/uFa-68JdwcbujZieP-LC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/O/R0YBDaymWIf71YSuWuo6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/O/R0YBDaymWIf71YSuWuo6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/T/yV7TiEPfyEGGZ+Rg8D8C" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/C/T/yV7TiEPfyEGGZ+Rg8D8C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/E/ktFvLkKQPaWhQPrChuRK" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/E/ktFvLkKQPaWhQPrChuRK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/M/S7zOBlKoRRJ1aGrZEuIG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/M/S7zOBlKoRRJ1aGrZEuIG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/Q/zWkd7BMYMwGUjh9QX5gF" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/D/Q/zWkd7BMYMwGUjh9QX5gF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/C/2679ekwdpFQ+KRYso9C9" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/C/2679ekwdpFQ+KRYso9C9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/M/JOs1qmlNAEow8sdMLuSj" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/M/JOs1qmlNAEow8sdMLuSj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/P/GQHFKPzlbaKcnU65GW29" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/P/GQHFKPzlbaKcnU65GW29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/W/GGgYe2GX7Z9Se2D3Pnjm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/W/GGgYe2GX7Z9Se2D3Pnjm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/-/-rbAMnsRY-YIhyvdQmS6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/-/-rbAMnsRY-YIhyvdQmS6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/3/eO7rn8-v2LHpyDVQeF4k" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/3/eO7rn8-v2LHpyDVQeF4k" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/3/n5uNi2PDElta7C8K8yQF" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/3/n5uNi2PDElta7C8K8yQF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/B/pBiaCiH7FtWlzq1HGv+w" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/B/pBiaCiH7FtWlzq1HGv+w" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/E/yI4-VFiB4h9OUoTQeVXU" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/E/yI4-VFiB4h9OUoTQeVXU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/G/HXiZN7t62K9FlrXj290R" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/G/HXiZN7t62K9FlrXj290R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/J/+Q+taUZB7Y1g87kUpNRV" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/J/+Q+taUZB7Y1g87kUpNRV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/O/AQIj6CQoXHaBmuPB8zrF" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/O/AQIj6CQoXHaBmuPB8zrF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Controller/CineController.php" afterPath="$PROJECT_DIR$/src/CineBundle/Controller/CineController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php" afterPath="$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php" afterPath="$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig" afterPath="$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/-/L/fdzoC0wvIzobjVN7kDHG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/-/L/fdzoC0wvIzobjVN7kDHG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/D/D1BnlMD+B9JTYDOVYft-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/B/D/D1BnlMD+B9JTYDOVYft-" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/W/9ij-YG+PO7+sAv9xXRuw" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/E/W/9ij-YG+PO7+sAv9xXRuw" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/S/DFJP+WLc7GxD5RB38tas" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/F/S/DFJP+WLc7GxD5RB38tas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/A/f21sDRtuv8aI0CKUR-QC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/A/f21sDRtuv8aI0CKUR-QC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/B/6+unfXuvgRUd2Ruhlhp9" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/B/6+unfXuvgRUd2Ruhlhp9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/C/z9Wut52iNgScGPtGjmpt" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/G/C/z9Wut52iNgScGPtGjmpt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/D/NqBojvGVHnEnyEE07sol" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/D/NqBojvGVHnEnyEE07sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/E/9INm59qrYu64z4jCLonC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/E/9INm59qrYu64z4jCLonC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/L/YlWzZ1mvilKrI493oY8L" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/L/YlWzZ1mvilKrI493oY8L" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/S/VB0HC3W+uzFi4rBFmt67" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/H/S/VB0HC3W+uzFi4rBFmt67" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/9/vfTYZPYM7HJVmNSVqreq" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/9/vfTYZPYM7HJVmNSVqreq" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/B/qJRWGgl205W0RWwbzLx1" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/B/qJRWGgl205W0RWwbzLx1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/G/6VqT9Km7L0vACHfCR71y" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/G/6VqT9Km7L0vACHfCR71y" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/L/CtWaCh0m4NzVYsBfMhFm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/I/L/CtWaCh0m4NzVYsBfMhFm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/0/183AR7XhaoH-CJ7NX50c" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/0/183AR7XhaoH-CJ7NX50c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/F/uV7Ooh7GctHXoBb0Ac3J" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/F/uV7Ooh7GctHXoBb0Ac3J" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/M/0tQ1C1VRDG2VUn-4-qD2" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/M/0tQ1C1VRDG2VUn-4-qD2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/Q/aZV-pXOTFI1u1GCD-z2C" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/J/Q/aZV-pXOTFI1u1GCD-z2C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/9/cHVfMvFfuXhAfmQb6pdf" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/9/cHVfMvFfuXhAfmQb6pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/L/XBB0geO2PKhpV9a78uuh" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/L/XBB0geO2PKhpV9a78uuh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/O/JbB4lc4h9IJATu6+w9zP" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/O/JbB4lc4h9IJATu6+w9zP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/R/PoWrXuKYyNdU-mXKlDF2" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/R/PoWrXuKYyNdU-mXKlDF2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/W/wgpxxSZ7dNW1FBRacqxs" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/W/wgpxxSZ7dNW1FBRacqxs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/Y/xYivXjYvgdtJvVKOLe8q" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/K/Y/xYivXjYvgdtJvVKOLe8q" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/9/lFC5UggK7A0IOaHLuiC6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/9/lFC5UggK7A0IOaHLuiC6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/B/c0h+IBMfvweor2m2tuoz" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/B/c0h+IBMfvweor2m2tuoz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/H/0suAYVvr8fPixi-WgUwQ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/H/0suAYVvr8fPixi-WgUwQ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/R/r0UuURYyqcRn-7OfB58S" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/R/r0UuURYyqcRn-7OfB58S" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/U/3XjVHqr89uHbRttJseD7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/L/U/3XjVHqr89uHbRttJseD7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/2/DGv-gIhvlDt6l9bvHBnt" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/2/DGv-gIhvlDt6l9bvHBnt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/6/QzgDDOAQMs4i1uuPcN0x" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/6/QzgDDOAQMs4i1uuPcN0x" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/F/2Oh8msjHtn0Wf94Cfh6v" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/F/2Oh8msjHtn0Wf94Cfh6v" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/H/1Dj3H3J4bf42D7jNoeVX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/H/1Dj3H3J4bf42D7jNoeVX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/L/G0qJtvpAj7ZcDf1JmCFG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/L/G0qJtvpAj7ZcDf1JmCFG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/M/cru8DKTk0wlTEDk7n1Li" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/M/cru8DKTk0wlTEDk7n1Li" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/Q/0YtLCnuAlNw9IZZNSm4s" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/Q/0YtLCnuAlNw9IZZNSm4s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/V/vGlvwRqZjblYab4340hj" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/V/vGlvwRqZjblYab4340hj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/D/SgFVeO-KbAeUHtNUm9SM" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/M/D/SgFVeO-KbAeUHtNUm9SM" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/4/ZFbLQg6yE5pO3ofa8GqM" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/4/ZFbLQg6yE5pO3ofa8GqM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/5/nSD4WkW68Wuj00ECAF+Z" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/5/nSD4WkW68Wuj00ECAF+Z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/E/Dxyjmhl5tBCEQIqYO+na" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/E/Dxyjmhl5tBCEQIqYO+na" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/W/MagNBVzlsg6Y-Eu69Wtd" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/N/W/MagNBVzlsg6Y-Eu69Wtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/B/Hpx0gIiD827t4R-CQo0V" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/B/Hpx0gIiD827t4R-CQo0V" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/C/XZkpqmiOZLo-ZqxqoEQB" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/C/XZkpqmiOZLo-ZqxqoEQB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/M/v2EilrnSKNeiWJoRglhT" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/M/v2EilrnSKNeiWJoRglhT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/Q/wiB8S3SuPm-bRYCAHF0N" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/Q/wiB8S3SuPm-bRYCAHF0N" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/U/eNTMjsffFt-O21iX0AV7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/O/U/eNTMjsffFt-O21iX0AV7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/P/G/1LQHqTiI6sxUYICzO-kw" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/P/G/1LQHqTiI6sxUYICzO-kw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/P/V/ocGqktFCbNikUjjRl-MX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/P/V/ocGqktFCbNikUjjRl-MX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/5/gxsuzVOZRwIgudcNey-T" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/5/gxsuzVOZRwIgudcNey-T" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/H/zjv4g0r9LSS-WeD2FqmZ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/H/zjv4g0r9LSS-WeD2FqmZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/W/NKnhDgq9-yJm8R0NE9jU" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/W/NKnhDgq9-yJm8R0NE9jU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/Y/Jub5f8h-ZBZPr9UhH43Y" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Q/Y/Jub5f8h-ZBZPr9UhH43Y" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/4/g3Q9WPtHT4K+PSemzL3r" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/4/g3Q9WPtHT4K+PSemzL3r" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/G/TpDi3Bw1UkYNV3ra-p5a" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/G/TpDi3Bw1UkYNV3ra-p5a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/J/c6R5Ak5h39NbxQ8NaAiG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/J/c6R5Ak5h39NbxQ8NaAiG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/J/zm6RsRfA7raq398kTYhH" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/J/zm6RsRfA7raq398kTYhH" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/K/ZaiFYcCxushCIWiZNRAV" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/K/ZaiFYcCxushCIWiZNRAV" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/P/pkQScbaTklFKfxK96c8j" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/R/P/pkQScbaTklFKfxK96c8j" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/F/kmU5AfhwrkpNa0gpe7-y" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/F/kmU5AfhwrkpNa0gpe7-y" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/G/+72qC3WRspDeTTuyQb0e" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/G/+72qC3WRspDeTTuyQb0e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/O/pghK0k6URZiQSpDR4OTZ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/O/pghK0k6URZiQSpDR4OTZ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/S/MaCSgf5x+ywuoVKrzfE4" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/S/S/MaCSgf5x+ywuoVKrzfE4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/+/3NAWAwhbPdFEYojHaTWk" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/+/3NAWAwhbPdFEYojHaTWk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/1/N8zIaP5Q1qpmPvfIxrjy" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/1/N8zIaP5Q1qpmPvfIxrjy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/2/GD+9hxlV-uV4+kkHyLum" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/2/GD+9hxlV-uV4+kkHyLum" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/5/Nc6nqnCuDlZC+p8QyYxj" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/5/Nc6nqnCuDlZC+p8QyYxj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/8/wGEn+7xxa+ihaBRgFVAS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/8/wGEn+7xxa+ihaBRgFVAS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/9/yvNN6cuT2ZgI8OYh5Hh6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/9/yvNN6cuT2ZgI8OYh5Hh6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/F/hnRKh3fwVisQNJ5etrIR" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/F/hnRKh3fwVisQNJ5etrIR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/L/ANCbLGo239KUYSY6Hy4o" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/L/ANCbLGo239KUYSY6Hy4o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/L/VTkH3UkgeTczrbl3ZcYS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/L/VTkH3UkgeTczrbl3ZcYS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/N/vSCGfih2A0soSoFWrpGc" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/T/N/vSCGfih2A0soSoFWrpGc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/A/LJWfM-K69zy7xH5By+Dy" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/A/LJWfM-K69zy7xH5By+Dy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/B/FZdV9ekQKLmKJVT0ibP0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/B/FZdV9ekQKLmKJVT0ibP0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/M/oF5mH-+qiz8z0TDWsNi7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/M/oF5mH-+qiz8z0TDWsNi7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/Z/Ego8gtWzfgcYcrsFhrUm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/U/Z/Ego8gtWzfgcYcrsFhrUm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/E/PxfJILhGHXauzDGrAaaS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/E/PxfJILhGHXauzDGrAaaS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/F/y-9u-oMfu5yxXKDlZWfu" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/F/y-9u-oMfu5yxXKDlZWfu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/L/c8+IVpSGhhWknjnFZ4T7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/L/c8+IVpSGhhWknjnFZ4T7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/R/FkiyOA9zBhvw63pEzMul" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/R/FkiyOA9zBhvw63pEzMul" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/S/N-BI-H4FIRDeEPhd4uPd" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/V/S/N-BI-H4FIRDeEPhd4uPd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/W/O/lD75Ja-ehY4ejfC4hcdA" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/W/O/lD75Ja-ehY4ejfC4hcdA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/W/Q/8Lh60qiNn1YqTdICoCJS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/W/Q/8Lh60qiNn1YqTdICoCJS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/X/9/3LM9kqUW9zOl6M700mU9" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/X/9/3LM9kqUW9zOl6M700mU9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/X/A/qXs5iQSeWrWbJw3-FCp3" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/X/A/qXs5iQSeWrWbJw3-FCp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Y/B/zSHHRwaF9twIOVFqwSay" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Y/B/zSHHRwaF9twIOVFqwSay" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Y/C/bC3n-V7v5jnQDVgp7mED" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Y/C/bC3n-V7v5jnQDVgp7mED" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/6/O-3rIDl0qZj+Qu0mkhhz" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/6/O-3rIDl0qZj+Qu0mkhhz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/C/031bXWY21YIcYqSMd+9p" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/C/031bXWY21YIcYqSMd+9p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/C/hXtFH64TyKQYYXoOUsE0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/C/hXtFH64TyKQYYXoOUsE0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/H/mqMZfe8HkwI+4v+NkqpT" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/H/mqMZfe8HkwI+4v+NkqpT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/K/jJOz1sp-FxRpnhYAIfNl" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/K/jJOz1sp-FxRpnhYAIfNl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/1/Xa6rya+ob+XPJLzuJcZS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/E5bevxshed/Z/1/Xa6rya+ob+XPJLzuJcZS" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/02/0295412764c5ff1bc4502a0f2df957e924fe37a710a4bb1a181128c2a81761cb.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/02/0295412764c5ff1bc4502a0f2df957e924fe37a710a4bb1a181128c2a81761cb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/05/05a9f288b9801477eaa72abd4583062a2567094dae4ffce6b1c3c824baf2ca54.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/05/05a9f288b9801477eaa72abd4583062a2567094dae4ffce6b1c3c824baf2ca54.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/0d/0d88e88a8d0f68ebf865dbbdfa0e7a4fe0d2a55de1003b37c5a33dd7d91b13fc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/0d/0d88e88a8d0f68ebf865dbbdfa0e7a4fe0d2a55de1003b37c5a33dd7d91b13fc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/11/111c6418af10e08d4fcf03de1458a8ba0d562b07073725fa9c34a522e1a15b55.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/11/111c6418af10e08d4fcf03de1458a8ba0d562b07073725fa9c34a522e1a15b55.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/14/140108e09e7566de3a9768c7bc67834bd3d992a80ecfad3c2dd3556937ea838e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/14/140108e09e7566de3a9768c7bc67834bd3d992a80ecfad3c2dd3556937ea838e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/14/145700ba0fd248f5226f5214ec7ef315a3d56df0b1257d5c5ae91344b22b3f8f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/14/145700ba0fd248f5226f5214ec7ef315a3d56df0b1257d5c5ae91344b22b3f8f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/14/1470c37a7870dfc16ec566dcc5633a84463e911a677694ac19f9c1e2b95a6f3e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/14/1470c37a7870dfc16ec566dcc5633a84463e911a677694ac19f9c1e2b95a6f3e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/18/183ad58e50473dcd417699708bcb5cefad2be3cb24b79672398d012f8d52fe5c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/18/183ad58e50473dcd417699708bcb5cefad2be3cb24b79672398d012f8d52fe5c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1f/1fd23247d621d4fdda5be571b8d4be629008fbf2b9c07d82b9f6686ae7f3fe76.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1f/1fd23247d621d4fdda5be571b8d4be629008fbf2b9c07d82b9f6686ae7f3fe76.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/20/201b7b94b1748a7cd3fcaa8232749fa5d6f6765a0cbf2c2ffc38c97a49c94d35.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/20/201b7b94b1748a7cd3fcaa8232749fa5d6f6765a0cbf2c2ffc38c97a49c94d35.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/20/2062b3ffb8be37fe54f98591125b2a85ac0590da0b821478041b801ba7e3e81e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/20/2062b3ffb8be37fe54f98591125b2a85ac0590da0b821478041b801ba7e3e81e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/22/22cc06c62c35abb43d142b0dfe2896b07b1a8ebe0cad0cdd8eca98755e72644a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/22/22cc06c62c35abb43d142b0dfe2896b07b1a8ebe0cad0cdd8eca98755e72644a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/2a/2a038c46f0932b6cfacb95bd3ca6346c288df2f66461324caccbbaf08fed41ae.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/2a/2a038c46f0932b6cfacb95bd3ca6346c288df2f66461324caccbbaf08fed41ae.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/33/330bd2b618f5e998a40df31c375213a9fde8283400c45aea75e9c477c5d48e6f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/33/330bd2b618f5e998a40df31c375213a9fde8283400c45aea75e9c477c5d48e6f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/33/33dc16a5ff77bf6af0cf398c31a42f22ded6127a8f048a1670ae34a511d2a8eb.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/33/33dc16a5ff77bf6af0cf398c31a42f22ded6127a8f048a1670ae34a511d2a8eb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/38/38424f75a830841a63b774eaa419eaff11be5f0459b43c9ce1f48ed78a88cd18.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/38/38424f75a830841a63b774eaa419eaff11be5f0459b43c9ce1f48ed78a88cd18.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3c/3cd9e01c4a682e6d20d73d1eea4cd6926d8b50ba16498f8e798e7fee7e5e0048.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/3c/3cd9e01c4a682e6d20d73d1eea4cd6926d8b50ba16498f8e798e7fee7e5e0048.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3e/3ec9e25c580936850fc65e91d0fc6a5e3752e8fee84e3dcef063385a2fd2b8f9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/3e/3ec9e25c580936850fc65e91d0fc6a5e3752e8fee84e3dcef063385a2fd2b8f9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/44/444ee95c5cddf172eb9e4a4ed3732af3d8d55bef07caf7ec7781ecda24b33cdc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/44/444ee95c5cddf172eb9e4a4ed3732af3d8d55bef07caf7ec7781ecda24b33cdc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/45/45051faa732dfa491fa2e7db098b1032463502876fc1d6acfbfe1cf78640bf66.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/45/45051faa732dfa491fa2e7db098b1032463502876fc1d6acfbfe1cf78640bf66.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/55/55737d3bf960d4db3c5867c07985f0da48277f146dc20492ce532f1011d8c884.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/55/55737d3bf960d4db3c5867c07985f0da48277f146dc20492ce532f1011d8c884.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/55/559f03712ef2db70165db4ab844bb3cb5ea90a5e1f48a97b46e19676a82d8240.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/55/559f03712ef2db70165db4ab844bb3cb5ea90a5e1f48a97b46e19676a82d8240.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/57/573201d6ce67ae94e81a84f3f40709d1f8ddfaad0030d1a2ac655cc105ef41bf.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/57/573201d6ce67ae94e81a84f3f40709d1f8ddfaad0030d1a2ac655cc105ef41bf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/57/57f193bb9504ddd7210e4a6cc9f735659560e1eee6a2814566eb1b932e52f8b3.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/57/57f193bb9504ddd7210e4a6cc9f735659560e1eee6a2814566eb1b932e52f8b3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/58/58aaa246c1a38f4ee69afd06944cde6012ecf4edada4f336835130535531b01b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/58/58aaa246c1a38f4ee69afd06944cde6012ecf4edada4f336835130535531b01b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/59728cd1e3c79ab4ef7fe00635a88d0a1136bf48e2a32b0aade4cd8ca8532796.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/59/59728cd1e3c79ab4ef7fe00635a88d0a1136bf48e2a32b0aade4cd8ca8532796.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5a2ce8b9b82ba1d00c0da0ae54b93809b3419bca73eb30e9b7d6c6cc1468ca90.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5a/5a2ce8b9b82ba1d00c0da0ae54b93809b3419bca73eb30e9b7d6c6cc1468ca90.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5d6d4136abe85f3e7bd29c8945070f2763a42673e5f978127f45b660b0b88df9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5d/5d6d4136abe85f3e7bd29c8945070f2763a42673e5f978127f45b660b0b88df9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5dd443e7966958605802f2a27e0b46181226aa38e3674d8f4f5cd807ef0914ac.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5d/5dd443e7966958605802f2a27e0b46181226aa38e3674d8f4f5cd807ef0914ac.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/67/676e678c77f574c9f79d1d6cedcd611283d8c37d81bbfd6b0e35dd64a3b44a45.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/67/676e678c77f574c9f79d1d6cedcd611283d8c37d81bbfd6b0e35dd64a3b44a45.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/67/67ae9f5b9ea2a0f8dd5ead9a48d413af796d55327701a835be809ddf267c060b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/67/67ae9f5b9ea2a0f8dd5ead9a48d413af796d55327701a835be809ddf267c060b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/68/68268569c2f5fde9d8570ab901578f156d04ffd02b07958eeda99f8475d28a67.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/68/68268569c2f5fde9d8570ab901578f156d04ffd02b07958eeda99f8475d28a67.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/69/698212e7420762b04ea1f750aefed87a820146798ed1170fef42bf9164ad94aa.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/69/698212e7420762b04ea1f750aefed87a820146798ed1170fef42bf9164ad94aa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6a/6a43d48af6602304752c0b4ffcae07ef79bb70ac4f08274703c60258e98fcbfd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6a/6a43d48af6602304752c0b4ffcae07ef79bb70ac4f08274703c60258e98fcbfd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6a/6a75918a076eb09c41ddf4892f0067e966c202877a106a31c1384510a12ecec7.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6a/6a75918a076eb09c41ddf4892f0067e966c202877a106a31c1384510a12ecec7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6b/6b37f3cca0ddd502b188ef1f1e46d213175bb6058fee6ce20eda892b7d4d8158.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6b/6b37f3cca0ddd502b188ef1f1e46d213175bb6058fee6ce20eda892b7d4d8158.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6b/6bd29e798afe79b88f783a4c22ad4d5d3833ff770872aa9d296cbab2ce9849d1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6b/6bd29e798afe79b88f783a4c22ad4d5d3833ff770872aa9d296cbab2ce9849d1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6d/6d87e2129d6bc0f455f96cb922f577cafa09a8a71d4d44ce9afc68f4c0d65a8e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6d/6d87e2129d6bc0f455f96cb922f577cafa09a8a71d4d44ce9afc68f4c0d65a8e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/70/7080393c7d07d915a9a87f4013663ccab1fb64f219a1aae12b14d8441a53ea24.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/70/7080393c7d07d915a9a87f4013663ccab1fb64f219a1aae12b14d8441a53ea24.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/78/7834357ff77c9a5c4a8227410398cd963c5eb272993f75c45f635463f6d679b5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/78/7834357ff77c9a5c4a8227410398cd963c5eb272993f75c45f635463f6d679b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7f/7f08c39614f5fb92c73b53a5250d36a6877cd5a61fce259346dab1465ce104ea.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/7f/7f08c39614f5fb92c73b53a5250d36a6877cd5a61fce259346dab1465ce104ea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/82/8279c5279710b1866516abc222416acaf043f157e745be27239d0354bc1397bf.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/82/8279c5279710b1866516abc222416acaf043f157e745be27239d0354bc1397bf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/83/8355248682e59ddfa346e9d57e77bb17002ca683c564723a5a1ba8a18a90c54a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/83/8355248682e59ddfa346e9d57e77bb17002ca683c564723a5a1ba8a18a90c54a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/84/845a2c10c26fc67d48d35b1c1601a858be9b5c84c564515af56914c7b1889cf4.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/84/845a2c10c26fc67d48d35b1c1601a858be9b5c84c564515af56914c7b1889cf4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/86/86b0871c5d39d38a7fc65988e71ec4c142abdb98da1218ac20322953bd7de70d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/86/86b0871c5d39d38a7fc65988e71ec4c142abdb98da1218ac20322953bd7de70d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/87/87461a99e317b2128740b90d372006ee417cfdf99c15e7f61a3de1a61d72f9af.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/87/87461a99e317b2128740b90d372006ee417cfdf99c15e7f61a3de1a61d72f9af.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8a/8ac9a5911959b7208960e93dd52fe89520596aaf375b87b1b4236ac67e14bc9a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8a/8ac9a5911959b7208960e93dd52fe89520596aaf375b87b1b4236ac67e14bc9a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8c/8cc46bf81b2dd9548055d50efa6f9114afab8c400c1d060cbfe53195883857ab.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8c/8cc46bf81b2dd9548055d50efa6f9114afab8c400c1d060cbfe53195883857ab.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/98/98aef92f56a077c65699f8e5207eca001a6ec81bd7452602cd5b4f391978e8a8.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/98/98aef92f56a077c65699f8e5207eca001a6ec81bd7452602cd5b4f391978e8a8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a0/a0b6c1b526cc47e742110128fdd1ea865735090ebb63e5f57297152013fafff9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/a0/a0b6c1b526cc47e742110128fdd1ea865735090ebb63e5f57297152013fafff9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a5/a55a8f3fe0fbeb3610ddd77fe413d0e48dc2382872ffdbd892c75de03920bef4.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/a5/a55a8f3fe0fbeb3610ddd77fe413d0e48dc2382872ffdbd892c75de03920bef4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a7/a729c882e1fe655af1d4a243605023fcdda019e3180114b8156b5b1482ce8fa5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/a7/a729c882e1fe655af1d4a243605023fcdda019e3180114b8156b5b1482ce8fa5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/af/afee72417b1bcb1bc0791de01ee83122e42d4be4f499ec6ba28bc8b5ca8d964f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/af/afee72417b1bcb1bc0791de01ee83122e42d4be4f499ec6ba28bc8b5ca8d964f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b5/b5f785896bacf0221d882f1c0bd0a406e49d849b04e22c888148b996ffd2ffdd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b5/b5f785896bacf0221d882f1c0bd0a406e49d849b04e22c888148b996ffd2ffdd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b9/b9abeef68c0a42e89c690d09efc5a6dbc488b08bdc5e52ad1a0356c20746f5fd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b9/b9abeef68c0a42e89c690d09efc5a6dbc488b08bdc5e52ad1a0356c20746f5fd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bb/bbcb8aab7d4704c8d5a0c06696738be1ad528a2b8f7334561a9b006c10b3e005.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bb/bbcb8aab7d4704c8d5a0c06696738be1ad528a2b8f7334561a9b006c10b3e005.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bc/bc3043c2d19d2e92693be17f1726b9e64d1bac9385dea2ac7a2f7af43f930072.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bc/bc3043c2d19d2e92693be17f1726b9e64d1bac9385dea2ac7a2f7af43f930072.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf8daf0227c6d25385990af0bf492f431883174cb6edd7e78a08c6c772bb10d1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf8daf0227c6d25385990af0bf492f431883174cb6edd7e78a08c6c772bb10d1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c1/c14d32785026dbb1e5ba64a90e62b71d2bc14b9814e25332fde1877f6fac113f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c1/c14d32785026dbb1e5ba64a90e62b71d2bc14b9814e25332fde1877f6fac113f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c3/c38cd6a7b506196d202c58bca5ac8ddcaec06361a1064ff8c2e651cfc2d8d5cc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c3/c38cd6a7b506196d202c58bca5ac8ddcaec06361a1064ff8c2e651cfc2d8d5cc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c4/c40469d118d2b20568fc618a22c1c6a3332a7efbb03828d9053f107461d80665.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c4/c40469d118d2b20568fc618a22c1c6a3332a7efbb03828d9053f107461d80665.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c4/c4689303060a2b21ebe9b8f95ae9c668ad6ca289911ab59e7c4b694b284dd924.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c4/c4689303060a2b21ebe9b8f95ae9c668ad6ca289911ab59e7c4b694b284dd924.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c6/c6f06f9f9f1f797cd148f14c7438a12261f84fd3f3b1fd7653a03fd4003133fe.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c6/c6f06f9f9f1f797cd148f14c7438a12261f84fd3f3b1fd7653a03fd4003133fe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cb/cbfd85b9891e07f9e92410ae07c8811d668ab67b73565fc1c6e465bf0f9c99b5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cb/cbfd85b9891e07f9e92410ae07c8811d668ab67b73565fc1c6e465bf0f9c99b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cc/cca2fc90a799f969992099bf52848c0cef6a3a2a65cf6e6a57ada60426acef1a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cc/cca2fc90a799f969992099bf52848c0cef6a3a2a65cf6e6a57ada60426acef1a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1a63ae40800a90f3050532de5dc558b6bb61dd3afc6073bf6fd3c0d87b3bf22.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1a63ae40800a90f3050532de5dc558b6bb61dd3afc6073bf6fd3c0d87b3bf22.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d4/d405cba6d9a4e2cbab6d1e99d8bf3254a95397948bb9d09b415c52797583e289.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d4/d405cba6d9a4e2cbab6d1e99d8bf3254a95397948bb9d09b415c52797583e289.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/de/de239b3188ffe08d0510fced822577084806de98749cf4b9adba514cebc0a613.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/de/de239b3188ffe08d0510fced822577084806de98749cf4b9adba514cebc0a613.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/df/dfb2dc1720ec5ff8f3defe5e4038c8a7093b379464762bb35c0f01196c1cab45.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/df/dfb2dc1720ec5ff8f3defe5e4038c8a7093b379464762bb35c0f01196c1cab45.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f4/f41cc74f52688e85f03aa73f239df48e30af70aa546563996e3e0a96d46dfe5f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f4/f41cc74f52688e85f03aa73f239df48e30af70aa546563996e3e0a96d46dfe5f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f5/f595c2f71fa8b1d749801db7b282afa5c5ebee5ddafcb9fd3abfacad33b8185a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f5/f595c2f71fa8b1d749801db7b282afa5c5ebee5ddafcb9fd3abfacad33b8185a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f6/f69dbb5b9be4b7ec5fd19227d9c994607d216ea840e3cb5d7a5668ce45845f50.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f6/f69dbb5b9be4b7ec5fd19227d9c994607d216ea840e3cb5d7a5668ce45845f50.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/fb/fb2194368f196b4ebd86e2772064f8478177dc96d0ddf2c1458617ea7f72087b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fb/fb2194368f196b4ebd86e2772064f8478177dc96d0ddf2c1458617ea7f72087b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc279ccbf1ea9d783d7e2caea44ce8d3591587a5602c669c59b8f7d942ad1d65.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc279ccbf1ea9d783d7e2caea44ce8d3591587a5602c669c59b8f7d942ad1d65.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
     </list>
     <ignored path="cine2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -414,86 +49,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="notificacion.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/notificacion.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="prueba.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="144">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carga.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig">
+      <file leaf-file-name="exito.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/exito.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#40#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="181" column="34" lean-forward="false" selection-start-line="181" selection-start-column="34" selection-end-line="181" selection-end-column="34" />
+            <state relative-caret-position="224">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nueva.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/nueva.html.twig">
+      <file leaf-file-name="CineController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/CineController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="848">
+              <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalasController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding>
-                <element signature="e#12#40#0#Twig" expanded="true" />
+                <element signature="e#41#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FuncionType.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/FuncionType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#35#75#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CineType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/CineType.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="30" column="34" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="32" selection-end-column="19" />
-              <folding>
-                <element signature="e#35#75#0#PHP" expanded="true" />
-              </folding>
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nueva.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/nueva.html.twig">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="37" column="86" lean-forward="false" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carga.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
@@ -502,11 +131,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeliculaType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/PeliculaType.php">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="256">
+              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/SalaType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -523,10 +162,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>confir</find>
-      <find>merca</find>
-      <find>mercad</find>
-      <find>paso</find>
       <find>mp</find>
       <find>new MP</find>
       <find>sandbox_i</find>
@@ -553,6 +188,10 @@
       <find>ahora</find>
       <find>nueva pel</find>
       <find>integer</find>
+      <find>subm</find>
+      <find>findby</find>
+      <find>rend</find>
+      <find>salas</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -567,21 +206,16 @@
         <option value="$PROJECT_DIR$/src/CineBundle/Model/asd" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/CineBundle/Entity/Formato.php" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Form/SalaType.php" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/materialize/css/footer.css" />
         <option value="$PROJECT_DIR$/src/CineBundle/Entity/Sala.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/PeliculaController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/PelicopiaController.php" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/error.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/confirma.html.twig" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/notificacion.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/styles.css" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/public/styles.css" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Controller/CineController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/horarios.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/exito.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/prueba.html.twig" />
@@ -598,7 +232,6 @@
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Controller/EntradaController.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Form/UserType.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/User/registro.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/edita.html.twig" />
@@ -615,6 +248,12 @@
         <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/nueva.html.twig" />
         <option value="$PROJECT_DIR$/src/CineBundle/Form/CineType.php" />
         <option value="$PROJECT_DIR$/src/CineBundle/Form/FuncionType.php" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Controller/CineController.php" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Form/SalaType.php" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php" />
+        <option value="$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig" />
       </list>
     </option>
   </component>
@@ -652,8 +291,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -671,6 +308,13 @@
               <item name="cine2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CineBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cine2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cine2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CineBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="cine2" type="b2602c69:ProjectViewProjectNode" />
@@ -737,15 +381,6 @@
               <item name="CineBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pelicula" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="cine2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cine2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CineBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Reserva" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -761,6 +396,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1007,12 +644,14 @@
       <workItem from="1508289035383" duration="271000" />
       <workItem from="1509468207050" duration="1374000" />
       <workItem from="1509562020921" duration="314000" />
-      <workItem from="1509591190959" duration="10169000" />
+      <workItem from="1509591190959" duration="10893000" />
+      <workItem from="1509637228999" duration="12325000" />
+      <workItem from="1509661989476" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="606985000" />
+    <option name="totallyTimeSpent" value="620055000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1024,18 +663,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="-4" width="1883" height="1084" extended-state="6" />
+    <frame x="32" y="-4" width="1885" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26619488" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33492824" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5035307" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27376425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033386327" sideWeight="0.4972549" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27327165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24932103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26451612" sideWeight="0.49646932" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1655914" sideWeight="0.49646932" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31607842" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39806867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1043,6 +681,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033386327" sideWeight="0.4972549" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1093,36 +732,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="48" column="63" lean-forward="false" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/cache/dev/classes.php" />
-    <entry file="file://$PROJECT_DIR$/var/logs/dev.log" />
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1205,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,19 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/CineController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2224">
-          <caret line="145" column="30" lean-forward="false" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
-          <folding>
-            <element signature="e#2083#2116#0#PHP" expanded="true" />
-            <element signature="e#3430#3463#0#PHP" expanded="true" />
-            <element signature="e#5142#5175#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,15 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4671">
           <caret line="518" column="41" lean-forward="false" selection-start-line="518" selection-start-column="41" selection-end-line="518" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="127" column="39" lean-forward="false" selection-start-line="127" selection-start-column="10" selection-end-line="127" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,10 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="109" />
-          <folding>
-            <element signature="e#41#67#0#PHP" expanded="true" />
-            <element signature="e#3914#3951#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,45 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/edita.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,19 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/nueva.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,15 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/exito.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,87 +914,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/notificacion.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/PeliculaType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/notificacion.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicula/nueva.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/nuevo.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="181" column="34" lean-forward="false" selection-start-line="181" selection-start-column="34" selection-end-line="181" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/nueva.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/CineType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#35#75#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1493,8 +930,174 @@
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
+            <element signature="e#35#75#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/CineType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="32" selection-end-column="19" />
+          <folding>
             <element signature="e#35#75#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/PeliculaType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Entity/Cine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/nuevo.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/FuncionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="130" column="4" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/edita.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/nueva.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/edita.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Pelicopia/nueva.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="162" column="33" lean-forward="false" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Funcion/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Form/SalaType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/CineController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="86" lean-forward="false" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Cine/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Entity/Sala.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Controller/SalasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <element signature="e#41#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/prueba.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Reserva/exito.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CineBundle/Resources/views/Salas/carga.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,58 +21,65 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_cc5a30026b3d1e90880743ced47e55e9243438bf5c2b90f13d71dad4ee1adedf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_cc5a30026b3d1e90880743ced47e55e9243438bf5c2b90f13d71dad4ee1adedf->enter($__internal_cc5a30026b3d1e90880743ced47e55e9243438bf5c2b90f13d71dad4ee1adedf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
+        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7->enter($__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
 
-        $__internal_dc7085b0ad4d0ba19883c487a6096a465c4b10d8ac32041b4b62d9f0f865fb87 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dc7085b0ad4d0ba19883c487a6096a465c4b10d8ac32041b4b62d9f0f865fb87->enter($__internal_dc7085b0ad4d0ba19883c487a6096a465c4b10d8ac32041b4b62d9f0f865fb87_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
+        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240->enter($__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_cc5a30026b3d1e90880743ced47e55e9243438bf5c2b90f13d71dad4ee1adedf->leave($__internal_cc5a30026b3d1e90880743ced47e55e9243438bf5c2b90f13d71dad4ee1adedf_prof);
+        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7->leave($__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7_prof);
 
         
-        $__internal_dc7085b0ad4d0ba19883c487a6096a465c4b10d8ac32041b4b62d9f0f865fb87->leave($__internal_dc7085b0ad4d0ba19883c487a6096a465c4b10d8ac32041b4b62d9f0f865fb87_prof);
+        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240->leave($__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240_prof);
 
     }
 
     // line 4
     public function block_content($context, array $blocks = array())
     {
-        $__internal_09cb6d6e515090768c3adf7468f30d2970db3a571eea8bae5eeb10aa829dc74c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_09cb6d6e515090768c3adf7468f30d2970db3a571eea8bae5eeb10aa829dc74c->enter($__internal_09cb6d6e515090768c3adf7468f30d2970db3a571eea8bae5eeb10aa829dc74c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0->enter($__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_ae1715150a3c1d78b9c7149a0cf794e20ace4c5dac69bf8d23fe24a244831dcf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ae1715150a3c1d78b9c7149a0cf794e20ace4c5dac69bf8d23fe24a244831dcf->enter($__internal_ae1715150a3c1d78b9c7149a0cf794e20ace4c5dac69bf8d23fe24a244831dcf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f->enter($__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 5
-        echo "    ";
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["vistas"] ?? $this->getContext($context, "vistas")));
-        foreach ($context['_seq'] as $context["_key"] => $context["form"]) {
-            // line 6
-            echo "        <h4>Sala:</h4>
-        ";
-            // line 7
-            echo             $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock($context["form"], 'form_start');
+        echo "    <h4 class=\"white-text text-lighten-3\" >Salas:</h4>
+    <h3 class=\"white-text text-lighten-3\" > ";
+        // line 6
+        echo twig_escape_filter($this->env, ($context["cant"] ?? $this->getContext($context, "cant")), "html", null, true);
+        echo " </h3>
+    ";
+        // line 7
+        if ((($context["cant"] ?? $this->getContext($context, "cant")) != 0)) {
+            // line 8
+            echo "        ";
+            echo             $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_start');
             echo "
         ";
-            // line 8
-            echo             $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock($context["form"], 'form_end');
+            // line 9
+            echo             $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
             echo "
     ";
+        } else {
+            // line 11
+            echo "        <p><a class=\"waves-effect waves-light btn\" href=\"";
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
+            echo "\">Volver</a></p>
+    ";
         }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['form'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 10
+        // line 13
         echo "
+
+
 ";
         
-        $__internal_ae1715150a3c1d78b9c7149a0cf794e20ace4c5dac69bf8d23fe24a244831dcf->leave($__internal_ae1715150a3c1d78b9c7149a0cf794e20ace4c5dac69bf8d23fe24a244831dcf_prof);
+        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f->leave($__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f_prof);
 
         
-        $__internal_09cb6d6e515090768c3adf7468f30d2970db3a571eea8bae5eeb10aa829dc74c->leave($__internal_09cb6d6e515090768c3adf7468f30d2970db3a571eea8bae5eeb10aa829dc74c_prof);
+        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0->leave($__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0_prof);
 
     }
 
@@ -88,7 +95,7 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
 
     public function getDebugInfo()
     {
-        return array (  69 => 10,  61 => 8,  57 => 7,  54 => 6,  49 => 5,  40 => 4,  11 => 1,);
+        return array (  74 => 13,  68 => 11,  63 => 9,  58 => 8,  56 => 7,  52 => 6,  49 => 5,  40 => 4,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -105,11 +112,16 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
 
 
 {% block content %}
-    {% for form in vistas %}
-        <h4>Sala:</h4>
-        {{form_start(form)}}
+    <h4 class=\"white-text text-lighten-3\" >Salas:</h4>
+    <h3 class=\"white-text text-lighten-3\" > {{ cant }} </h3>
+    {% if cant != 0 %}
+        {{form_start(form) }}
         {{form_end(form)}}
-    {% endfor %}
+    {% else %}
+        <p><a class=\"waves-effect waves-light btn\" href=\"{{path(\"index\")}}\">Volver</a></p>
+    {% endif %}
+
+
 
 {% endblock %}
 ", "CineBundle:Salas:carga.html.twig", "/home/neuen/php2016/cine2/src/CineBundle/Resources/views/Salas/carga.html.twig");

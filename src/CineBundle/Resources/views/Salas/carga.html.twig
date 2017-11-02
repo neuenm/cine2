@@ -2,10 +2,12 @@
 
 
 {% block content %}
-    {% for form in vistas %}
-        <h4>Sala:</h4>
-        {{form_start(form)}}
+    <h4 class="white-text text-lighten-3" >Salas:</h4>
+    <h3 class="white-text text-lighten-3" > {{ cant }} </h3>
+    {% if cant != 0 %}
+        {{form_start(form) }}
         {{form_end(form)}}
-    {% endfor %}
-
+    {% else %}
+        <p><a class="waves-effect waves-light btn" href="{{path("index")}}">Finalizar carga del cine</a></p>
+    {% endif %}
 {% endblock %}
