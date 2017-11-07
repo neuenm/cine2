@@ -923,3 +923,8 @@ b8fcb6,127.0.0.1,GET,http://localhost:8000/index,1510014945,,200
 14e373,127.0.0.1,GET,http://localhost:8000/index,1510015206,,200
 90e30f,127.0.0.1,GET,http://localhost:8000/logout,1510016110,,302
 2344df,127.0.0.1,GET,http://localhost:8000/index,1510016110,,200
+eb91db,127.0.0.1,POST,http://localhost:8000/login_check,1510016651,,302
+4685b5,127.0.0.1,GET,http://localhost:8000/index,1510016651,,200
+9116a0,127.0.0.1,GET,http://localhost:8000/cine/index,1510016653,,200
+9fb241,127.0.0.1,GET,http://localhost:8000/cine/eliminar/99,1510016664,,302
+f14a6e,127.0.0.1,GET,http://localhost:8000/cine/index,1510016665,,200
