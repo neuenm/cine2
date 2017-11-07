@@ -1,5 +1,9 @@
 {% extends "CineBundle::layout.html.twig" %}
 {% block content %}
+    {% for message in app.session.flashbag().get('status') %}
+        <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
+    {% endfor %}
+
     <div  class="fuente"><h1 class="white-text center">Saca tu entrada en solo 4 pasos</h1></div>
      <div class="carousel carousel-slider center" data-indicators="true">
          {%if app.user != null%}
@@ -30,7 +34,7 @@
                <h4 class="white-text fuente">Busca el horario que prefieras</h4>
           </div>
      </div>
-    <h3 class=" white-text fuente">Algunos de los sines que podes elegir ...</h3>
+    <h3 class=" white-text fuente">Algunos de los Cines que podes elegir ...</h3>
     <div class="container top" >
         <div class="row">
             <div class="col s12 m6 l4"><IMG SRC="{{ asset('bundles/cine/images/logo1.png') }}" width="150px" height="150px"></div>

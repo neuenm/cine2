@@ -21,29 +21,29 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7->enter($__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
+        $__internal_d02911a236091ec30e8866f9ceec90209ae2cf1f872391afca6bdc79d46d1a45 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d02911a236091ec30e8866f9ceec90209ae2cf1f872391afca6bdc79d46d1a45->enter($__internal_d02911a236091ec30e8866f9ceec90209ae2cf1f872391afca6bdc79d46d1a45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
 
-        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240->enter($__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
+        $__internal_3c3702309b441d703bc9927e76cd82022fcdbabdddeff94fa54d07e3ab658795 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3c3702309b441d703bc9927e76cd82022fcdbabdddeff94fa54d07e3ab658795->enter($__internal_3c3702309b441d703bc9927e76cd82022fcdbabdddeff94fa54d07e3ab658795_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Salas:carga.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7->leave($__internal_e8a2139dca947f940cac489b74d3f971cf66916d203fe2da9e30462b686090b7_prof);
+        $__internal_d02911a236091ec30e8866f9ceec90209ae2cf1f872391afca6bdc79d46d1a45->leave($__internal_d02911a236091ec30e8866f9ceec90209ae2cf1f872391afca6bdc79d46d1a45_prof);
 
         
-        $__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240->leave($__internal_fe30288460f6599b46fe3c48544254f89294eb5a18a825c345654c39aea0e240_prof);
+        $__internal_3c3702309b441d703bc9927e76cd82022fcdbabdddeff94fa54d07e3ab658795->leave($__internal_3c3702309b441d703bc9927e76cd82022fcdbabdddeff94fa54d07e3ab658795_prof);
 
     }
 
     // line 4
     public function block_content($context, array $blocks = array())
     {
-        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0->enter($__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_60c27ae8a94c428120f640e4472240be8fed7e16503307028c019cd13e4a57f7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_60c27ae8a94c428120f640e4472240be8fed7e16503307028c019cd13e4a57f7->enter($__internal_60c27ae8a94c428120f640e4472240be8fed7e16503307028c019cd13e4a57f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f->enter($__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_9ba3116cb038debd654b543dabade7184523ee9f396f4eac3bf85236aefb1c39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9ba3116cb038debd654b543dabade7184523ee9f396f4eac3bf85236aefb1c39->enter($__internal_9ba3116cb038debd654b543dabade7184523ee9f396f4eac3bf85236aefb1c39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 5
         echo "    <h4 class=\"white-text text-lighten-3\" >Salas:</h4>
@@ -67,19 +67,14 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
             // line 11
             echo "        <p><a class=\"waves-effect waves-light btn\" href=\"";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
-            echo "\">Volver</a></p>
+            echo "\">Finalizar carga del cine</a></p>
     ";
         }
-        // line 13
-        echo "
-
-
-";
         
-        $__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f->leave($__internal_abe93222c15dcad8fd6f6aa9090db394bedc31f7496ce041e8121208cd61061f_prof);
+        $__internal_9ba3116cb038debd654b543dabade7184523ee9f396f4eac3bf85236aefb1c39->leave($__internal_9ba3116cb038debd654b543dabade7184523ee9f396f4eac3bf85236aefb1c39_prof);
 
         
-        $__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0->leave($__internal_10ce70db1b14ee710cde7900570d84dce0be3476d47a2417e7b41eb2d5b527c0_prof);
+        $__internal_60c27ae8a94c428120f640e4472240be8fed7e16503307028c019cd13e4a57f7->leave($__internal_60c27ae8a94c428120f640e4472240be8fed7e16503307028c019cd13e4a57f7_prof);
 
     }
 
@@ -95,7 +90,7 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
 
     public function getDebugInfo()
     {
-        return array (  74 => 13,  68 => 11,  63 => 9,  58 => 8,  56 => 7,  52 => 6,  49 => 5,  40 => 4,  11 => 1,);
+        return array (  68 => 11,  63 => 9,  58 => 8,  56 => 7,  52 => 6,  49 => 5,  40 => 4,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -118,11 +113,8 @@ class __TwigTemplate_3bb4b3d6665e30033476a1512db092e5ccfe35a57302f384e83e09b4c89
         {{form_start(form) }}
         {{form_end(form)}}
     {% else %}
-        <p><a class=\"waves-effect waves-light btn\" href=\"{{path(\"index\")}}\">Volver</a></p>
+        <p><a class=\"waves-effect waves-light btn\" href=\"{{path(\"index\")}}\">Finalizar carga del cine</a></p>
     {% endif %}
-
-
-
 {% endblock %}
 ", "CineBundle:Salas:carga.html.twig", "/home/neuen/php2016/cine2/src/CineBundle/Resources/views/Salas/carga.html.twig");
     }

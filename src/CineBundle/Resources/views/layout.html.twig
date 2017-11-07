@@ -109,35 +109,45 @@
     </li>
 </ul>
 
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper red">
-            <a href="{{ path("index") }}" class="brand-logo center"><img  width="70"  height="80" src="http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251"/>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                {%if app.user != null%}
-                    <li>Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == "ROLE_ADMIN" %} (Administrador) {%endif%}</li>
-                {% endif %}
 
-                <!-- Dropdown Trigger -->
-                {%if app.user == null%}
-                    <li class="fuente"><a href="#modal1"> Ya tenes una cuenta? <i class="material-icons right">arrow_drop_down</i></a></li>
-                {% else %}
-                    {%if app.user.role == "ROLE_ADMIN" %}
-                        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Opciones administrativas <i class="material-icons right">arrow_drop_down</i></a></li>
-                    {% endif %}
-                    <li><a href="{{path("logout")}}">Salir</a></li>
+<nav class="red">
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img  width="70"  height="80" src="http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251"/></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            {%if app.user != null%}
+                <li  class="light grey-text text-lighten-3">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == "ROLE_ADMIN" %} (Administrador) {%endif%}</li>
+            {% endif %}
+
+
+            <!-- Dropdown Trigger -->
+            {%if app.user == null%}
+                <li class="fuente"><a href="#modal1"> Ya tenes una cuenta? <i class="material-icons right">arrow_drop_down</i></a></li>
+            {% else %}
+                {%if app.user.role == "ROLE_ADMIN" %}
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Opciones administrativas <i class="material-icons right">arrow_drop_down</i></a></li>
                 {% endif %}
-            </ul>
-            <ul class="left hide-on-med-and-down">
-                <li class="waves-effect waves-black fuente"><a href="{{path("index_cine")}}">SACAR ENTRADAS!!</a></li>
-                <li class="waves-effect waves-black fuente"><a href="{{path("index_cine")}}">Cines</a></li>
-                <li class="waves-effect waves-black fuente"><a href="{{path("funcion_index")}}">Funciones</a></li>
-                <li class="waves-effect waves-black fuente"><a href="{{path("pelicopia_index")}}">Peliculas</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+                <li><a href="{{path("logout")}}">Salir</a></li>
+            {% endif %}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            {%if app.user != null%}
+                <li class="blue-grey darken-4-text">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == "ROLE_ADMIN" %} (Administrador) {%endif%}</li>
+            {% endif %}
+
+            <!-- Dropdown Trigger -->
+            {%if app.user == null%}
+                <li><a href="#modal1"> Ya tenes una cuenta? <i class="material-icons right">arrow_drop_down</i></a></li>
+            {% else %}
+                {%if app.user.role == "ROLE_ADMIN" %}
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Opciones administrativas <i class="material-icons right">arrow_drop_down</i></a></li>
+                {% endif %}
+                <li><a href="{{path("logout")}}">Salir</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+
 
 
 
@@ -161,6 +171,7 @@
 
 <script>
     $(document).ready(function(){
+        $(".button-collapse").sideNav();
         $('.modal').modal();
         $('.dropdown-submenu a.test').on("click", function(e){
             $(this).next('ul').toggle();

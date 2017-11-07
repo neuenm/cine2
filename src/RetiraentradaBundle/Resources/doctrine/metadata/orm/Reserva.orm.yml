@@ -1,0 +1,72 @@
+Reserva:
+    type: entity
+    table: reserva
+    indexes:
+        fk_reserva_usuario:
+            columns:
+                - id_user
+        fk_reserva_funcion:
+            columns:
+                - id_funcion
+        fk_reserva_pago:
+            columns:
+                - id_pago
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        cantidad:
+            type: integer
+            nullable: true
+            options:
+                unsigned: false
+        estado:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        codigo:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+    manyToOne:
+        idFuncion:
+            targetEntity: Funcion
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_funcion:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idPago:
+            targetEntity: Pago
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_pago:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idUser:
+            targetEntity: User
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_user:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

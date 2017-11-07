@@ -1,24 +1,26 @@
 {% extends "CineBundle::layout.html.twig" %}
 
 {% block content %}
-    <h3 class="light grey-text text-lighten-3">Nueva Copia de Pelicula:</h3>
-    {% for message in app.session.flashbag().get('status') %}
-        <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
-    {% endfor %}
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-            {{form_start(form)}}
-            {{ form_label(form.idPeli) }}
-            {{ form_widget(form.idPeli, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.idFormato) }}
-            {{ form_widget(form.idFormato, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.idioma) }}
-            {{ form_widget(form.idioma, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.estado) }}
-            {{ form_widget(form.estado, { 'attr': {'class': 'browser-default'} })  }}
-            {{form_end(form)}}
+    <div class="container">
+        <h3 class="light grey-text text-lighten-3">Nueva Copia de Pelicula:</h3>
+        {% for message in app.session.flashbag().get('status') %}
+            <script>Materialize.toast("{{ message }}", 6000, 'rounded')</script>
+        {% endfor %}
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                {{form_start(form)}}
+                {{ form_label(form.idPeli) }}
+                {{ form_widget(form.idPeli, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.idFormato) }}
+                {{ form_widget(form.idFormato, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.idioma) }}
+                {{ form_widget(form.idioma, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.estado) }}
+                {{ form_widget(form.estado, { 'attr': {'class': 'browser-default'} })  }}
+                {{form_end(form)}}
 
+            </div>
         </div>
+        <div class="clearfix">
     </div>
-    <div class="clearfix">
 {% endblock %}

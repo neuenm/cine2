@@ -1,3 +1,7 @@
+retiraentrada:
+    resource: "@RetiraentradaBundle/Resources/config/routing.yml"
+    prefix:   /
+
 cine:
     resource: "@CineBundle/Resources/config/routing.yml"
     prefix:   /

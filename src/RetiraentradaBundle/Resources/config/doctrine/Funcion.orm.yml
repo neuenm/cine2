@@ -1,0 +1,67 @@
+RetiraentradaBundle\Entity\Funcion:
+    type: entity
+    table: funcion
+    indexes:
+        fk_funcion_peliCopia:
+            columns:
+                - id_peli_copia
+        fk_funcion_sala:
+            columns:
+                - id_sala
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        precio:
+            type: integer
+            nullable: true
+            options:
+                unsigned: false
+        hora:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        fecha:
+            type: date
+            nullable: true
+        estado:
+            type: string
+            nullable: true
+            length: 45
+            options:
+                fixed: false
+        disponibles:
+            type: integer
+            nullable: true
+            options:
+                unsigned: false
+    manyToOne:
+        idPeliCopia:
+            targetEntity: Pelicopia
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_peli_copia:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idSala:
+            targetEntity: Sala
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_sala:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

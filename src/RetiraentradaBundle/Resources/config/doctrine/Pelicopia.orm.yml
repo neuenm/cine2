@@ -1,0 +1,61 @@
+RetiraentradaBundle\Entity\Pelicopia:
+    type: entity
+    table: peliCopia
+    indexes:
+        fk_peliCopia_pelicula:
+            columns:
+                - id_peli
+        fk_peliCopia_formato:
+            columns:
+                - id_formato
+        fk_peliCopia_idioma:
+            columns:
+                - id_idioma
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        estado:
+            type: string
+            nullable: true
+            length: 45
+            options:
+                fixed: false
+    manyToOne:
+        idFormato:
+            targetEntity: Formato
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_formato:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idioma:
+            targetEntity: Idioma
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_idioma:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idPeli:
+            targetEntity: Pelicula
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_peli:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

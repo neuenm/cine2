@@ -1,0 +1,7 @@
+retiraentrada_homepage:
+    path:     /
+    defaults: { _controller: RetiraentradaBundle:Default:index }
+
+retira:
+  path: /retirar
+  defaults: {_controller: RetiraentradaBundle:Retira:retiraEntrada}

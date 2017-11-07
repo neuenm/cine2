@@ -34,6 +34,7 @@ class SalasController extends Controller
                 $sala->setEstado($form->get("estado")->getData());
                 $sala->setCantButacas($form->get("cantButacas")->getData());
                 $sala->setFormato($form->get("formato")->getData());
+                $sala->setLetra($numero);
                 $em = $this->getDoctrine()->getEntityManager();
                 $em->persist($sala);
                 $flush = $em->flush();

@@ -1,0 +1,57 @@
+{% block header %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="  https://printjs-4de6.kxcdn.com/print.min.css">
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+{% endblock %}
+{% block content %}
+
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <span class="card-title">Encontramos tus entradas!</span>
+
+                <div class="card-image">
+                    <img src="{{ funcion.idPeliCopia.idPeli.imagen }}">
+                    <h1>Hola  {{ user.nombre }}  {{ user.apellido }}</h1>
+                    <h3>{{ user.mail }}</h3>
+                </div>
+                <div class="card-content">
+                    <p>Pelicula: {{ funcion.idPeliCopia.idPeli.nombre }}</p>
+                    <p>Formato:  {{ funcion.idPeliCopia.idFormato.nombre }}</p>
+                    <p>Idioma: {{ funcion.idPeliCopia.idioma.nombre }}</p>
+                </div>
+                <div class="card-action">
+                    <button type="button" onclick="printJS('printJS-form', 'html')">
+                        Imprimir entradas
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="printJS-form" style="visibility: hidden;">
+        {% for i in 0..reserva.cantidad %}
+            <h3>Entrada: {{ i }}</h3>
+            <p>Cine: {{ funcion.idSala.cine.nombre }}</p>
+            <p>Sala: {{ funcion.idSala.letra }}</p>
+            <p>Pelicula: {{ funcion.idPeliCopia.idPeli.nombre }}</p>
+            <p>////////////////////////////////////////////////////////////////////</p>
+        {% endfor %}
+
+
+    </div>
+
+
+
+{% endblock %}

@@ -2,30 +2,32 @@
 
 
     {% block content %}
-    <h3 class="light grey-text text-lighten-3">Edicion de la copia de la pelicula:</h3>
 
-    {% for message in app.session.flashbag().get('status') %}
-        {% if message== "Se guardaron sus cambios correctamente" %}
-            <div class="alert alert-success">{{ message }}</div>
-        {%else%}
-            <div class="alert alert-danger">{{ message }}</div>
-        {% endif %}
-    {% endfor %}
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 col-sm-4 ">
-            {{form_start(form)}}
-            {{ form_label(form.idPeli) }}
-            {{ form_widget(form.idPeli, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.idFormato) }}
-            {{ form_widget(form.idFormato, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.idioma) }}
-            {{ form_widget(form.idioma, { 'attr': {'class': 'browser-default'} })  }}
-            {{ form_label(form.estado) }}
-            {{ form_widget(form.estado, { 'attr': {'class': 'browser-default'} })  }}
-            {{form_end(form)}}
+    <div class="container">
+        <h3 class="light grey-text text-lighten-3">Edicion de la copia de la pelicula:</h3>
+        {% for message in app.session.flashbag().get('status') %}
+            {% if message== "Se guardaron sus cambios correctamente" %}
+                <div class="alert alert-success">{{ message }}</div>
+            {%else%}
+                <div class="alert alert-danger">{{ message }}</div>
+            {% endif %}
+        {% endfor %}
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-4 ">
+                {{form_start(form)}}
+                {{ form_label(form.idPeli) }}
+                {{ form_widget(form.idPeli, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.idFormato) }}
+                {{ form_widget(form.idFormato, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.idioma) }}
+                {{ form_widget(form.idioma, { 'attr': {'class': 'browser-default'} })  }}
+                {{ form_label(form.estado) }}
+                {{ form_widget(form.estado, { 'attr': {'class': 'browser-default'} })  }}
+                {{form_end(form)}}
+            </div>
         </div>
+        </div>
+        <div class="clearfix">
     </div>
-    </div>
-    <div class="clearfix">
 {% endblock %}

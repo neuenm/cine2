@@ -19,6 +19,10 @@ class UserController extends Controller
         $auteticationUtils=$this->get("security.authentication_Utils");
         $error= $auteticationUtils->getLastauthenticationerror();
         $last_username=$auteticationUtils->getLastUsername();
+        if ($error){
+            $status="Ah ocurrido un error en la autenticacion. Usuario o contraseña invalida ";
+        }
+        $this->session->getFlashBag()-> add("status",$status);
         return $this->render("CineBundle:Default:index.html.twig", array(
             "error"=>$error,
             "lastName"=>$last_username,
@@ -26,7 +30,6 @@ class UserController extends Controller
     }
 
     public function registroAction(Request $request)
-
     {
 
         $user = new User();
@@ -71,8 +74,6 @@ class UserController extends Controller
             }
         $this->session->getFlashBag()-> add("status",$status);
         }
-
-    
         return $this->render('CineBundle:User:registro.html.twig', array(
             "form"=>$form->createView(),
         ));

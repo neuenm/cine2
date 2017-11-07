@@ -1,0 +1,37 @@
+RetiraentradaBundle\Entity\Pago:
+    type: entity
+    table: pago
+    indexes:
+        fk_pago_formaPago:
+            columns:
+                - id_forma_pago
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        monto:
+            type: integer
+            nullable: true
+            options:
+                unsigned: false
+        fecha:
+            type: date
+            nullable: true
+    manyToOne:
+        idFormaPago:
+            targetEntity: Formapago
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_forma_pago:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

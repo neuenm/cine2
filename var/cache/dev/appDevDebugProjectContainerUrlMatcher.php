@@ -105,6 +105,20 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // retiraentrada_homepage
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'retiraentrada_homepage');
+            }
+
+            return array (  '_controller' => 'RetiraentradaBundle\\Controller\\DefaultController::indexAction',  '_route' => 'retiraentrada_homepage',);
+        }
+
+        // retira
+        if ($pathinfo === '/retirar') {
+            return array (  '_controller' => 'RetiraentradaBundle\\Controller\\RetiraController::retiraEntradaAction',  '_route' => 'retira',);
+        }
+
         if (0 === strpos($pathinfo, '/log')) {
             if (0 === strpos($pathinfo, '/login')) {
                 // login
