@@ -21,33 +21,33 @@ class __TwigTemplate_40d0759d41a2e846f77be784c602f0080051a18f5b68e49651f3e445a9c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7f60bf6e616d4e8784179309abb3d10a76092cdb2a68cc557186ff0a3a1d8aad = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7f60bf6e616d4e8784179309abb3d10a76092cdb2a68cc557186ff0a3a1d8aad->enter($__internal_7f60bf6e616d4e8784179309abb3d10a76092cdb2a68cc557186ff0a3a1d8aad_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Cine:edita.html.twig"));
+        $__internal_c199685459f987849422a09f651dfc9c6befb64c5564b92927ee468663afdf75 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c199685459f987849422a09f651dfc9c6befb64c5564b92927ee468663afdf75->enter($__internal_c199685459f987849422a09f651dfc9c6befb64c5564b92927ee468663afdf75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Cine:edita.html.twig"));
 
-        $__internal_7d06bd1362e2aea53b18c104b285fab3783e54e074fb050eb9cb2891dcf88a50 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7d06bd1362e2aea53b18c104b285fab3783e54e074fb050eb9cb2891dcf88a50->enter($__internal_7d06bd1362e2aea53b18c104b285fab3783e54e074fb050eb9cb2891dcf88a50_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Cine:edita.html.twig"));
+        $__internal_6ed1c156ef3e5742f88a1bab80a0b2405c995cae18f818186003c697aa2d387d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6ed1c156ef3e5742f88a1bab80a0b2405c995cae18f818186003c697aa2d387d->enter($__internal_6ed1c156ef3e5742f88a1bab80a0b2405c995cae18f818186003c697aa2d387d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle:Cine:edita.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_7f60bf6e616d4e8784179309abb3d10a76092cdb2a68cc557186ff0a3a1d8aad->leave($__internal_7f60bf6e616d4e8784179309abb3d10a76092cdb2a68cc557186ff0a3a1d8aad_prof);
+        $__internal_c199685459f987849422a09f651dfc9c6befb64c5564b92927ee468663afdf75->leave($__internal_c199685459f987849422a09f651dfc9c6befb64c5564b92927ee468663afdf75_prof);
 
         
-        $__internal_7d06bd1362e2aea53b18c104b285fab3783e54e074fb050eb9cb2891dcf88a50->leave($__internal_7d06bd1362e2aea53b18c104b285fab3783e54e074fb050eb9cb2891dcf88a50_prof);
+        $__internal_6ed1c156ef3e5742f88a1bab80a0b2405c995cae18f818186003c697aa2d387d->leave($__internal_6ed1c156ef3e5742f88a1bab80a0b2405c995cae18f818186003c697aa2d387d_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_da7b2ed061ee0d25cb7dfaef12235d7f61b42a7f8013c7d1fe2e00cef0d50d48 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_da7b2ed061ee0d25cb7dfaef12235d7f61b42a7f8013c7d1fe2e00cef0d50d48->enter($__internal_da7b2ed061ee0d25cb7dfaef12235d7f61b42a7f8013c7d1fe2e00cef0d50d48_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_f4ecb42c4d6dd073cfc7c780a17cde80fad942f33883dcf416be6414df4d6b01 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f4ecb42c4d6dd073cfc7c780a17cde80fad942f33883dcf416be6414df4d6b01->enter($__internal_f4ecb42c4d6dd073cfc7c780a17cde80fad942f33883dcf416be6414df4d6b01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_0ca965a4db2427ccb3da366fde445d2786fabd9ec39b9d531ac1ae940ed8bc02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0ca965a4db2427ccb3da366fde445d2786fabd9ec39b9d531ac1ae940ed8bc02->enter($__internal_0ca965a4db2427ccb3da366fde445d2786fabd9ec39b9d531ac1ae940ed8bc02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_5ee08ad508d55e1928310b613a2af208e65eb9f9551f74c1f18b5279a7fd0aa6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5ee08ad508d55e1928310b613a2af208e65eb9f9551f74c1f18b5279a7fd0aa6->enter($__internal_5ee08ad508d55e1928310b613a2af208e65eb9f9551f74c1f18b5279a7fd0aa6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "    <div class=\"container\">
-        <h1 class=\"text-center\">Edicion de Cine:</h1>
+        <h3 class=\"light grey-text text-lighten-3\">Edicion de Cine:</h3>
         ";
         // line 5
         $context['_parent'] = $context;
@@ -87,10 +87,10 @@ class __TwigTemplate_40d0759d41a2e846f77be784c602f0080051a18f5b68e49651f3e445a9c
     </div>>
 ";
         
-        $__internal_0ca965a4db2427ccb3da366fde445d2786fabd9ec39b9d531ac1ae940ed8bc02->leave($__internal_0ca965a4db2427ccb3da366fde445d2786fabd9ec39b9d531ac1ae940ed8bc02_prof);
+        $__internal_5ee08ad508d55e1928310b613a2af208e65eb9f9551f74c1f18b5279a7fd0aa6->leave($__internal_5ee08ad508d55e1928310b613a2af208e65eb9f9551f74c1f18b5279a7fd0aa6_prof);
 
         
-        $__internal_da7b2ed061ee0d25cb7dfaef12235d7f61b42a7f8013c7d1fe2e00cef0d50d48->leave($__internal_da7b2ed061ee0d25cb7dfaef12235d7f61b42a7f8013c7d1fe2e00cef0d50d48_prof);
+        $__internal_f4ecb42c4d6dd073cfc7c780a17cde80fad942f33883dcf416be6414df4d6b01->leave($__internal_f4ecb42c4d6dd073cfc7c780a17cde80fad942f33883dcf416be6414df4d6b01_prof);
 
     }
 
@@ -122,7 +122,7 @@ class __TwigTemplate_40d0759d41a2e846f77be784c602f0080051a18f5b68e49651f3e445a9c
         return new Twig_Source("{% extends \"CineBundle::layout.html.twig\" %}
 {% block content %}
     <div class=\"container\">
-        <h1 class=\"text-center\">Edicion de Cine:</h1>
+        <h3 class=\"light grey-text text-lighten-3\">Edicion de Cine:</h3>
         {% for message in app.session.flashbag().get('status') %}
             <script>Materialize.toast(\"{{ message }}\", 6000, 'rounded')</script>
         {% endfor %}

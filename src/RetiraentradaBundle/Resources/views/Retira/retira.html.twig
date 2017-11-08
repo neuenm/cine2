@@ -1,4 +1,12 @@
+{% extends "RetiraentradaBundle::layout.html.twig" %}
+
 {% block content %}
-    {{form_start(form)}}
-    {{form_end(form)}}
+    <div class="card">
+        <img class="card-img-top" src="http://espectaculo-cordoba.com.ar/wp-content/uploads/2017/04/cine-1.jpg" alt="Card image cap">
+        <div class="card-block">
+            <h2 class="card-text">Ingresa el codigo de tu reserva!</h2>
+            {{form_start(form)}}
+            {{form_end(form)}}
+        </div>
+    </div>
 {% endblock %}

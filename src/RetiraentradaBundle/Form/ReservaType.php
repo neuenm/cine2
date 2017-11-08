@@ -16,9 +16,11 @@ class ReservaType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('codigo', TextType::class)
+            ->add('codigo', TextType::class, array("attr" =>array(
+                "class" => "form-control form-rounded",
+            )))
             ->add('Buscar entradas', SubmitType::class, array("attr" =>array(
-                "class" => "form-submit btn btn-success",
+                "class" => "form-submit btn btn-success btn-block",
             )))
        ;
     }
@@ -29,7 +31,7 @@ class ReservaType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'RetiraentradaBundle\Entity\Reserva'
+            'data_class' => 'RetiraentradaBundle\Entity\Reserva',
         ));
     }
 

@@ -56,7 +56,8 @@ class FuncionType extends AbstractType
                         $butacas=$sala->getCantButacas();
                         $nombreCine= $cine->getNombre();
                         $nombreFormato=$formato->getNombre();
-                        return "CINE:".$nombreCine."----------FORMATO: ".$nombreFormato."---------CANT BUTACAS ". $butacas;
+                        $nombreSala=$sala->getLetra();
+                        return "CINE:".$nombreCine."-------SALA".$nombreSala."----------FORMATO: ".$nombreFormato."---------CANT BUTACAS ". $butacas;
                     },
                 "label" => "Sala:",
                 "attr" =>array("class" =>'browser-default')

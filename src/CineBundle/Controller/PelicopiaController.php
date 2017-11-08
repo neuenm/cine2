@@ -26,26 +26,36 @@ class PelicopiaController extends Controller
 
         if ($form->isSubmitted()){
             if ($form->isValid()){
-                    $pelicopia ->setIdPeli($form->get("idPeli")->getData());
-                    $pelicopia ->setIdFormato($form->get("idFormato")->getData());
-                    $pelicopia-> setidioma($form->get("idioma")->getData());
-                    $pelicopia-> setEstado ($form->get("estado")->getData());
+                $em=$this->getDoctrine()->getEntityManager();
+                $copia_repo=$em->getRepository("CineBundle:Pelicopia");
+                $copia= $copia_repo->findOneBy(array("idPeli"=>$form->get("idPeli")->getData(),"idFormato"=>$form->get("idFormato")->getData(),"idioma"=>$form->get("idioma")->getData(), "estado"=>"Activo"));
+                if (count($copia)==0) {
+                    $pelicopia = new Pelicopia();
+                    $pelicopia->setIdPeli($form->get("idPeli")->getData());
+                    $pelicopia->setIdFormato($form->get("idFormato")->getData());
+                    $pelicopia->setidioma($form->get("idioma")->getData());
+                    $pelicopia->setEstado($form->get("estado")->getData());
 
 
                     $em = $this->getDoctrine()->getEntityManager();
                     $em->persist($pelicopia);
                     $flush = $em->flush();
-
                     if ($flush==null){
-                        $status ="Pelicula agregada correctamente";
+                        $status ="Copia de pelicula agregado correctamente";
                     }else{
-                        $status="No se ah podido agregar a pelicula";
+                        $status="No se a podido agregar este Cine";
                     }
+
+                }else{
+                    $status="Esta copia de pelicula ya existe!";
                 }
             }else{
-                $status="Formulario innvalido";
+                $status="Formulario invalido";
             }
-        $this->session->getFlashBag()-> add("status",$status);
+            $this->session->getFlashBag()-> add("status",$status);
+
+        }
+
 
 
     

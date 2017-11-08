@@ -18,11 +18,11 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_abf0e9c33300334c45a568f5b6375320e156d614ae912dc2fa1f007e3affdce6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_abf0e9c33300334c45a568f5b6375320e156d614ae912dc2fa1f007e3affdce6->enter($__internal_abf0e9c33300334c45a568f5b6375320e156d614ae912dc2fa1f007e3affdce6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
+        $__internal_3a22340cfceaebe36e3615b4d9cdf417d972d5de6b9780fbc2e4548a5b31091a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3a22340cfceaebe36e3615b4d9cdf417d972d5de6b9780fbc2e4548a5b31091a->enter($__internal_3a22340cfceaebe36e3615b4d9cdf417d972d5de6b9780fbc2e4548a5b31091a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
 
-        $__internal_21fd536818eedbf3b036724b5208dfecdb08f039ee1b9e389a278e864cf7335c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_21fd536818eedbf3b036724b5208dfecdb08f039ee1b9e389a278e864cf7335c->enter($__internal_21fd536818eedbf3b036724b5208dfecdb08f039ee1b9e389a278e864cf7335c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
+        $__internal_33d4e3a9e5424c2f4495de0d5dffc73fc066b905c245ec275e929727d90a15af = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_33d4e3a9e5424c2f4495de0d5dffc73fc066b905c245ec275e929727d90a15af->enter($__internal_33d4e3a9e5424c2f4495de0d5dffc73fc066b905c245ec275e929727d90a15af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CineBundle::layout.html.twig"));
 
         // line 1
         echo "<html>
@@ -95,71 +95,7 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
         </div>
     </div>
 </div>
-<ul id=\"dropdown2\" class=\"dropdown-content\">
-    <li >
-        <ul class=\"dropdown-menu\">
-            <li class=\"dropdown-submenu\">
-                <ul><optgroup label=\"Cines\"></ul>
-                <ul class=\"dropdown-menu\">
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 75
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nuevo_cine");
-        echo "\">Agregar</a></li>
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 76
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
-        echo "\">Listar </a></li>
-                </ul>
-            </li>
-            <li class=\"divider\"></li>
 
-            <li class=\"dropdown-submenu\">
-                <ul><optgroup label=\"Funciones\"></ul>
-                <ul class=\"dropdown-menu\">
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 84
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_nueva");
-        echo "\">Agregar</a></li>
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 85
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_index");
-        echo "\">Listar</a></li>
-
-                </ul>
-            </li>
-            <li class=\"divider\"></li>
-
-            <li class=\"dropdown-submenu\">
-                <ul><optgroup label=\"Peliculas\"></ul>
-                <ul class=\"dropdown-menu\">
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 94
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nueva_peli");
-        echo "\">Agregar</a></li>
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 95
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_peli");
-        echo "\">Listar</a></li>
-                </ul>
-            </li>
-            <li class=\"divider\"></li>
-
-            <li class=\"dropdown-submenu\">
-                <ul><optgroup label=\"Peliculas (copias)\"></ul>
-                <ul class=\"dropdown-menu\">
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 103
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_nueva");
-        echo "\">Agregar</a></li>
-                    <li><a tabindex=\"-1\" href=\"";
-        // line 104
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
-        echo "\">Listar</a></li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
 
 
 <nav class=\"red\">
@@ -168,9 +104,9 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
         <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>
         <ul class=\"right hide-on-med-and-down\">
             ";
-        // line 117
+        // line 77
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) != null)) {
-            // line 118
+            // line 78
             echo "                <li  class=\"light grey-text text-lighten-3\">Bienvenido, ";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "nombre", array()), "html", null, true);
             echo " ";
@@ -182,37 +118,37 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
             echo "</li>
             ";
         }
-        // line 120
+        // line 80
         echo "
 
             <!-- Dropdown Trigger -->
             ";
-        // line 123
+        // line 83
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) == null)) {
-            // line 124
+            // line 84
             echo "                <li class=\"fuente\"><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
             ";
         } else {
-            // line 126
+            // line 86
             echo "                ";
             if (($this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "role", array()) == "ROLE_ADMIN")) {
-                // line 127
-                echo "                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                // line 87
+                echo "                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
                 ";
             }
-            // line 129
+            // line 89
             echo "                <li><a href=\"";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("logout");
             echo "\">Salir</a></li>
             ";
         }
-        // line 131
+        // line 91
         echo "        </ul>
         <ul class=\"side-nav\" id=\"mobile-demo\">
             ";
-        // line 133
+        // line 93
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) != null)) {
-            // line 134
+            // line 94
             echo "                <li class=\"blue-grey darken-4-text\">Bienvenido, ";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "nombre", array()), "html", null, true);
             echo " ";
@@ -224,43 +160,174 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
             echo "</li>
             ";
         }
-        // line 136
+        // line 96
         echo "
             <!-- Dropdown Trigger -->
             ";
-        // line 138
+        // line 98
         if (($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()) == null)) {
-            // line 139
+            // line 99
             echo "                <li><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
             ";
         } else {
-            // line 141
+            // line 101
             echo "                ";
             if (($this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "role", array()) == "ROLE_ADMIN")) {
-                // line 142
-                echo "                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                // line 102
+                echo "                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown1\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
                 ";
             }
-            // line 144
+            // line 104
             echo "                <li><a href=\"";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("logout");
             echo "\">Salir</a></li>
             ";
         }
-        // line 146
+        // line 106
         echo "        </ul>
     </div>
 </nav>
 
+<ul id=\"dropdown\" class=\"dropdown-content\">
+    <li >
+        <ul class=\"dropdown-menu\">
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Cines\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 116
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nuevo_cine");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 117
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
+        echo "\">Listar </a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Funciones\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 125
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 126
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_index");
+        echo "\">Listar</a></li>
+
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 135
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nueva_peli");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 136
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_peli");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas (copias)\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 144
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 145
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<ul id=\"dropdown1\" class=\"dropdown-content\">
+    <li >
+        <ul class=\"dropdown-menu\">
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Cines\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 158
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nuevo_cine");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 159
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_cine");
+        echo "\">Listar </a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Funciones\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 167
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 168
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("funcion_index");
+        echo "\">Listar</a></li>
+
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 177
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("nueva_peli");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 178
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index_peli");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas (copias)\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 186
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_nueva");
+        echo "\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"";
+        // line 187
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("pelicopia_index");
+        echo "\">Listar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
 
 
 
 
 <section id=\"content\">
     ";
-        // line 155
+        // line 198
         $this->displayBlock('content', $context, $blocks);
-        // line 156
+        // line 199
         echo "</section>
 
 <footer class=\"page-footer red footer\">
@@ -304,39 +371,39 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
 </script>";
         
-        $__internal_abf0e9c33300334c45a568f5b6375320e156d614ae912dc2fa1f007e3affdce6->leave($__internal_abf0e9c33300334c45a568f5b6375320e156d614ae912dc2fa1f007e3affdce6_prof);
+        $__internal_3a22340cfceaebe36e3615b4d9cdf417d972d5de6b9780fbc2e4548a5b31091a->leave($__internal_3a22340cfceaebe36e3615b4d9cdf417d972d5de6b9780fbc2e4548a5b31091a_prof);
 
         
-        $__internal_21fd536818eedbf3b036724b5208dfecdb08f039ee1b9e389a278e864cf7335c->leave($__internal_21fd536818eedbf3b036724b5208dfecdb08f039ee1b9e389a278e864cf7335c_prof);
+        $__internal_33d4e3a9e5424c2f4495de0d5dffc73fc066b905c245ec275e929727d90a15af->leave($__internal_33d4e3a9e5424c2f4495de0d5dffc73fc066b905c245ec275e929727d90a15af_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_6ce81d166797a99f11e583db835837177c4168f9a89fefc0e2297b531a7045d9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6ce81d166797a99f11e583db835837177c4168f9a89fefc0e2297b531a7045d9->enter($__internal_6ce81d166797a99f11e583db835837177c4168f9a89fefc0e2297b531a7045d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_b03b689e9f1f482ec15bc632ec2255cde8c6b466ee636380eec1ef646a77e975 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b03b689e9f1f482ec15bc632ec2255cde8c6b466ee636380eec1ef646a77e975->enter($__internal_b03b689e9f1f482ec15bc632ec2255cde8c6b466ee636380eec1ef646a77e975_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_25c3960088fe3b09bad59dcbbf4198f36ccb68306f7f60c8bbd9b2e4dbfb3256 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_25c3960088fe3b09bad59dcbbf4198f36ccb68306f7f60c8bbd9b2e4dbfb3256->enter($__internal_25c3960088fe3b09bad59dcbbf4198f36ccb68306f7f60c8bbd9b2e4dbfb3256_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_bd4fdd1cc5a94cf157c2493fa34b5f3d66198ea299bf24ee719972df1e7f9ea9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bd4fdd1cc5a94cf157c2493fa34b5f3d66198ea299bf24ee719972df1e7f9ea9->enter($__internal_bd4fdd1cc5a94cf157c2493fa34b5f3d66198ea299bf24ee719972df1e7f9ea9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Cines ";
         
-        $__internal_25c3960088fe3b09bad59dcbbf4198f36ccb68306f7f60c8bbd9b2e4dbfb3256->leave($__internal_25c3960088fe3b09bad59dcbbf4198f36ccb68306f7f60c8bbd9b2e4dbfb3256_prof);
+        $__internal_bd4fdd1cc5a94cf157c2493fa34b5f3d66198ea299bf24ee719972df1e7f9ea9->leave($__internal_bd4fdd1cc5a94cf157c2493fa34b5f3d66198ea299bf24ee719972df1e7f9ea9_prof);
 
         
-        $__internal_6ce81d166797a99f11e583db835837177c4168f9a89fefc0e2297b531a7045d9->leave($__internal_6ce81d166797a99f11e583db835837177c4168f9a89fefc0e2297b531a7045d9_prof);
+        $__internal_b03b689e9f1f482ec15bc632ec2255cde8c6b466ee636380eec1ef646a77e975->leave($__internal_b03b689e9f1f482ec15bc632ec2255cde8c6b466ee636380eec1ef646a77e975_prof);
 
     }
 
     // line 5
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_23d7c2a48ab036a289d639a44073401c35dbb44749a50efcecd28967f13f7483 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_23d7c2a48ab036a289d639a44073401c35dbb44749a50efcecd28967f13f7483->enter($__internal_23d7c2a48ab036a289d639a44073401c35dbb44749a50efcecd28967f13f7483_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_c00fbfef6da4fd44da7b49c6fc4343376e59c0251becc793af996486c224d5c0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c00fbfef6da4fd44da7b49c6fc4343376e59c0251becc793af996486c224d5c0->enter($__internal_c00fbfef6da4fd44da7b49c6fc4343376e59c0251becc793af996486c224d5c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_cfc2cb2d23470c0d5bd051f2f6c6d6f1a63ae0a00516c3b51fd3efab91fc0c46 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cfc2cb2d23470c0d5bd051f2f6c6d6f1a63ae0a00516c3b51fd3efab91fc0c46->enter($__internal_cfc2cb2d23470c0d5bd051f2f6c6d6f1a63ae0a00516c3b51fd3efab91fc0c46_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_2bac3c0e2a7383131794e63bd12892ed541058dc4e9eb6cd43d0f2074c7b9e60 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2bac3c0e2a7383131794e63bd12892ed541058dc4e9eb6cd43d0f2074c7b9e60->enter($__internal_2bac3c0e2a7383131794e63bd12892ed541058dc4e9eb6cd43d0f2074c7b9e60_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 6
         echo "        <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-2.1.1.min.js\"></script>
@@ -353,28 +420,28 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
     ";
         
-        $__internal_cfc2cb2d23470c0d5bd051f2f6c6d6f1a63ae0a00516c3b51fd3efab91fc0c46->leave($__internal_cfc2cb2d23470c0d5bd051f2f6c6d6f1a63ae0a00516c3b51fd3efab91fc0c46_prof);
+        $__internal_2bac3c0e2a7383131794e63bd12892ed541058dc4e9eb6cd43d0f2074c7b9e60->leave($__internal_2bac3c0e2a7383131794e63bd12892ed541058dc4e9eb6cd43d0f2074c7b9e60_prof);
 
         
-        $__internal_23d7c2a48ab036a289d639a44073401c35dbb44749a50efcecd28967f13f7483->leave($__internal_23d7c2a48ab036a289d639a44073401c35dbb44749a50efcecd28967f13f7483_prof);
+        $__internal_c00fbfef6da4fd44da7b49c6fc4343376e59c0251becc793af996486c224d5c0->leave($__internal_c00fbfef6da4fd44da7b49c6fc4343376e59c0251becc793af996486c224d5c0_prof);
 
     }
 
-    // line 155
+    // line 198
     public function block_content($context, array $blocks = array())
     {
-        $__internal_b994581aae5ee863edbeffb04881631fd181763990e52073884046a6cc382209 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b994581aae5ee863edbeffb04881631fd181763990e52073884046a6cc382209->enter($__internal_b994581aae5ee863edbeffb04881631fd181763990e52073884046a6cc382209_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_bc6cd1e2b9bde44f1c1bb3ee033189c645b60424603d77385ae348d55e03eb58 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bc6cd1e2b9bde44f1c1bb3ee033189c645b60424603d77385ae348d55e03eb58->enter($__internal_bc6cd1e2b9bde44f1c1bb3ee033189c645b60424603d77385ae348d55e03eb58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        $__internal_15654e987962011b13195e650c306961e71df90e7a42e1f507988d811fa6b38b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_15654e987962011b13195e650c306961e71df90e7a42e1f507988d811fa6b38b->enter($__internal_15654e987962011b13195e650c306961e71df90e7a42e1f507988d811fa6b38b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_e9581f6364b12e2758b26192d0e6aea611bff8550c5e95c421b6ea7d897104e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e9581f6364b12e2758b26192d0e6aea611bff8550c5e95c421b6ea7d897104e7->enter($__internal_e9581f6364b12e2758b26192d0e6aea611bff8550c5e95c421b6ea7d897104e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         echo " cotenido por defcto ";
         
-        $__internal_15654e987962011b13195e650c306961e71df90e7a42e1f507988d811fa6b38b->leave($__internal_15654e987962011b13195e650c306961e71df90e7a42e1f507988d811fa6b38b_prof);
+        $__internal_e9581f6364b12e2758b26192d0e6aea611bff8550c5e95c421b6ea7d897104e7->leave($__internal_e9581f6364b12e2758b26192d0e6aea611bff8550c5e95c421b6ea7d897104e7_prof);
 
         
-        $__internal_b994581aae5ee863edbeffb04881631fd181763990e52073884046a6cc382209->leave($__internal_b994581aae5ee863edbeffb04881631fd181763990e52073884046a6cc382209_prof);
+        $__internal_bc6cd1e2b9bde44f1c1bb3ee033189c645b60424603d77385ae348d55e03eb58->leave($__internal_bc6cd1e2b9bde44f1c1bb3ee033189c645b60424603d77385ae348d55e03eb58_prof);
 
     }
 
@@ -390,7 +457,7 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
 
     public function getDebugInfo()
     {
-        return array (  364 => 155,  351 => 13,  342 => 6,  333 => 5,  315 => 3,  264 => 156,  262 => 155,  251 => 146,  245 => 144,  241 => 142,  238 => 141,  234 => 139,  232 => 138,  228 => 136,  216 => 134,  214 => 133,  210 => 131,  204 => 129,  200 => 127,  197 => 126,  193 => 124,  191 => 123,  186 => 120,  174 => 118,  172 => 117,  156 => 104,  152 => 103,  141 => 95,  137 => 94,  125 => 85,  121 => 84,  110 => 76,  106 => 75,  91 => 63,  74 => 49,  39 => 16,  37 => 5,  32 => 3,  28 => 1,);
+        return array (  431 => 198,  418 => 13,  409 => 6,  400 => 5,  382 => 3,  331 => 199,  329 => 198,  315 => 187,  311 => 186,  300 => 178,  296 => 177,  284 => 168,  280 => 167,  269 => 159,  265 => 158,  249 => 145,  245 => 144,  234 => 136,  230 => 135,  218 => 126,  214 => 125,  203 => 117,  199 => 116,  187 => 106,  181 => 104,  177 => 102,  174 => 101,  170 => 99,  168 => 98,  164 => 96,  152 => 94,  150 => 93,  146 => 91,  140 => 89,  136 => 87,  133 => 86,  129 => 84,  127 => 83,  122 => 80,  110 => 78,  108 => 77,  91 => 63,  74 => 49,  39 => 16,  37 => 5,  32 => 3,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -471,7 +538,48 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
         </div>
     </div>
 </div>
-<ul id=\"dropdown2\" class=\"dropdown-content\">
+
+
+
+<nav class=\"red\">
+    <div class=\"nav-wrapper\">
+        <a href=\"#!\" class=\"brand-logo\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/></a>
+        <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>
+        <ul class=\"right hide-on-med-and-down\">
+            {%if app.user != null%}
+                <li  class=\"light grey-text text-lighten-3\">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
+            {% endif %}
+
+
+            <!-- Dropdown Trigger -->
+            {%if app.user == null%}
+                <li class=\"fuente\"><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+            {% else %}
+                {%if app.user.role == \"ROLE_ADMIN\" %}
+                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                {% endif %}
+                <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
+            {% endif %}
+        </ul>
+        <ul class=\"side-nav\" id=\"mobile-demo\">
+            {%if app.user != null%}
+                <li class=\"blue-grey darken-4-text\">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
+            {% endif %}
+
+            <!-- Dropdown Trigger -->
+            {%if app.user == null%}
+                <li><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+            {% else %}
+                {%if app.user.role == \"ROLE_ADMIN\" %}
+                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown1\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
+                {% endif %}
+                <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+
+<ul id=\"dropdown\" class=\"dropdown-content\">
     <li >
         <ul class=\"dropdown-menu\">
             <li class=\"dropdown-submenu\">
@@ -513,45 +621,47 @@ class __TwigTemplate_006a1cc790f232ff259dbdf76f146cef47edcb5c742f7fcde61c038785f
     </li>
 </ul>
 
+<ul id=\"dropdown1\" class=\"dropdown-content\">
+    <li >
+        <ul class=\"dropdown-menu\">
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Cines\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"nuevo_cine\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"index_cine\")}}\">Listar </a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
 
-<nav class=\"red\">
-    <div class=\"nav-wrapper\">
-        <a href=\"#!\" class=\"brand-logo\"><img  width=\"70\"  height=\"80\" src=\"http://vignette2.wikia.nocookie.net/clubpenguin/images/6/65/Popcorn_Pin.PNG/revision/latest?cb=20141203015251\"/></a>
-        <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>
-        <ul class=\"right hide-on-med-and-down\">
-            {%if app.user != null%}
-                <li  class=\"light grey-text text-lighten-3\">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
-            {% endif %}
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Funciones\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"funcion_nueva\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"funcion_index\")}}\">Listar</a></li>
 
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
 
-            <!-- Dropdown Trigger -->
-            {%if app.user == null%}
-                <li class=\"fuente\"><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-            {% else %}
-                {%if app.user.role == \"ROLE_ADMIN\" %}
-                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                {% endif %}
-                <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
-            {% endif %}
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"nueva_peli\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"index_peli\")}}\">Listar</a></li>
+                </ul>
+            </li>
+            <li class=\"divider\"></li>
+
+            <li class=\"dropdown-submenu\">
+                <ul><optgroup label=\"Peliculas (copias)\"></ul>
+                <ul class=\"dropdown-menu\">
+                    <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_nueva\")}}\">Agregar</a></li>
+                    <li><a tabindex=\"-1\" href=\"{{path(\"pelicopia_index\")}}\">Listar</a></li>
+                </ul>
+            </li>
         </ul>
-        <ul class=\"side-nav\" id=\"mobile-demo\">
-            {%if app.user != null%}
-                <li class=\"blue-grey darken-4-text\">Bienvenido, {{app.user.nombre}} {{app.user.apellido}} {%if app.user.role == \"ROLE_ADMIN\" %} (Administrador) {%endif%}</li>
-            {% endif %}
-
-            <!-- Dropdown Trigger -->
-            {%if app.user == null%}
-                <li><a href=\"#modal1\"> Ya tenes una cuenta? <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-            {% else %}
-                {%if app.user.role == \"ROLE_ADMIN\" %}
-                    <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Opciones administrativas <i class=\"material-icons right\">arrow_drop_down</i></a></li>
-                {% endif %}
-                <li><a href=\"{{path(\"logout\")}}\">Salir</a></li>
-            {% endif %}
-        </ul>
-    </div>
-</nav>
-
+    </li>
+</ul>
 
 
 
